@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "atomic_identity_catalog.schema.json",
+  "title": "Atomic Identity Catalog",
+  "type": "object",
+  "required": [
+    "schema",
+    "schema_version",
+    "catalog_mode",
+    "subject",
+    "source_artifact",
+    "source_artifact_sha256",
+    "source_digest_kind",
+    "source_completeness",
+    "rules",
+    "inventory",
+    "atoms",
+    "errors",
+    "summary"
+  ],
+  "properties": {
+    "schema": {
+      "const": "atomic_identity_catalog"
+    },
+    "schema_version": {
+      "const": "0.2"
+    },
+    "catalog_mode": {
+      "const": "NON_ACTIVATING_ATOMIC_DECOMPOSITION"
+    },
+    "subject": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_artifact": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_version": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_artifact_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "source_digest_kind": {
+      "enum": [
+        "PROVIDED_ARTIFACT_SHA256",
+        "CANONICAL_TREE_SHA256"
+      ]
+    },
+    "source_completeness": {
+      "enum": [
+        "COMPLETE_SOURCE_PRESENT",
+        "PARTIAL_SOURCE_PRESENT",
+        "REFERENCE_ONLY",
+        "UNKNOWN_SOURCE_COMPLETENESS"
+      ]
+    },
+    "rules": {
+      "type": "object"
+    },
+    "inventory": {
+      "type": "array"
+    },
+    "atoms": {
+      "type": "array",
+      "items": {
+        "$ref": "identity_atom.schema.json"
+      }
+    },
+    "errors": {
+      "type": "array"
+    },
+    "summary": {
+      "type": "object",
+      "required": [
+        "files_seen",
+        "json_files_cataloged",
+        "atoms",
+        "portable_atoms",
+        "errors"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

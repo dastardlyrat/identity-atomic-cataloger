@@ -1,0 +1,39 @@
+# Python build products and local test environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local secrets, settings, and editor metadata
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+.idea/
+.vscode/
+
+# Private source artifacts and generated catalogs/reports
+*.zip
+/source-artifacts/
+/private-inputs/
+/local-catalogs/
+/generated/
+/reports/
+/validation-output/
+/tmp/
+*.log
+*.tmp
+
+# Operating-system metadata
+Thumbs.db
+Desktop.ini
+.DS_Store

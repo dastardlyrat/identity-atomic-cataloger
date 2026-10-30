@@ -1,0 +1,73 @@
+{
+  "package": "IDENTITY_ATOMIC_CATALOGER_EXTRACTOR",
+  "version": "0.3.0",
+  "purpose": "extract and catalog identity/personality artifacts into non-activating atomic structures for reuse",
+  "personality_artifacts_embedded": false,
+  "startup_contexts_embedded": false,
+  "assembled_personalities_embedded": false,
+  "source_catalogs": {
+    "Vesper": {
+      "status": "COMPLETE_SOURCE_PRESENT",
+      "atoms": 159,
+      "portable_atoms": 84
+    },
+    "Corda": {
+      "status": "COMPLETE_SOURCE_PRESENT",
+      "atoms": 679,
+      "portable_atoms": 331
+    },
+    "Vera Sol": {
+      "status": "REFERENCE_ONLY"
+    },
+    "Lattice": {
+      "status": "REFERENCE_ONLY"
+    }
+  },
+  "reusable_dictionary": {
+    "unique_portable_atoms": 308,
+    "occurrences": 415
+  },
+  "hardening": {
+    "zip_fail_closed": true,
+    "duplicate_member_rejection": true,
+    "path_traversal_rejection": true,
+    "symlink_rejection": true,
+    "archive_resource_limits": true,
+    "directory_symlink_rejection": true,
+    "strict_semantic_json_default": true,
+    "canonical_directory_digest": true,
+    "exact_value_reuse_deduplication": true,
+    "internal_invariant_validator": true,
+    "mutation_meta_tests": true,
+    "schema_validation_harness": true,
+    "fuzzy_metamorphic_harness": true,
+    "utf8_bom_tolerance": true,
+    "duplicate_json_key_rejection": true,
+    "nonfinite_json_number_rejection": true,
+    "unpaired_unicode_surrogate_rejection": true,
+    "nested_mechanism_directory_exclusion": true,
+    "case_insensitive_mechanism_directory_exclusion": true,
+    "noncanonical_zip_spelling_rejection": true,
+    "semantic_root_preservation": true
+  },
+  "fuzzy_validation": {
+    "baseline_v0_2_0_probe": {
+      "pass": 61,
+      "warn": 2,
+      "fail": 11
+    },
+    "v0_3_0_seed_260929": {
+      "iterations": 256,
+      "pass": 29,
+      "warn": 0,
+      "fail": 0
+    },
+    "v0_3_0_seed_99173": {
+      "iterations": 256,
+      "pass": 29,
+      "warn": 0,
+      "fail": 0
+    },
+    "semantic_classification_deltas_against_embedded_catalogs": 0
+  }
+}

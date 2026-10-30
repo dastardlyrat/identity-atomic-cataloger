@@ -1,0 +1,79 @@
+IDENTITY ATOMIC CATALOGER / EXTRACTOR v0.3.0 VALIDATION
+
+BASELINE FUZZ PROBE AGAINST v0.2.0
+PASS 61
+WARN 2
+FAIL 11
+
+Failures found:
+- UTF-8 BOM rejected
+- nested wrapped schemas/tests/harness JSON could become semantic atoms
+- noisy wrapper altered semantic equivalence
+- single identity/ top-level directory could be stripped
+- mechanism directory exclusion was case-sensitive
+- duplicate JSON object keys were silently accepted
+- NaN was silently accepted
+- Infinity was silently accepted
+- numeric overflow to non-finite float was silently accepted
+- dot-segment ZIP spelling was normalized rather than rejected
+- double-slash ZIP spelling was normalized rather than rejected
+
+Two classifier substring near misses were also observed: parole -> role and reproduction -> production/gate.
+
+REPAIRS IN v0.3.0
+- UTF-8 BOM accepted without changing semantic value
+- mechanism directories excluded by path segment at any wrapper depth, case-insensitively
+- known semantic top-level directories are not mistaken for neutral ZIP wrappers
+- duplicate JSON keys rejected
+- NaN/Infinity and non-finite numeric results rejected
+- unpaired Unicode surrogates rejected
+- raw non-canonical ZIP segments rejected before PurePosixPath normalization
+- role and production/gate classification changed from substring matching to lexical-token matching
+- existing embedded Vesper/Corda catalog classifications changed by this classifier repair: 0
+
+FINAL SUITES
+$ python tests/test_cataloger.py
+RESULT 7/7 PASS
+
+$ python harness/run_hardening.py
+RESULT 32/32 PASS
+
+$ python harness/run_fuzzy.py --seed 260929 --iterations 256
+RESULT 29 PASS / 0 WARN / 0 FAIL
+
+$ python harness/run_fuzzy.py --seed 99173 --iterations 256
+RESULT 29 PASS / 0 WARN / 0 FAIL
+
+The fuzzy harness is deterministic for a given seed and ignores provenance-only differences when evaluating metamorphic semantic equivalence. Strict invariants remain authoritative.
+
+
+REPOSITORY PREPARATION - 2026-10-30
+
+The original v0.3.0 validation report above is preserved as historical evidence.
+This section records the current Windows repository-preparation run.
+
+PASS existing unit checks: 7/7.
+PASS fuzzy seed 260929, 256 iterations: 29 PASS / 0 WARN / 0 FAIL.
+PASS fuzzy seed 99173, 256 iterations: 29 PASS / 0 WARN / 0 FAIL.
+PASS independent existing JSON Schema validation helper: three schemas and
+     Vesper/Corda/reusable catalog documents.
+PASS source internal invariants and reference-only identity boundaries.
+PASS Python syntax (seven files) and CLI help.
+
+INCOMPLETE_NATIVE_PLATFORM_LIMIT: the existing hardening harness stops while
+creating its directory-symlink fixture. Native symbolic-link creation is not
+available to this Windows session (WinError 1314). A new 32/32 hardening PASS
+is not claimed. The original harness remains unchanged.
+
+PRIVACY REVIEW: all 28 supplied files and 23,913 decoded JSON scalar values
+were reviewed; no personal contact details, user paths, credentials, or private
+human identity linkage was identified. Human-identity pattern matches were
+false-valued boundary declarations and structural field names. Lattice, Vesper,
+Vera Sol, and Corda, all source values, and all catalog provenance are retained.
+
+The mechanism, schemas, and seven catalog JSON files are byte-identical to the
+supplied package. Documentation and the repository checksum manifest were
+updated, and a gitignore was added. Test dependencies were installed only in an
+isolated, ignored virtual environment. The final checksum manifest covers all
+28 repository files other than CHECKSUMS.sha256 itself. Source archives were
+not supplied or independently re-verified during this preparation.

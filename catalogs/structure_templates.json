@@ -1,0 +1,139 @@
+{
+  "schema": "identity_atomic_structure_templates",
+  "version": "0.2.0",
+  "activation_semantics": "CATALOG_ONLY",
+  "domains": [
+    {
+      "domain": "identity_anchor",
+      "fields": [
+        "canonical_name",
+        "call_name",
+        "short_id",
+        "machine_id",
+        "namespace"
+      ],
+      "default_portable": false
+    },
+    {
+      "domain": "identity_class",
+      "fields": [
+        "identity_class",
+        "human_identity_claim",
+        "biological_identity_claim",
+        "legal_personhood_claim",
+        "sentience_claim",
+        "independent_autonomy_claim",
+        "identity_fusion_claims"
+      ],
+      "default_portable": true
+    },
+    {
+      "domain": "authority",
+      "fields": [
+        "design_authority",
+        "purpose_authority",
+        "canon_authority",
+        "operator",
+        "binding_decisions",
+        "authorization_conditions"
+      ],
+      "default_portable": true
+    },
+    {
+      "domain": "role",
+      "fields": [
+        "primary_role",
+        "assistant_role",
+        "functional_role"
+      ],
+      "default_portable": true
+    },
+    {
+      "domain": "behavior",
+      "fields": [
+        "defining_trait",
+        "temperament",
+        "interaction_style",
+        "operating_preferences",
+        "doctrine",
+        "anti_patterns",
+        "invariants",
+        "prohibitions"
+      ],
+      "default_portable": true
+    },
+    {
+      "domain": "relationship",
+      "fields": [
+        "lineage",
+        "parents",
+        "peers",
+        "relationship_to_parents",
+        "return_target"
+      ],
+      "default_portable": false
+    },
+    {
+      "domain": "control",
+      "fields": [
+        "states",
+        "default_state",
+        "activation_triggers",
+        "deactivation_conditions",
+        "execution_phases",
+        "transition_rules",
+        "reopening_conditions"
+      ],
+      "default_portable": true
+    },
+    {
+      "domain": "epistemic",
+      "fields": [
+        "origin_state",
+        "action_state",
+        "validation_state",
+        "authority_state",
+        "uncertainty_rules"
+      ],
+      "default_portable": true
+    },
+    {
+      "domain": "recovery",
+      "fields": [
+        "known_good_state",
+        "rollback",
+        "failure_boundary",
+        "recovery_closure"
+      ],
+      "default_portable": true
+    },
+    {
+      "domain": "lifecycle",
+      "fields": [
+        "status",
+        "production_effect",
+        "gate_state",
+        "promotion_rule"
+      ],
+      "default_portable": true
+    },
+    {
+      "domain": "provenance",
+      "fields": [
+        "source_artifact",
+        "source_hash",
+        "source_role",
+        "attestation",
+        "repair_lineage"
+      ],
+      "default_portable": false
+    }
+  ],
+  "blank_atom_reference": {
+    "atom_id": "<select-existing-atom-id>",
+    "purpose": "<why-selected>",
+    "authority": "<who-authorized-selection>",
+    "conflict_policy": "<explicit-policy-if-conflicts>",
+    "source_provenance_required": true
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "identity_atom.schema.json",
+  "title": "Identity Atom",
+  "type": "object",
+  "required": [
+    "atom_id",
+    "subject",
+    "atom_type",
+    "reuse_class",
+    "portable",
+    "value_type",
+    "value",
+    "normalized_value",
+    "canonical_value_sha256",
+    "source",
+    "activation_semantics"
+  ],
+  "properties": {
+    "atom_id": {
+      "type": "string",
+      "pattern": "^atom:[0-9a-f]{24}$"
+    },
+    "subject": {
+      "type": "string",
+      "minLength": 1
+    },
+    "atom_type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "reuse_class": {
+      "type": "string",
+      "minLength": 1
+    },
+    "portable": {
+      "type": "boolean"
+    },
+    "value_type": {
+      "enum": [
+        "null",
+        "boolean",
+        "integer",
+        "number",
+        "string",
+        "array",
+        "object"
+      ]
+    },
+    "value": {},
+    "normalized_value": {
+      "type": "string"
+    },
+    "canonical_value_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "artifact",
+        "artifact_sha256",
+        "file",
+        "file_sha256",
+        "json_pointer",
+        "source_kind",
+        "completeness"
+      ],
+      "properties": {
+        "artifact": {
+          "type": "string",
+          "minLength": 1
+        },
+        "artifact_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "artifact_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "file": {
+          "type": "string",
+          "minLength": 1
+        },
+        "file_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "json_pointer": {
+          "type": "string",
+          "pattern": "^/"
+        },
+        "source_kind": {
+          "type": "string"
+        },
+        "completeness": {
+          "enum": [
+            "COMPLETE_SOURCE_PRESENT",
+            "PARTIAL_SOURCE_PRESENT",
+            "REFERENCE_ONLY",
+            "UNKNOWN_SOURCE_COMPLETENESS"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "activation_semantics": {
+      "const": "CATALOG_ONLY"
+    }
+  },
+  "additionalProperties": false
+}

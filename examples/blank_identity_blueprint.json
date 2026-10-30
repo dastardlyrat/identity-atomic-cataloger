@@ -1,0 +1,20 @@
+{
+  "schema": "identity_atom_selection_blueprint",
+  "version": "0.2.0",
+  "identity": {
+    "canonical_name": "<new-name>",
+    "machine_id": "<new-id>",
+    "namespace": "<new-namespace>"
+  },
+  "selection": [],
+  "authority": {
+    "composition_authority": "<authority>",
+    "source_authority_is_not_composition_authority": true
+  },
+  "rules": {
+    "explicit_selection_only": true,
+    "preserve_provenance": true,
+    "no_silent_identity_fusion": true,
+    "catalog_presence_is_not_activation": true
+  }
+}

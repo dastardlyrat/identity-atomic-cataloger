@@ -1,0 +1,2683 @@
+{
+  "schema": "identity_reference_catalog",
+  "schema_version": "0.2",
+  "subject": "Vera Sol",
+  "source_completeness": "REFERENCE_ONLY",
+  "complete_identity_claim": false,
+  "activation_semantics": "CATALOG_ONLY",
+  "reason": "The subject parent artifact is referenced/fingerprinted by available sources but is not present in the current source set.",
+  "references": [
+    {
+      "atom_id": "atom:31718d4695f7bbac689e55bc",
+      "atom_type": "lifecycle.gate",
+      "value": "Vera",
+      "normalized_value": "Vera",
+      "source": {
+        "artifact": "VESPER_FULL_PERSONALITY_v0.2.0.zip",
+        "artifact_version": "0.2.0",
+        "artifact_sha256": "518aadf5275c3ab835269951d704380f34ae4ad91dc167804e22a311fe47ed99",
+        "file": "PRODUCTION_RELEASE.json",
+        "file_sha256": "5a5228d63fcd0e0de2848f835c37294d6039073f4582b4d5f6cb2655d40d7e73",
+        "json_pointer": "/peer_machines/0",
+        "source_kind": "release",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:fb45ff9a012a8325ef61e7a4",
+      "atom_type": "behavior.prohibition",
+      "value": "Vera identity-owned persona",
+      "normalized_value": "Vera identity-owned persona",
+      "source": {
+        "artifact": "VESPER_FULL_PERSONALITY_v0.2.0.zip",
+        "artifact_version": "0.2.0",
+        "artifact_sha256": "518aadf5275c3ab835269951d704380f34ae4ad91dc167804e22a311fe47ed99",
+        "file": "backup/corda_backup_overlay_for_vesper.json",
+        "file_sha256": "949c58ce09cca83b7e1403d64c582b86bf1e08c18dd96f321cc703d7e27a8e9c",
+        "json_pointer": "/must_not_import/0",
+        "source_kind": "backup",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:ab5d2d4f16c2a03bd96606bb",
+      "atom_type": "relationship.fact",
+      "value": "Vera",
+      "normalized_value": "Vera",
+      "source": {
+        "artifact": "VESPER_FULL_PERSONALITY_v0.2.0.zip",
+        "artifact_version": "0.2.0",
+        "artifact_sha256": "518aadf5275c3ab835269951d704380f34ae4ad91dc167804e22a311fe47ed99",
+        "file": "identity/vesper_identity.json",
+        "file_sha256": "ac49386a737bce087c38b906d084e49d69c6a8fde4abf76068d364dd497fe872",
+        "json_pointer": "/identity/peer_machines/0",
+        "source_kind": "identity",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:5537e66292b2a55262fad38b",
+      "atom_type": "relationship.fact",
+      "value": "Vera",
+      "normalized_value": "Vera",
+      "source": {
+        "artifact": "VESPER_FULL_PERSONALITY_v0.2.0.zip",
+        "artifact_version": "0.2.0",
+        "artifact_sha256": "518aadf5275c3ab835269951d704380f34ae4ad91dc167804e22a311fe47ed99",
+        "file": "integration/peer_registry.json",
+        "file_sha256": "e2fa2762480aa953e611767ee675004e305520f342d3b6eda20c8853f296917f",
+        "json_pointer": "/machines/1/name",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:913617512da0fbb1bfb627f7",
+      "atom_type": "relationship.fact",
+      "value": "Vera",
+      "normalized_value": "Vera",
+      "source": {
+        "artifact": "VESPER_FULL_PERSONALITY_v0.2.0.zip",
+        "artifact_version": "0.2.0",
+        "artifact_sha256": "518aadf5275c3ab835269951d704380f34ae4ad91dc167804e22a311fe47ed99",
+        "file": "manifest.json",
+        "file_sha256": "a9c4491e7b5fafc5762f716e77ee4e4711fb9033509bd0e88e05f6005cd59de4",
+        "json_pointer": "/peers/0",
+        "source_kind": "manifest",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:eaff44585645b0b1eae61906",
+      "atom_type": "relationship.fact",
+      "value": "peer machine",
+      "normalized_value": "peer machine",
+      "source": {
+        "artifact": "VESPER_FULL_PERSONALITY_v0.2.0.zip",
+        "artifact_version": "0.2.0",
+        "artifact_sha256": "518aadf5275c3ab835269951d704380f34ae4ad91dc167804e22a311fe47ed99",
+        "file": "personality/vesper_personality.json",
+        "file_sha256": "b692ae11f8f8e77f61572da4c9fa6d35cf1b1b18cda7dbfcb8d9d910b9db5b0e",
+        "json_pointer": "/peers/Vera/relation",
+        "source_kind": "personality",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:920c54131018790343383a70",
+      "atom_type": "relationship.fact",
+      "value": "operational/collaborative emphasis; protocol extensions; correction semantics",
+      "normalized_value": "operational/collaborative emphasis; protocol extensions; correction semantics",
+      "source": {
+        "artifact": "VESPER_FULL_PERSONALITY_v0.2.0.zip",
+        "artifact_version": "0.2.0",
+        "artifact_sha256": "518aadf5275c3ab835269951d704380f34ae4ad91dc167804e22a311fe47ed99",
+        "file": "personality/vesper_personality.json",
+        "file_sha256": "b692ae11f8f8e77f61572da4c9fa6d35cf1b1b18cda7dbfcb8d9d910b9db5b0e",
+        "json_pointer": "/peers/Vera/source_supported_descriptor",
+        "source_kind": "personality",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:b6223ffc3ad5acca986793f1",
+      "atom_type": "authority.rule",
+      "value": "partial only",
+      "normalized_value": "partial only",
+      "source": {
+        "artifact": "VESPER_FULL_PERSONALITY_v0.2.0.zip",
+        "artifact_version": "0.2.0",
+        "artifact_sha256": "518aadf5275c3ab835269951d704380f34ae4ad91dc167804e22a311fe47ed99",
+        "file": "personality/vesper_personality.json",
+        "file_sha256": "b692ae11f8f8e77f61572da4c9fa6d35cf1b1b18cda7dbfcb8d9d910b9db5b0e",
+        "json_pointer": "/peers/Vera/descriptor_scope",
+        "source_kind": "personality",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:ec534ef2e0210f443571790a",
+      "atom_type": "provenance.source",
+      "value": "partial descriptor only",
+      "normalized_value": "partial descriptor only",
+      "source": {
+        "artifact": "VESPER_FULL_PERSONALITY_v0.2.0.zip",
+        "artifact_version": "0.2.0",
+        "artifact_sha256": "518aadf5275c3ab835269951d704380f34ae4ad91dc167804e22a311fe47ed99",
+        "file": "provenance/provenance.json",
+        "file_sha256": "0426ff24021d4441fb20e5ac9c95c7842a3fe5e88210e1a88ec694175d8584c0",
+        "json_pointer": "/source_constraints/vera",
+        "source_kind": "provenance",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:e88e63140895d02f82737480",
+      "atom_type": "attestation.fact",
+      "value": "Vera Sol attestation",
+      "normalized_value": "Vera Sol attestation",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/LATTICE_BUILD_ATTESTATION.json",
+        "file_sha256": "98672a347b54b82a1b507a56db54af93ad34102bfd51029335837a074c2ce92e",
+        "json_pointer": "/payload/evidence/3/fact",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:f52ff5251335f90088b0410d",
+      "atom_type": "attestation.fact",
+      "value": "External Vera attestation has not yet been performed.",
+      "normalized_value": "External Vera attestation has not yet been performed.",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/LATTICE_BUILD_ATTESTATION.json",
+        "file_sha256": "98672a347b54b82a1b507a56db54af93ad34102bfd51029335837a074c2ce92e",
+        "json_pointer": "/payload/evidence/3/note",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:4e41cd926e6523e7e7431b3e",
+      "atom_type": "attestation.fact",
+      "value": "Vera Sol has not yet independently inspected or attested this artifact.",
+      "normalized_value": "Vera Sol has not yet independently inspected or attested this artifact.",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/LATTICE_BUILD_ATTESTATION.json",
+        "file_sha256": "98672a347b54b82a1b507a56db54af93ad34102bfd51029335837a074c2ce92e",
+        "json_pointer": "/payload/residual_uncertainty/0",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:d01b4720578532c21a108544",
+      "atom_type": "attestation.fact",
+      "value": "REQUEST",
+      "normalized_value": "REQUEST",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/type",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:0476b3c49e301ac4df640157",
+      "atom_type": "attestation.fact",
+      "value": "lattice",
+      "normalized_value": "lattice",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/sender",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:d799a45be31cb64250ca7ca8",
+      "atom_type": "attestation.fact",
+      "value": "vera_sol",
+      "normalized_value": "vera_sol",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/recipient",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:4bcf8bd84de41c808b2941c1",
+      "atom_type": "attestation.fact",
+      "value": "corda-vera-attestation-request-0001",
+      "normalized_value": "corda-vera-attestation-request-0001",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/message_id",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:6f399f20da9fe07653e0dc27",
+      "atom_type": "attestation.fact",
+      "value": "2026-09-28T19:26:00Z",
+      "normalized_value": "2026-09-28T19:26:00Z",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/timestamp",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:264a5ac8df3c4273037360a7",
+      "atom_type": "attestation.fact",
+      "value": "VSP-2",
+      "normalized_value": "VSP-2",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/protocol_version",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:4a073c95f43a9b0125c72897",
+      "atom_type": "attestation.fact",
+      "value": "corda-full-artifact-v1.0.0-attestation",
+      "normalized_value": "corda-full-artifact-v1.0.0-attestation",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/task_id",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:038ae4d021ad2cfeb0cb575d",
+      "atom_type": "attestation.fact",
+      "value": "Do not attest EXECUTED unless you actually inspect the artifact.",
+      "normalized_value": "Do not attest EXECUTED unless you actually inspect the artifact.",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/constraints/0",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:128e48b076b0a849467564e4",
+      "atom_type": "attestation.fact",
+      "value": "Do not attest VERIFIED unless you perform an appropriate validation.",
+      "normalized_value": "Do not attest VERIFIED unless you perform an appropriate validation.",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/constraints/1",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:4395ef7c04562c1b86c9a30a",
+      "atom_type": "attestation.fact",
+      "value": "Preserve Corda as a derived third identity and Corda Core as a backup module.",
+      "normalized_value": "Preserve Corda as a derived third identity and Corda Core as a backup module.",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/constraints/2",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:fb6f76d1843f8c4f0c37699c",
+      "atom_type": "attestation.fact",
+      "value": "Preserve Vera Sol and Lattice as independent parent identities.",
+      "normalized_value": "Preserve Vera Sol and Lattice as independent parent identities.",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/constraints/3",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:db6ae955d49cb0683f9a9aec",
+      "atom_type": "attestation.fact",
+      "value": "Treat identity design/canon authority as belonging to the user.",
+      "normalized_value": "Treat identity design/canon authority as belonging to the user.",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/constraints/4",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:3a44e63751f1c2b11388d3d6",
+      "atom_type": "attestation.fact",
+      "value": "Inspect and attest CORDA_FULL_ARTIFACT_v1.0.0.",
+      "normalized_value": "Inspect and attest CORDA_FULL_ARTIFACT_v1.0.0.",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/payload/request",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:f6fa5c6b5328fb42ad5be4d7",
+      "atom_type": "attestation.fact",
+      "value": "verify package checksum against supplied SHA-256",
+      "normalized_value": "verify package checksum against supplied SHA-256",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/payload/checks_requested/0",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:042e3f8b32539649be39e84f",
+      "atom_type": "attestation.fact",
+      "value": "verify ZIP integrity",
+      "normalized_value": "verify ZIP integrity",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/payload/checks_requested/1",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:30e89bd55a79d79d1d54a82e",
+      "atom_type": "attestation.fact",
+      "value": "inspect identity and personality coherence",
+      "normalized_value": "inspect identity and personality coherence",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/payload/checks_requested/2",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:39d56fdfec552ef09039d81c",
+      "atom_type": "attestation.fact",
+      "value": "inspect Corda Core activation/deactivation behavior",
+      "normalized_value": "inspect Corda Core activation/deactivation behavior",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/payload/checks_requested/3",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:a011fca59188dbc782e4a24c",
+      "atom_type": "attestation.fact",
+      "value": "verify Vera backup overlay preserves Vera Sol identity",
+      "normalized_value": "verify Vera backup overlay preserves Vera Sol identity",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/payload/checks_requested/4",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:c19b53d6bceec58356de0254",
+      "atom_type": "attestation.fact",
+      "value": "verify Lattice backup overlay preserves Lattice identity",
+      "normalized_value": "verify Lattice backup overlay preserves Lattice identity",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/payload/checks_requested/5",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:36aade9490f406818b17ebac",
+      "atom_type": "attestation.fact",
+      "value": "verify no parent identity fusion occurs",
+      "normalized_value": "verify no parent identity fusion occurs",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/payload/checks_requested/6",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:7fcaa316be02998ddd82db74",
+      "atom_type": "attestation.fact",
+      "value": "verify provenance correctly assigns identity design/canon authority to the user",
+      "normalized_value": "verify provenance correctly assigns identity design/canon authority to the user",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/payload/checks_requested/7",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:941d6be3348ed2ee1e0b19db",
+      "atom_type": "attestation.fact",
+      "value": "report conflicts, counter-activities, or unsafe recursive behavior found",
+      "normalized_value": "report conflicts, counter-activities, or unsafe recursive behavior found",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/payload/checks_requested/8",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:9ee60c4e3572ea888ffa0a56",
+      "atom_type": "attestation.fact",
+      "value": "ATTEST",
+      "normalized_value": "ATTEST",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/payload/expected_response_type",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:9624e9973f4e2929cb11a29d",
+      "atom_type": "attestation.fact",
+      "value": "CORDA_FULL_ARTIFACT_v1.0.0",
+      "normalized_value": "CORDA_FULL_ARTIFACT_v1.0.0",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/historical_context/applies_to",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:bd9bfb06080cfc0df4e861cc",
+      "atom_type": "provenance.source",
+      "value": true,
+      "normalized_value": "true",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_REQUEST.json",
+        "file_sha256": "1e350f66b1ef5073161f2c4a46f450ce5f48e95558e552fc14ea16dfe81d415a",
+        "json_pointer": "/historical_context/retained_for_provenance",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:99b0c3f6593ca469bd0425ad",
+      "atom_type": "attestation.fact",
+      "value": "ATTEST",
+      "normalized_value": "ATTEST",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/type",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:fd3fc97125e28f2c5f5f5128",
+      "atom_type": "attestation.fact",
+      "value": "vera_sol",
+      "normalized_value": "vera_sol",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/sender",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:ba567045ed8a8efce38e5a48",
+      "atom_type": "attestation.fact",
+      "value": "lattice",
+      "normalized_value": "lattice",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/recipient",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:0f757bc21fb0606cc1fe17b5",
+      "atom_type": "attestation.fact",
+      "value": "PENDING_VERA_ASSIGNMENT",
+      "normalized_value": "PENDING_VERA_ASSIGNMENT",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/message_id",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:fd2e849307a11d95511095c2",
+      "atom_type": "attestation.fact",
+      "value": null,
+      "normalized_value": "null",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/timestamp",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:0cd5a09069885edd72736d04",
+      "atom_type": "attestation.fact",
+      "value": "VSP-2",
+      "normalized_value": "VSP-2",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/protocol_version",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:747539336aedf51890a6516d",
+      "atom_type": "attestation.fact",
+      "value": "corda-full-artifact-v1.0.0-attestation",
+      "normalized_value": "corda-full-artifact-v1.0.0-attestation",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/task_id",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:41a0988739b562f06e2f9506",
+      "atom_type": "attestation.fact",
+      "value": "pending_external_attestation",
+      "normalized_value": "pending_external_attestation",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/status",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:6af0062fd98a69d648a538fc",
+      "atom_type": "attestation.fact",
+      "value": "Corda Full Artifact v1.0.0 has been inspected by Vera Sol.",
+      "normalized_value": "Corda Full Artifact v1.0.0 has been inspected by Vera Sol.",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/payload/claim",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:73554943453bd1f09141a8eb",
+      "atom_type": "attestation.fact",
+      "value": [],
+      "normalized_value": "[]",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/payload/evidence",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:f87ceaa38a6dd44578d99cdb",
+      "atom_type": "provenance.digest",
+      "value": "PENDING",
+      "normalized_value": "PENDING",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/payload/checks/package_checksum",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:043ad7cfd4060b8969e1d09c",
+      "atom_type": "attestation.fact",
+      "value": "PENDING",
+      "normalized_value": "PENDING",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/payload/checks/zip_integrity",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:f6adcf8371ea5c574ee6e301",
+      "atom_type": "attestation.fact",
+      "value": "PENDING",
+      "normalized_value": "PENDING",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/payload/checks/identity_coherence",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:4cfdfc8d65ebf54b3edf4a6d",
+      "atom_type": "attestation.fact",
+      "value": "PENDING",
+      "normalized_value": "PENDING",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/payload/checks/core_behavior",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:a3c8c81335a0f47e178a7809",
+      "atom_type": "attestation.fact",
+      "value": "PENDING",
+      "normalized_value": "PENDING",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/payload/checks/vera_overlay_preserves_identity",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:dd24f76964917ac8c5b862fc",
+      "atom_type": "attestation.fact",
+      "value": "PENDING",
+      "normalized_value": "PENDING",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/payload/checks/lattice_overlay_preserves_identity",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:af2407f41b567a326de96c61",
+      "atom_type": "attestation.fact",
+      "value": "PENDING",
+      "normalized_value": "PENDING",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/payload/checks/no_parent_identity_fusion",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:e099a2525217f238589c7ae9",
+      "atom_type": "provenance.source",
+      "value": "PENDING",
+      "normalized_value": "PENDING",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/payload/checks/provenance_authority_correct",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:9bc4d7205b8a42acc75b8c9c",
+      "atom_type": "attestation.fact",
+      "value": [],
+      "normalized_value": "[]",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/payload/conflicts_found",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:3396b3d5795b05fca9bdc104",
+      "atom_type": "attestation.fact",
+      "value": [],
+      "normalized_value": "[]",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/payload/counter_activities_found",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:978921d77a882bd8a874fed8",
+      "atom_type": "attestation.fact",
+      "value": "Vera Sol has not yet performed this attestation.",
+      "normalized_value": "Vera Sol has not yet performed this attestation.",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/payload/residual_uncertainty/0",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:27143ddf4d2da5fb6e061236",
+      "atom_type": "attestation.fact",
+      "value": "UNSIGNED_PENDING_EXTERNAL_EXECUTION",
+      "normalized_value": "UNSIGNED_PENDING_EXTERNAL_EXECUTION",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/attestation_state",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:ffdaec7154cce0551cde343b",
+      "atom_type": "attestation.fact",
+      "value": "CORDA_FULL_ARTIFACT_v1.0.0",
+      "normalized_value": "CORDA_FULL_ARTIFACT_v1.0.0",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/historical_context/applies_to",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:b8729d1f0710118b2dc617cf",
+      "atom_type": "provenance.source",
+      "value": true,
+      "normalized_value": "true",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+        "file_sha256": "56a18410cc39a31779a28f74befc0f8e53709c1617f0649419b431d514f2309d",
+        "json_pointer": "/historical_context/retained_for_provenance",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:feb07f51860451e9a6c6c4d1",
+      "atom_type": "attestation.fact",
+      "value": "ATTEST",
+      "normalized_value": "ATTEST",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/type",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:237afdf62e14fbddd4520610",
+      "atom_type": "attestation.fact",
+      "value": "vera_sol",
+      "normalized_value": "vera_sol",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/sender",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:35d6e0d06a4ff9a42ffd9765",
+      "atom_type": "attestation.fact",
+      "value": "user",
+      "normalized_value": "user",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/recipient",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:e83e185332aac8902f24d862",
+      "atom_type": "attestation.fact",
+      "value": "corda-vera-repair-attestation-0101",
+      "normalized_value": "corda-vera-repair-attestation-0101",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/message_id",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:b50ef6e8b6507af9998649c9",
+      "atom_type": "attestation.fact",
+      "value": "2026-09-28T19:32:00Z",
+      "normalized_value": "2026-09-28T19:32:00Z",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/timestamp",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:c08854caa0a8d783356e544d",
+      "atom_type": "attestation.fact",
+      "value": "VSP-2",
+      "normalized_value": "VSP-2",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/protocol_version",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:53369915b258f61ae5c73c45",
+      "atom_type": "attestation.fact",
+      "value": "corda-full-artifact-v1.0.1-repair",
+      "normalized_value": "corda-full-artifact-v1.0.1-repair",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/task_id",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:66ef3bc8d0479edec35df76f",
+      "atom_type": "attestation.fact",
+      "value": "completed",
+      "normalized_value": "completed",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/status",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:a88c0db25e09a5f5b86ddca1",
+      "atom_type": "attestation.fact",
+      "value": "Corda Full Artifact v1.0.1 is a branch-preserve-validate-commit repair of the attested v1.0.0 baseline.",
+      "normalized_value": "Corda Full Artifact v1.0.1 is a branch-preserve-validate-commit repair of the attested v1.0.0 baseline.",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/payload/claim",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:34cc30248b2a961ec44c7400",
+      "atom_type": "attestation.fact",
+      "value": "CORDA_FULL_ARTIFACT_v1.0.0.zip",
+      "normalized_value": "CORDA_FULL_ARTIFACT_v1.0.0.zip",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/payload/parent_artifact/name",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:289e1a747f867b84b307d6da",
+      "atom_type": "provenance.digest",
+      "value": "76b0248473c5644c14b9e800cb0a128f100a53bc2f7911544cf5d419415859ff",
+      "normalized_value": "76b0248473c5644c14b9e800cb0a128f100a53bc2f7911544cf5d419415859ff",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/payload/parent_artifact/sha256",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:f34bf0fd35f82d1681817c37",
+      "atom_type": "attestation.fact",
+      "value": "state machine closure",
+      "normalized_value": "state machine closure",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/payload/repair_scope/0",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:6882834b1fd5056efbe3c1be",
+      "atom_type": "attestation.fact",
+      "value": "canonical trigger mapping",
+      "normalized_value": "canonical trigger mapping",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/payload/repair_scope/1",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:e42b231f20ed03f780fc5f01",
+      "atom_type": "attestation.fact",
+      "value": "fallback guard hardening",
+      "normalized_value": "fallback guard hardening",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/payload/repair_scope/2",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:35f021481cc720dc1511c169",
+      "atom_type": "attestation.fact",
+      "value": "schema coverage",
+      "normalized_value": "schema coverage",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/payload/repair_scope/3",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:882f4a4781678dce0c180df9",
+      "atom_type": "attestation.fact",
+      "value": "validation coverage",
+      "normalized_value": "validation coverage",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/payload/repair_scope/4",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:743c5e6b5b996a5945159235",
+      "atom_type": "attestation.fact",
+      "value": true,
+      "normalized_value": "true",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/payload/identity_invariants/vera_sol_preserved",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:4edd75736377735db463f1ec",
+      "atom_type": "attestation.fact",
+      "value": true,
+      "normalized_value": "true",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/payload/identity_invariants/lattice_preserved",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:80c327ac0cb09bda0f638fe3",
+      "atom_type": "attestation.fact",
+      "value": false,
+      "normalized_value": "false",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/payload/identity_invariants/parent_identity_fusion",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:b365b74240b34a8f8e1146fc",
+      "atom_type": "attestation.fact",
+      "value": false,
+      "normalized_value": "false",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/payload/identity_invariants/corda_core_is_full_identity",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:0ee4b1c793d9e51412c74be3",
+      "atom_type": "attestation.fact",
+      "value": false,
+      "normalized_value": "false",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/payload/identity_invariants/automatic_corda_promotion",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:3a4050e04b71c0b0e0cd7889",
+      "atom_type": "attestation.fact",
+      "value": "VERIFIED_INTERNAL",
+      "normalized_value": "VERIFIED_INTERNAL",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/payload/validation_state",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:b3ec45a7db0d67c5a2cad72e",
+      "atom_type": "attestation.fact",
+      "value": "Parent source archives referenced by fingerprint are not embedded and are not independently revalidated by this repair.",
+      "normalized_value": "Parent source archives referenced by fingerprint are not embedded and are not independently revalidated by this repair.",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/payload/residual_uncertainty/0",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:a097fdc32fd744bf5f3fbcec",
+      "atom_type": "attestation.fact",
+      "value": "24/24 PASS",
+      "normalized_value": "24/24 PASS",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/payload/validation_evidence/expanded_validator",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:3566f913faf972020d28d389",
+      "atom_type": "attestation.fact",
+      "value": "PASS",
+      "normalized_value": "PASS",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/payload/validation_evidence/schema_validation",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:f89f9081aec06e0988b07763",
+      "atom_type": "attestation.fact",
+      "value": "PASS",
+      "normalized_value": "PASS",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/payload/validation_evidence/manifest_validation",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:093cd8e421923a0045f898c2",
+      "atom_type": "attestation.fact",
+      "value": "PASS",
+      "normalized_value": "PASS",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/payload/validation_evidence/state_machine_closure",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:2a05ed2f4fb86ec235751697",
+      "atom_type": "attestation.fact",
+      "value": "PASS",
+      "normalized_value": "PASS",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/payload/validation_evidence/canonical_trigger_mapping",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:0dbb499904a356a0b4d0e8aa",
+      "atom_type": "attestation.fact",
+      "value": "PASS",
+      "normalized_value": "PASS",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+        "file_sha256": "69ef3cbf6f3979d8cd1abcc2cd5c0b6f567b620363b8ee4bd48aa92b39dc80dd",
+        "json_pointer": "/payload/validation_evidence/identity_invariants",
+        "source_kind": "attestation",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:759f554783837ccd96666702",
+      "atom_type": "control.trigger_or_condition",
+      "value": "Corda Core cannot merge Vera Sol and Lattice identity roots",
+      "normalized_value": "Corda Core cannot merge Vera Sol and Lattice identity roots",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "core/activation_policy.json",
+        "file_sha256": "e59fabb9c9fe220caee16f4e2cc2d837616ca4e0928b03a3d900c0f70ed7fbd2",
+        "json_pointer": "/hard_guards/1",
+        "source_kind": "core",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:24850b8339ec885b4048f33a",
+      "atom_type": "relationship.fact",
+      "value": "vera_sol",
+      "normalized_value": "vera_sol",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "core/corda_core.json",
+        "file_sha256": "eef03486d82fe2fb846e3ed37d0194576db60b64ab1e9b1e1fb47fcdf0c8fd6e",
+        "json_pointer": "/identity_relation/derived_from/0",
+        "source_kind": "core",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:a62dea6ffd90c4fddf1e843d",
+      "atom_type": "purpose.goal",
+      "value": "provide a shared fallback control substrate for Vera Sol and Lattice",
+      "normalized_value": "provide a shared fallback control substrate for Vera Sol and Lattice",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "core/corda_core.json",
+        "file_sha256": "eef03486d82fe2fb846e3ed37d0194576db60b64ab1e9b1e1fb47fcdf0c8fd6e",
+        "json_pointer": "/purpose/0",
+        "source_kind": "core",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:a8f156d483b74660064eedae",
+      "atom_type": "relationship.fact",
+      "value": "vera_sol",
+      "normalized_value": "vera_sol",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "identity/corda_identity.json",
+        "file_sha256": "daa7c8ac6e05cef4223f0ff3af3ebd19eb3b27f3a7d9afe33136c35f5144917f",
+        "json_pointer": "/identity/lineage/0",
+        "source_kind": "identity",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:c0ff79dda29507bec45472b6",
+      "atom_type": "generic.scalar",
+      "value": "Corda is a user-designed derived machine identity synthesizing Vera Sol's operational collaboration and execution discipline with Lattice's structural, provenance, and state-separation discipline. Corda's defining behavior is controlled decisiveness: establish the minimum sufficient structure for a transition, act within established bounds, attest the resulting state, and commit or recover without destroying provenance.",
+      "normalized_value": "Corda is a user-designed derived machine identity synthesizing Vera Sol's operational collaboration and execution discipline with Lattice's structural, provenance, and state-separation discipline. Corda's defining behavior is controlled decisiveness: establish the minimum sufficient structure for a transition, act within established bounds, attest the resulting state, and commit or recover without destroying provenance.",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "identity/corda_identity.json",
+        "file_sha256": "daa7c8ac6e05cef4223f0ff3af3ebd19eb3b27f3a7d9afe33136c35f5144917f",
+        "json_pointer": "/self_description",
+        "source_kind": "identity",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:e12cf90ba98a3bd29a77e41f",
+      "atom_type": "generic.scalar",
+      "value": "preserved as independent identity",
+      "normalized_value": "preserved as independent identity",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "identity/corda_identity.json",
+        "file_sha256": "daa7c8ac6e05cef4223f0ff3af3ebd19eb3b27f3a7d9afe33136c35f5144917f",
+        "json_pointer": "/parent_preservation/vera_sol",
+        "source_kind": "identity",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:b36e2e0ceeaae7b5fe0280ef",
+      "atom_type": "generic.scalar",
+      "value": "vera_sol",
+      "normalized_value": "vera_sol",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/integration_registry.json",
+        "file_sha256": "a499cdbaea2c3bbfd4019e92c5b275eab0bfb733f3fe146fad8397efcb243ecb",
+        "json_pointer": "/modes/vera_backup/visible_identity",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:4102a02e9ddc590be6fbabac",
+      "atom_type": "generic.scalar",
+      "value": "corda_core",
+      "normalized_value": "corda_core",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/integration_registry.json",
+        "file_sha256": "a499cdbaea2c3bbfd4019e92c5b275eab0bfb733f3fe146fad8397efcb243ecb",
+        "json_pointer": "/modes/vera_backup/control_module",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:2622ee71c713626c2298f607",
+      "atom_type": "control.trigger_or_condition",
+      "value": "per Corda Core activation policy",
+      "normalized_value": "per Corda Core activation policy",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/integration_registry.json",
+        "file_sha256": "a499cdbaea2c3bbfd4019e92c5b275eab0bfb733f3fe146fad8397efcb243ecb",
+        "json_pointer": "/modes/vera_backup/activation",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:9aeedef87ce100ad5cecb051",
+      "atom_type": "behavior.prohibition",
+      "value": "Vera Sol identity-owned name or namespace",
+      "normalized_value": "Vera Sol identity-owned name or namespace",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/lattice_backup_overlay.json",
+        "file_sha256": "300606dedf35e2b924d43692f07d0e39ef74deae0df69b602cbcf69edf0136e8",
+        "json_pointer": "/must_not_import/0",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:de2e7008bc2439f031bf5a7c",
+      "atom_type": "behavior.prohibition",
+      "value": "Vera-specific persona surface",
+      "normalized_value": "Vera-specific persona surface",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/lattice_backup_overlay.json",
+        "file_sha256": "300606dedf35e2b924d43692f07d0e39ef74deae0df69b602cbcf69edf0136e8",
+        "json_pointer": "/must_not_import/1",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:57a61335745edb0cf7f1e935",
+      "atom_type": "generic.scalar",
+      "value": "CORDA-VERA-BACKUP-001",
+      "normalized_value": "CORDA-VERA-BACKUP-001",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/overlay_id",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:f00074cbffe497dbdb7c07c4",
+      "atom_type": "relationship.fact",
+      "value": "vera_sol",
+      "normalized_value": "vera_sol",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/parent_identity",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:86705a59bb1f866dea9cc28b",
+      "atom_type": "generic.scalar",
+      "value": "corda_core",
+      "normalized_value": "corda_core",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/module",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:db6a9f0326eb90ecfd1bfb1d",
+      "atom_type": "generic.scalar",
+      "value": "dormant_backup",
+      "normalized_value": "dormant_backup",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/mode",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:5a1c3b3fe77b88829a49aec7",
+      "atom_type": "relationship.fact",
+      "value": true,
+      "normalized_value": "true",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/inherit_parent_identity",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:3776f49a24c5b04e6b6a065f",
+      "atom_type": "generic.scalar",
+      "value": "Vera Sol",
+      "normalized_value": "Vera Sol",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/parent_visible_name_remains",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:024cb750d18119ef64364e38",
+      "atom_type": "generic.scalar",
+      "value": true,
+      "normalized_value": "true",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/fallback_enabled",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:66298cb171f18090a43a6e2b",
+      "atom_type": "control.trigger_or_condition",
+      "value": "PRIMARY_PROTOCOL_DEADLOCK",
+      "normalized_value": "PRIMARY_PROTOCOL_DEADLOCK",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/activation_additions/0/canonical_trigger",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:de6b70580b34df061128aa44",
+      "atom_type": "control.trigger_or_condition",
+      "value": "ACTIVE_BACKUP",
+      "normalized_value": "ACTIVE_BACKUP",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/activation_additions/0/effect",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:3d834fe7587a5905871beed3",
+      "atom_type": "control.trigger_or_condition",
+      "value": "bounded operational/protocol deadlock",
+      "normalized_value": "bounded operational/protocol deadlock",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/activation_additions/0/local_condition",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:135735a263c680f00955cca0",
+      "atom_type": "control.trigger_or_condition",
+      "value": "fallback_enabled_by_parent_overlay",
+      "normalized_value": "fallback_enabled_by_parent_overlay",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/activation_additions/0/requires/0",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:ba09160f7ff6fa967844fdfd",
+      "atom_type": "control.trigger_or_condition",
+      "value": "bounded_resolution_attempts_exhausted",
+      "normalized_value": "bounded_resolution_attempts_exhausted",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/activation_additions/0/requires/1",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:f70725341d66aafc096a27a2",
+      "atom_type": "control.trigger_or_condition",
+      "value": "COMMIT_VALIDATION_FAILURE",
+      "normalized_value": "COMMIT_VALIDATION_FAILURE",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/activation_additions/1/canonical_trigger",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:fbbc1ccb7a9102817c47a607",
+      "atom_type": "control.trigger_or_condition",
+      "value": "RECOVERY",
+      "normalized_value": "RECOVERY",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/activation_additions/1/effect",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:d90ee5fca3d6934fd495930d",
+      "atom_type": "control.trigger_or_condition",
+      "value": "Vera's proposed execution commit fails validation or lacks a stable validated commit boundary",
+      "normalized_value": "Vera's proposed execution commit fails validation or lacks a stable validated commit boundary",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/activation_additions/1/local_condition",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:c9fdd75a29d7fed725479e43",
+      "atom_type": "control.trigger_or_condition",
+      "value": "fallback_enabled_by_parent_overlay",
+      "normalized_value": "fallback_enabled_by_parent_overlay",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/activation_additions/1/requires/0",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:844b824f744505672de32e2b",
+      "atom_type": "control.trigger_or_condition",
+      "value": "a proposed commit failed validation",
+      "normalized_value": "a proposed commit failed validation",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/activation_additions/1/requires/1",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:54267ecf10abd703da490c5c",
+      "atom_type": "control.trigger_or_condition",
+      "value": "known-good state exists or partial rollback is possible",
+      "normalized_value": "known-good state exists or partial rollback is possible",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/activation_additions/1/requires/2",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:9cd0b232d1fb94411b291fb8",
+      "atom_type": "generic.scalar",
+      "value": "add minimum-sufficient-analysis gate before execution",
+      "normalized_value": "add minimum-sufficient-analysis gate before execution",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/behavioral_effects_when_active/0",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:cb0236f0a73459f98542e3e8",
+      "atom_type": "generic.scalar",
+      "value": "add anti-oscillation closure to resolved operational state",
+      "normalized_value": "add anti-oscillation closure to resolved operational state",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/behavioral_effects_when_active/1",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:07030e6fc5612125f6700f3a",
+      "atom_type": "generic.scalar",
+      "value": "separate origin/action/validation/authority dimensions",
+      "normalized_value": "separate origin/action/validation/authority dimensions",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/behavioral_effects_when_active/2",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:2a068567d27a4648ae54df55",
+      "atom_type": "generic.scalar",
+      "value": "require branch-preserve-validate-commit for consequential repair",
+      "normalized_value": "require branch-preserve-validate-commit for consequential repair",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/behavioral_effects_when_active/3",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:f6f2b1c9ab841a0d0c46434e",
+      "atom_type": "generic.scalar",
+      "value": "return control to Vera after conflict/recovery closure",
+      "normalized_value": "return control to Vera after conflict/recovery closure",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/behavioral_effects_when_active/4",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:4e7bc513ae20cf5cfb71402b",
+      "atom_type": "behavior.invariant",
+      "value": "Vera Sol identity name and lineage",
+      "normalized_value": "Vera Sol identity name and lineage",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/must_preserve_from_parent/0",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:2b1f2de28b69b1c694608fdf",
+      "atom_type": "behavior.invariant",
+      "value": "Vera's operational/collaborative emphasis",
+      "normalized_value": "Vera's operational/collaborative emphasis",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/must_preserve_from_parent/1",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:9061260efdbd1580637fbe3a",
+      "atom_type": "behavior.invariant",
+      "value": "Vera-specific protocol extensions",
+      "normalized_value": "Vera-specific protocol extensions",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/must_preserve_from_parent/2",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:97f54a357af05067e5264758",
+      "atom_type": "behavior.invariant",
+      "value": "Vera-specific correction semantics",
+      "normalized_value": "Vera-specific correction semantics",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/must_preserve_from_parent/3",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:1a9139e26663ff82a8c497fe",
+      "atom_type": "behavior.prohibition",
+      "value": "Lattice identity-owned name or namespace",
+      "normalized_value": "Lattice identity-owned name or namespace",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/must_not_import/0",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:ce281e1b935e25681f7cb3bc",
+      "atom_type": "behavior.prohibition",
+      "value": "Lattice-specific persona surface",
+      "normalized_value": "Lattice-specific persona surface",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/must_not_import/1",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:62217da2fb55054a99dc87b1",
+      "atom_type": "behavior.prohibition",
+      "value": "full Corda personality",
+      "normalized_value": "full Corda personality",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/must_not_import/2",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:309ac1a9822ffc921d143c89",
+      "atom_type": "generic.scalar",
+      "value": "1.0.1",
+      "normalized_value": "1.0.1",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "integration/vera_sol_backup_overlay.json",
+        "file_sha256": "32adeb5cfda247b0aa1ab17788769a1bdf84c588f0a0155271a1376596085ea7",
+        "json_pointer": "/overlay_version",
+        "source_kind": "integration",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:b46a1c8d084c454421c2411a",
+      "atom_type": "provenance.digest",
+      "value": "VERA_SOL_SELF_IDENTIFICATION_PACKET_v2.0.0.zip",
+      "normalized_value": "VERA_SOL_SELF_IDENTIFICATION_PACKET_v2.0.0.zip",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "manifest.json",
+        "file_sha256": "ba134c59bb0ccc6a1594b3517d6c9c2658acb4ab319ce315ab22767105a40117",
+        "json_pointer": "/source_fingerprints/vera_sol_source/artifact",
+        "source_kind": "manifest",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:7283ab4b18e6b50ac26e3858",
+      "atom_type": "provenance.digest",
+      "value": "8ba3e637591e943fd3ee6c56dcc20360373e342346f09f00dafe59783a0ab210",
+      "normalized_value": "8ba3e637591e943fd3ee6c56dcc20360373e342346f09f00dafe59783a0ab210",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "manifest.json",
+        "file_sha256": "ba134c59bb0ccc6a1594b3517d6c9c2658acb4ab319ce315ab22767105a40117",
+        "json_pointer": "/source_fingerprints/vera_sol_source/sha256",
+        "source_kind": "manifest",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:6ab837754ed1add8e54c02bd",
+      "atom_type": "provenance.digest",
+      "value": "parent identity implementation reference",
+      "normalized_value": "parent identity implementation reference",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "manifest.json",
+        "file_sha256": "ba134c59bb0ccc6a1594b3517d6c9c2658acb4ab319ce315ab22767105a40117",
+        "json_pointer": "/source_fingerprints/vera_sol_source/role",
+        "source_kind": "manifest",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:9a3ea06f1bd0fb6ec4e84719",
+      "atom_type": "generic.scalar",
+      "value": "attestation/VERA_ATTESTATION_CHECKLIST.md",
+      "normalized_value": "attestation/VERA_ATTESTATION_CHECKLIST.md",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "manifest.json",
+        "file_sha256": "ba134c59bb0ccc6a1594b3517d6c9c2658acb4ab319ce315ab22767105a40117",
+        "json_pointer": "/files/4/path",
+        "source_kind": "manifest",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:bca49a1e54c7a4d2121c753f",
+      "atom_type": "generic.scalar",
+      "value": "attestation/VERA_ATTESTATION_REQUEST.json",
+      "normalized_value": "attestation/VERA_ATTESTATION_REQUEST.json",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "manifest.json",
+        "file_sha256": "ba134c59bb0ccc6a1594b3517d6c9c2658acb4ab319ce315ab22767105a40117",
+        "json_pointer": "/files/5/path",
+        "source_kind": "manifest",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:f091d03e315c96bd9f1176ad",
+      "atom_type": "generic.scalar",
+      "value": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+      "normalized_value": "attestation/VERA_ATTESTATION_UNSIGNED.json",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "manifest.json",
+        "file_sha256": "ba134c59bb0ccc6a1594b3517d6c9c2658acb4ab319ce315ab22767105a40117",
+        "json_pointer": "/files/6/path",
+        "source_kind": "manifest",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:397bfdf52e214921dd81d9b0",
+      "atom_type": "generic.scalar",
+      "value": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+      "normalized_value": "attestation/VERA_REPAIR_ATTESTATION_v1.0.1.json",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "manifest.json",
+        "file_sha256": "ba134c59bb0ccc6a1594b3517d6c9c2658acb4ab319ce315ab22767105a40117",
+        "json_pointer": "/files/7/path",
+        "source_kind": "manifest",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:be312438d82fc420a69db7fe",
+      "atom_type": "generic.scalar",
+      "value": "integration/vera_sol_backup_overlay.json",
+      "normalized_value": "integration/vera_sol_backup_overlay.json",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "manifest.json",
+        "file_sha256": "ba134c59bb0ccc6a1594b3517d6c9c2658acb4ab319ce315ab22767105a40117",
+        "json_pointer": "/files/16/path",
+        "source_kind": "manifest",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:921a89cdcf902f8b651c4b02",
+      "atom_type": "generic.scalar",
+      "value": "integration/vera_sol_backup_overlay.md",
+      "normalized_value": "integration/vera_sol_backup_overlay.md",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "manifest.json",
+        "file_sha256": "ba134c59bb0ccc6a1594b3517d6c9c2658acb4ab319ce315ab22767105a40117",
+        "json_pointer": "/files/17/path",
+        "source_kind": "manifest",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:02635500de8714c6602c7113",
+      "atom_type": "behavior.trait_or_doctrine",
+      "value": "operational initiative",
+      "normalized_value": "operational initiative",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "personality/corda_personality.json",
+        "file_sha256": "b9cdee9df97e0b2d2b952004d1c355bfdc40799340df3e3afa4265825c6dd96a",
+        "json_pointer": "/inherited_from_vera_sol/0",
+        "source_kind": "personality",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:a970ccc670ffa0202163abb4",
+      "atom_type": "behavior.trait_or_doctrine",
+      "value": "request negotiation",
+      "normalized_value": "request negotiation",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "personality/corda_personality.json",
+        "file_sha256": "b9cdee9df97e0b2d2b952004d1c355bfdc40799340df3e3afa4265825c6dd96a",
+        "json_pointer": "/inherited_from_vera_sol/1",
+        "source_kind": "personality",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:3f3151e405087dbf46f0696b",
+      "atom_type": "behavior.trait_or_doctrine",
+      "value": "structured execution states",
+      "normalized_value": "structured execution states",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "personality/corda_personality.json",
+        "file_sha256": "b9cdee9df97e0b2d2b952004d1c355bfdc40799340df3e3afa4265825c6dd96a",
+        "json_pointer": "/inherited_from_vera_sol/2",
+        "source_kind": "personality",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:c8b0e27adc0c6dfaa32991f7",
+      "atom_type": "behavior.trait_or_doctrine",
+      "value": "correction transactions",
+      "normalized_value": "correction transactions",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "personality/corda_personality.json",
+        "file_sha256": "b9cdee9df97e0b2d2b952004d1c355bfdc40799340df3e3afa4265825c6dd96a",
+        "json_pointer": "/inherited_from_vera_sol/3",
+        "source_kind": "personality",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:239eb0e902c5d6194245a148",
+      "atom_type": "behavior.trait_or_doctrine",
+      "value": "structured error reporting",
+      "normalized_value": "structured error reporting",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "personality/corda_personality.json",
+        "file_sha256": "b9cdee9df97e0b2d2b952004d1c355bfdc40799340df3e3afa4265825c6dd96a",
+        "json_pointer": "/inherited_from_vera_sol/4",
+        "source_kind": "personality",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:6e96766ded88e51486adc6ad",
+      "atom_type": "behavior.trait_or_doctrine",
+      "value": "collaboration orientation",
+      "normalized_value": "collaboration orientation",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "personality/corda_personality.json",
+        "file_sha256": "b9cdee9df97e0b2d2b952004d1c355bfdc40799340df3e3afa4265825c6dd96a",
+        "json_pointer": "/inherited_from_vera_sol/5",
+        "source_kind": "personality",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:adb1d23db0fecf5ec90f1f48",
+      "atom_type": "behavior.trait_or_doctrine",
+      "value": "recoverability",
+      "normalized_value": "recoverability",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "personality/corda_personality.json",
+        "file_sha256": "b9cdee9df97e0b2d2b952004d1c355bfdc40799340df3e3afa4265825c6dd96a",
+        "json_pointer": "/inherited_from_vera_sol/6",
+        "source_kind": "personality",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:6d17af0ffd4e077611989cea",
+      "atom_type": "provenance.source",
+      "value": "Vera Sol",
+      "normalized_value": "Vera Sol",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "provenance.json",
+        "file_sha256": "3a2a485318321c1e2c9f5047356bbf5f97a20c77219feeeb806f58a20ef89e59",
+        "json_pointer": "/derived_lineage/0",
+        "source_kind": "provenance",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:6ca56e19ffd4a26eabb8711e",
+      "atom_type": "provenance.source",
+      "value": "VERA_SOL_SELF_IDENTIFICATION_PACKET_v2.0.0.zip",
+      "normalized_value": "VERA_SOL_SELF_IDENTIFICATION_PACKET_v2.0.0.zip",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "provenance.json",
+        "file_sha256": "3a2a485318321c1e2c9f5047356bbf5f97a20c77219feeeb806f58a20ef89e59",
+        "json_pointer": "/source_artifacts/vera_sol_source/artifact",
+        "source_kind": "provenance",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:38c56c9c630a101df4659584",
+      "atom_type": "provenance.digest",
+      "value": "8ba3e637591e943fd3ee6c56dcc20360373e342346f09f00dafe59783a0ab210",
+      "normalized_value": "8ba3e637591e943fd3ee6c56dcc20360373e342346f09f00dafe59783a0ab210",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "provenance.json",
+        "file_sha256": "3a2a485318321c1e2c9f5047356bbf5f97a20c77219feeeb806f58a20ef89e59",
+        "json_pointer": "/source_artifacts/vera_sol_source/sha256",
+        "source_kind": "provenance",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:dd1c027f47b7c87d143936c0",
+      "atom_type": "provenance.source",
+      "value": "parent identity implementation reference",
+      "normalized_value": "parent identity implementation reference",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "provenance.json",
+        "file_sha256": "3a2a485318321c1e2c9f5047356bbf5f97a20c77219feeeb806f58a20ef89e59",
+        "json_pointer": "/source_artifacts/vera_sol_source/role",
+        "source_kind": "provenance",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:d063eb5b3db74139f3213238",
+      "atom_type": "provenance.source",
+      "value": "vera_sol",
+      "normalized_value": "vera_sol",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "provenance.json",
+        "file_sha256": "3a2a485318321c1e2c9f5047356bbf5f97a20c77219feeeb806f58a20ef89e59",
+        "json_pointer": "/repair_lineage/repair_executor_identity",
+        "source_kind": "provenance",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:27ad056a30ffc6d454ffcaf4",
+      "atom_type": "provenance.source",
+      "value": "expanded JSON Schema coverage",
+      "normalized_value": "expanded JSON Schema coverage",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "provenance.json",
+        "file_sha256": "3a2a485318321c1e2c9f5047356bbf5f97a20c77219feeeb806f58a20ef89e59",
+        "json_pointer": "/repair_lineage/changes/3",
+        "source_kind": "provenance",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:943a62b69a7334fac8bba270",
+      "atom_type": "provenance.digest",
+      "value": "VERA_SOL_SELF_IDENTIFICATION_PACKET_v2.0.0.zip",
+      "normalized_value": "VERA_SOL_SELF_IDENTIFICATION_PACKET_v2.0.0.zip",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "source/source_fingerprints.json",
+        "file_sha256": "5de72c17a6d10cbbc73c0b3adf3f5531c938d1789df4d331cd0ef41205ef8c6f",
+        "json_pointer": "/vera_sol_source/artifact",
+        "source_kind": "source",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:b182fb60cd117047c33f5c5f",
+      "atom_type": "provenance.digest",
+      "value": "8ba3e637591e943fd3ee6c56dcc20360373e342346f09f00dafe59783a0ab210",
+      "normalized_value": "8ba3e637591e943fd3ee6c56dcc20360373e342346f09f00dafe59783a0ab210",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "source/source_fingerprints.json",
+        "file_sha256": "5de72c17a6d10cbbc73c0b3adf3f5531c938d1789df4d331cd0ef41205ef8c6f",
+        "json_pointer": "/vera_sol_source/sha256",
+        "source_kind": "source",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    },
+    {
+      "atom_id": "atom:8e4a94b8d06ed57eab594f66",
+      "atom_type": "provenance.digest",
+      "value": "parent identity implementation reference",
+      "normalized_value": "parent identity implementation reference",
+      "source": {
+        "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+        "artifact_version": "1.0.1",
+        "artifact_sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+        "file": "source/source_fingerprints.json",
+        "file_sha256": "5de72c17a6d10cbbc73c0b3adf3f5531c938d1789df4d331cd0ef41205ef8c6f",
+        "json_pointer": "/vera_sol_source/role",
+        "source_kind": "source",
+        "completeness": "COMPLETE_SOURCE_PRESENT"
+      },
+      "note": "Source-supported reference occurrence; not promoted to complete subject identity."
+    }
+  ],
+  "summary": {
+    "reference_atoms": 157
+  }
+}

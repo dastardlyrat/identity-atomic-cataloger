@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "reusable_identity_atom_dictionary.schema.json",
+  "type": "object",
+  "required": [
+    "schema",
+    "schema_version",
+    "activation_semantics",
+    "selection_rule",
+    "deduplication_rule",
+    "atoms",
+    "summary"
+  ],
+  "properties": {
+    "schema": {
+      "const": "reusable_identity_atom_dictionary"
+    },
+    "schema_version": {
+      "const": "0.2"
+    },
+    "activation_semantics": {
+      "const": "CATALOG_ONLY"
+    },
+    "selection_rule": {
+      "type": "string"
+    },
+    "deduplication_rule": {
+      "type": "string"
+    },
+    "atoms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "reusable_atom_id",
+          "atom_type",
+          "value_type",
+          "value",
+          "normalized_value",
+          "canonical_value_sha256",
+          "reuse_class",
+          "portable",
+          "activation_semantics",
+          "occurrences"
+        ],
+        "properties": {
+          "reusable_atom_id": {
+            "type": "string",
+            "pattern": "^reuse:[0-9a-f]{24}$"
+          },
+          "atom_type": {
+            "type": "string"
+          },
+          "value_type": {
+            "type": "string"
+          },
+          "value": {},
+          "normalized_value": {
+            "type": "string"
+          },
+          "canonical_value_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "reuse_class": {
+            "type": "string"
+          },
+          "portable": {
+            "const": true
+          },
+          "activation_semantics": {
+            "const": "CATALOG_ONLY"
+          },
+          "occurrences": {
+            "type": "array"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "summary": {
+      "type": "object",
+      "required": [
+        "unique_portable_atoms",
+        "occurrences"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

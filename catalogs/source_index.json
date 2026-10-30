@@ -1,0 +1,39 @@
+{
+  "schema": "identity_source_catalog_index",
+  "version": "0.2.0",
+  "activation_semantics": "CATALOG_ONLY",
+  "subjects": [
+    {
+      "subject": "Vesper",
+      "source_status": "COMPLETE_SOURCE_PRESENT",
+      "artifact": "VESPER_FULL_PERSONALITY_v0.2.0.zip",
+      "sha256": "518aadf5275c3ab835269951d704380f34ae4ad91dc167804e22a311fe47ed99",
+      "catalog": "catalogs/vesper_atomic_catalog.json",
+      "assembled_personality_included": false
+    },
+    {
+      "subject": "Corda",
+      "source_status": "COMPLETE_SOURCE_PRESENT",
+      "artifact": "CORDA_FULL_ARTIFACT_v1.0.1.zip",
+      "sha256": "8e3551782512f0e63f9087cdaaf3047fe6e5176d609a06c600e9ddcc6f8cf26b",
+      "catalog": "catalogs/corda_atomic_catalog.json",
+      "assembled_personality_included": false
+    },
+    {
+      "subject": "Vera Sol",
+      "source_status": "REFERENCE_ONLY",
+      "referenced_artifact": "VERA_SOL_SELF_IDENTIFICATION_PACKET_v2.0.0.zip",
+      "referenced_sha256": "8ba3e637591e943fd3ee6c56dcc20360373e342346f09f00dafe59783a0ab210",
+      "catalog": "catalogs/vera_sol_reference_catalog.json",
+      "complete_identity_claim": false
+    },
+    {
+      "subject": "Lattice",
+      "source_status": "REFERENCE_ONLY",
+      "referenced_artifact": "LATTICE_FULL_PERSONALITY_v1.0.0.zip",
+      "referenced_sha256": "263db9b8b362fd35c5e581396c363021f918d2966455e82a274bba74e2c457dc",
+      "catalog": "catalogs/lattice_reference_catalog.json",
+      "complete_identity_claim": false
+    }
+  ]
+}

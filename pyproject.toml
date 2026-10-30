@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "identity-atomic-cataloger"
+version = "0.3.0"
+description = "Hardened non-activating atomic cataloger/extractor for identity, personality, control, provenance, and authority artifacts"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["jsonschema>=4.18"]
+
+[project.scripts]
+identity-atomic = "identity_atomic.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
