@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "identity-atomic-cataloger"
 version = "0.3.0"
-description = "Hardened non-activating atomic cataloger/extractor for identity, personality, control, provenance, and authority artifacts"
+description = "Decompose agent identity, affect, behavior, and agency records into provenance-linked atoms, then compose agent definitions with explicit control and authority boundaries."
 requires-python = ">=3.10"
 dependencies = []
 

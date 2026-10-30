@@ -1,7 +1,7 @@
 {
   "package": "IDENTITY_ATOMIC_CATALOGER_EXTRACTOR",
   "version": "0.3.0",
-  "purpose": "non-activating atomic extraction and cataloging, with a separate explicit source-composition builder for candidate agent definitions",
+  "purpose": "Decompose agent identity, affect, behavior, and agency records into provenance-linked atoms, then compose agent definitions with explicit control and authority boundaries.",
   "personality_artifacts_embedded": true,
   "startup_contexts_embedded": false,
   "assembled_personalities_embedded": true,

@@ -114,3 +114,24 @@ labels are retained as data, not current capability or activation claims.
 Prose principles remain source values; no executable semantics are inferred.
 The earlier native Windows hardening limitation remains documented above;
 a new complete 32/32 hardening result is not claimed for this build.
+
+
+PURPOSE AND DISCOVERABILITY ALIGNMENT - 2026-10-30
+
+The README opening and package-purpose metadata now foreground agentic affect,
+behavior, agency, and provenance-preserving decomposition/composition. Affect
+refers to expressive and behavioral traits represented in the source records.
+Existing catalog-only, candidate-definition, authority and runtime boundaries
+remain unchanged.
+
+PASS PACKAGE.json and pyproject.toml parse; only their approved purpose or
+     description values changed, and both match the approved GitHub description.
+PASS relative Markdown file links: 47.
+PASS protected tracked files byte-identical to the preceding commit: 48.
+     These include the core mechanism, catalogs, schemas, source snapshots,
+     generated agent definitions, selections and build manifest.
+PASS refreshed checksum manifest: all 52 listed files match.
+
+This pass changes documentation and package-purpose metadata only. Existing
+runtime validation results and the native Windows symlink limitation above
+remain historical evidence; no new runtime or full hardening result is claimed.

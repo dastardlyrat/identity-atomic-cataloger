@@ -1,9 +1,19 @@
 # Identity Atomic Cataloger / Extractor v0.3.0
 
-A Python toolkit for inspecting identity and personality artifacts as records
-with explicit provenance. It reads JSON from a directory or ZIP archive,
-produces one catalog atom per source-supported leaf value, and can merge
-portable atoms into a reusable dictionary without losing their occurrences.
+Identity Atomic Cataloger supports the design and inspection of **agentic
+affect and agency** by decomposing structured agent definitions into typed,
+provenance-linked atoms. Its records cover identity, temperament, interaction
+style, behavior, control protocols, and authority boundaries. Selected atoms
+can then be composed into inspectable candidate agent definitions, including
+Lattice and Vera Sol.
+
+Affect here refers to expressive and behavioral traits specified in the source
+records. The toolkit preserves those specifications, their provenance, and
+their control and authority relationships through decomposition and composition.
+
+The extractor reads JSON from a directory or ZIP archive, produces one catalog
+atom per source-supported leaf value, and can merge portable atoms into a
+reusable dictionary without losing their occurrences.
 
 The mechanism is **non-activating**. A catalog entry records a source assertion;
 it does not tell a model to adopt a personality, grant authority, or load a
