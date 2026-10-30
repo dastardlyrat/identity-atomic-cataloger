@@ -1,0 +1,153 @@
+{
+  "schema": "desktop_identity_build_manifest",
+  "schema_version": "0.1",
+  "build_id": "desktop-ipb-lattice-vera-v1",
+  "build_status": "candidate",
+  "activation_semantics": "DEFINITION_ONLY",
+  "source_artifact": {
+    "name": "IDENTITY_PROTOCOL_BACKEND_TWO_IDENTITIES_v1.1.1.zip",
+    "version": "1.1.1",
+    "sha256": "89d49088e4a97dc23e0ba535729154f586bc8c87dadb0e4c650ca022a7684a9c",
+    "coverage": "SELECTED_RECORDS_ONLY",
+    "completeness": "PARTIAL_SOURCE_PRESENT"
+  },
+  "extractor_version": "0.3.0",
+  "composition_authority": "User-approved source-derived composition; no runtime activation.",
+  "implementation": {
+    "builder_sha256": "52336d03cf274b08ab672a6e98d3257b6fee106d31dd64c4e54a8de48e9308b8",
+    "extractor_sha256": "6f379d5a58e6234c62559941108cfb52b4b12db8d01ab6eab8e620f7ab4ab18c"
+  },
+  "catalogs": [
+    {
+      "path": "catalogs/lattice_desktop_atomic_catalog.json",
+      "subject": "Lattice",
+      "atoms": 77,
+      "portable_atoms": 21
+    },
+    {
+      "path": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "subject": "Vera Sol",
+      "atoms": 77,
+      "portable_atoms": 7
+    },
+    {
+      "path": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "subject": "IPB Shared Control",
+      "atoms": 125,
+      "portable_atoms": 7
+    }
+  ],
+  "agents": [
+    {
+      "identity_id": "lattice",
+      "name": "Lattice",
+      "definition": "agents/lattice/definition.json",
+      "selection": "agents/lattice/selection.json",
+      "selected_targets": 175
+    },
+    {
+      "identity_id": "vera_sol",
+      "name": "Vera Sol",
+      "definition": "agents/vera_sol/definition.json",
+      "selection": "agents/vera_sol/selection.json",
+      "selected_targets": 175
+    }
+  ],
+  "outputs": [
+    {
+      "path": "agents/lattice/README.md",
+      "sha256": "826bb0473348f630a1e2471c7e44d2f91b485f82da93d8fe26b23d465cf1c17b",
+      "bytes": 1249
+    },
+    {
+      "path": "agents/lattice/definition.json",
+      "sha256": "a406b23b84f64edfe17d2075792fe02a25340e984c2996aa88ea8f38714300b0",
+      "bytes": 8873
+    },
+    {
+      "path": "agents/lattice/selection.json",
+      "sha256": "6d68244b9760d2c34775231fd6edd06dd23be7922af8cd98e6fadf6c1c9e5611",
+      "bytes": 72256
+    },
+    {
+      "path": "agents/vera_sol/README.md",
+      "sha256": "850220a95edb502531bc403f09233397189801ec277b854466f5e15686f585cf",
+      "bytes": 1251
+    },
+    {
+      "path": "agents/vera_sol/definition.json",
+      "sha256": "78253fa07d1b7c5098c1d643a96c3e2414d9d41958d8aa0c841fba466026ace6",
+      "bytes": 8284
+    },
+    {
+      "path": "agents/vera_sol/selection.json",
+      "sha256": "f51de6517a73a42ba2af5c36e1b99816863fdd86d7ff9f8b7ac56b8e2f901773",
+      "bytes": 72895
+    },
+    {
+      "path": "catalogs/desktop_reusable_atom_dictionary.json",
+      "sha256": "5d4444744474c7e5b2f77d4e04a650f83636db024ded4ca78626d6b1097c0d15",
+      "bytes": 23919
+    },
+    {
+      "path": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "sha256": "1033e3642a6c0e169b938b81909c0cffbdaab426681892ecaa194b03fd5f66dd",
+      "bytes": 124851
+    },
+    {
+      "path": "catalogs/lattice_desktop_atomic_catalog.json",
+      "sha256": "967daee7dfbd2b5d8085c9184364dad0f14d7db2429e40d76c00f0ee0ea78c7c",
+      "bytes": 77243
+    },
+    {
+      "path": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "sha256": "c76b10d03e523867ab22ca8e3802359ae8c7672df6f98e9b3f086791a1d666fe",
+      "bytes": 76529
+    },
+    {
+      "path": "source_records/desktop_ipb/SOURCE_MANIFEST.json",
+      "sha256": "d424656f34e3c002217e3bfa8d6beb66b494fc8f015ff6ca042f27a108d342c0",
+      "bytes": 2973
+    },
+    {
+      "path": "source_records/desktop_ipb/config/identities/lattice.json",
+      "sha256": "5347622dc0ef6750e79c04b15a7036c8d7c621e5a8628363efe8d9e1de77a5e8",
+      "bytes": 879
+    },
+    {
+      "path": "source_records/desktop_ipb/config/identities/vera_sol.json",
+      "sha256": "8c8188bdd5dc5a96599837c92751a1b605880164d4fb1bc8c6e600687ea8437a",
+      "bytes": 875
+    },
+    {
+      "path": "source_records/desktop_ipb/config/runtime_profiles/lattice.json",
+      "sha256": "57c8415569e9d7c84d3792e54424d898b403d5023832177e161d66d990ed1477",
+      "bytes": 736
+    },
+    {
+      "path": "source_records/desktop_ipb/config/runtime_profiles/vera_sol.json",
+      "sha256": "7794877e613125b64bfdf2843384a49158be8b8022a232e3228096804d25d11a",
+      "bytes": 774
+    },
+    {
+      "path": "source_records/desktop_ipb/config/shared_protocol.json",
+      "sha256": "b2612beaf3c31c9591647370d6f8e6130dfb377f8bdc15f37bb78099f6977e8e",
+      "bytes": 2997
+    },
+    {
+      "path": "source_records/desktop_ipb/data/provenance_correction_v2.json",
+      "sha256": "801e52ab91a1bbe9e82fa44c13779db85bccd051537ae7dc30d1d09c2f886fd8",
+      "bytes": 2467
+    },
+    {
+      "path": "source_records/desktop_ipb/source_records/lattice_identity_v0.2.0.json",
+      "sha256": "6b29f58faf12faff13a348e3ac04c53034c1fb148d6910ec7661bac5df0867d2",
+      "bytes": 2306
+    },
+    {
+      "path": "source_records/desktop_ipb/source_records/vera_sol_identity_v2.0.0.json",
+      "sha256": "d2ad13051ead83f8b600c30d9e8e6eef91ebbb31ca7316c234b1dec5bc9e40c4",
+      "bytes": 1685
+    }
+  ]
+}

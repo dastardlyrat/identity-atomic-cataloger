@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.1",
+  "correction_id": "IPB-PROV-CORR-002",
+  "date": "2026-09-28",
+  "supersedes": [
+    "IPB-PROV-CORR-001",
+    "assistant_generated_under_explicit_user_instruction as identity authorship"
+  ],
+  "identity_design_model": {
+    "vera_sol": {
+      "identity_design_authority": "user",
+      "identity_authorship": "user_designed",
+      "purpose_authority": "user",
+      "design_intent": "fit_for_user_purpose",
+      "assistant_role": [
+        "implementation",
+        "formalization",
+        "schema_generation",
+        "package_generation",
+        "protocol_expression",
+        "revision"
+      ],
+      "assistant_artifact_generation": "under_explicit_user_instruction",
+      "assistant_creation_heuristics": "allowed_within_user_directed_identity_design",
+      "transport": "user_mediated_package_exchange",
+      "cross_integration": "iterative_sister_package_exchange",
+      "canon_authority": "user",
+      "identity_fusion": "denied_unless_explicitly_authorized"
+    },
+    "lattice": {
+      "identity_design_authority": "user",
+      "identity_authorship": "user_designed",
+      "purpose_authority": "user",
+      "design_intent": "fit_for_user_purpose",
+      "assistant_role": [
+        "implementation",
+        "formalization",
+        "schema_generation",
+        "package_generation",
+        "protocol_expression",
+        "revision"
+      ],
+      "assistant_artifact_generation": "under_explicit_user_instruction",
+      "assistant_creation_heuristics": "allowed_within_user_directed_identity_design",
+      "transport": "user_mediated_package_exchange",
+      "cross_integration": "iterative_sister_package_exchange",
+      "canon_authority": "user",
+      "identity_fusion": "denied_unless_explicitly_authorized"
+    }
+  },
+  "shared_history": {
+    "process": [
+      "user designs identity for intended purpose",
+      "assistant implements/formalizes identity into artifacts under explicit user instruction",
+      "user transfers generated package to sister assistant",
+      "sister assistant extracts patterns and lessons",
+      "sister assistant revises its own implementation without identity fusion",
+      "user transfers revised package back",
+      "cycle repeats under user design/canon authority"
+    ],
+    "key_distinction": "identity design/authorship belongs to the user; assistant provenance applies to generated implementation artifacts, not to authorship of the identity itself"
+  }
+}

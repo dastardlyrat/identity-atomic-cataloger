@@ -77,3 +77,40 @@ updated, and a gitignore was added. Test dependencies were installed only in an
 isolated, ignored virtual environment. The final checksum manifest covers all
 28 repository files other than CHECKSUMS.sha256 itself. Source archives were
 not supplied or independently re-verified during this preparation.
+
+
+DESKTOP IDENTITY DECOMPOSITION AND COMPOSITION - 2026-10-30
+
+Source: IDENTITY_PROTOCOL_BACKEND_TWO_IDENTITIES_v1.1.1.zip.
+Archive SHA-256: 89d49088e4a97dc23e0ba535729154f586bc8c87dadb0e4c650ca022a7684a9c.
+Eight explicitly selected JSON members were retained byte-for-byte with pinned
+member hashes. The SQLite database, bytecode, source ZIP and startup contexts
+were excluded from the upload.
+
+Built with the unchanged v0.3.0 extractor:
+- Lattice Desktop catalog: 77 atoms, 21 portable.
+- Vera Sol Desktop catalog: 77 atoms, 7 portable.
+- IPB shared control/provenance catalog: 125 atoms, 7 portable.
+- Desktop reusable dictionary: 24 unique portable atoms, 35 occurrences.
+- Lattice candidate: 175 explicit atom-to-target mappings.
+- Vera Sol candidate: 175 explicit atom-to-target mappings.
+
+PASS 12/12 composition tests, including definition/selection/catalog schemas,
+full selected-record reconstruction, deterministic output, source/archive
+fingerprint checks, internally valid atom forgery rejection, false provenance
+and indexing metadata rejection, cross-identity occurrence rejection, missing
+and duplicate selection rejection, and candidate/runtime/control boundaries.
+PASS existing unit checks: 7/7.
+PASS deterministic on-disk rebuild check: all 20 generated artifacts match.
+PASS generated manifest hashes: all 19 listed files match; the manifest excludes itself.
+PASS relative README links: 47.
+PASS new builder and test Python syntax.
+PASS original seven catalogs, original schemas, and core mechanism unchanged.
+
+Build status: candidate. Activation semantics: DEFINITION_ONLY.
+Coverage is complete for the selected records and partial for the archive and
+wider identity history. Historical runtime values and nested source status
+labels are retained as data, not current capability or activation claims.
+Prose principles remain source values; no executable semantics are inferred.
+The earlier native Windows hardening limitation remains documented above;
+a new complete 32/32 hardening result is not claimed for this build.

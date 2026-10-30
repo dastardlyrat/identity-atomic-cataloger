@@ -1,0 +1,1429 @@
+{
+  "schema": "agent_atom_selection",
+  "schema_version": "0.1",
+  "identity_id": "lattice",
+  "build_status": "candidate",
+  "activation_semantics": "DEFINITION_ONLY",
+  "composition_authority": "User-approved source-derived composition; no runtime activation.",
+  "source_artifact": {
+    "name": "IDENTITY_PROTOCOL_BACKEND_TWO_IDENTITIES_v1.1.1.zip",
+    "version": "1.1.1",
+    "sha256": "89d49088e4a97dc23e0ba535729154f586bc8c87dadb0e4c650ca022a7684a9c",
+    "coverage": "SELECTED_RECORDS_ONLY",
+    "completeness": "PARTIAL_SOURCE_PRESENT"
+  },
+  "catalogs": [
+    {
+      "path": "catalogs/lattice_desktop_atomic_catalog.json",
+      "sha256": "967daee7dfbd2b5d8085c9184364dad0f14d7db2429e40d76c00f0ee0ea78c7c",
+      "subject": "Lattice"
+    },
+    {
+      "path": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "sha256": "1033e3642a6c0e169b938b81909c0cffbdaab426681892ecaa194b03fd5f66dd",
+      "subject": "IPB Shared Control"
+    }
+  ],
+  "selections": [
+    {
+      "target_pointer": "/control_protocol/action_state/0",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:bef361c43914ccd3bb1063e0",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/action_state/0",
+      "canonical_value_sha256": "40ea7d4f4bb8ae18f3fb22b1bca60c9c8ccc62f1534114f29311573bed9cd762"
+    },
+    {
+      "target_pointer": "/control_protocol/action_state/1",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:041c0e708ebef3fa3027d608",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/action_state/1",
+      "canonical_value_sha256": "85d8d560b24134edb1c19c932d7e30f938a563559fafc4ea19f47aba519232a3"
+    },
+    {
+      "target_pointer": "/control_protocol/action_state/2",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:84263afbc645c45c598db90b",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/action_state/2",
+      "canonical_value_sha256": "f54361f68dfafbbf5619bcd355e803c2124e73937037c63c39d83ee6419bff67"
+    },
+    {
+      "target_pointer": "/control_protocol/action_state/3",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:083d4be8127d5b72f71ba265",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/action_state/3",
+      "canonical_value_sha256": "0b5e064c8b72fcf9e231828c9a5721d449e3f8d3b1787795bb7d517fb36217b8"
+    },
+    {
+      "target_pointer": "/control_protocol/action_state/4",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:ba2291e4cdd4e4323cb2e603",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/action_state/4",
+      "canonical_value_sha256": "7e8a57fe6936f927105769ecc492a139e1dd56a973b673a904b7a3a3fd41ee6a"
+    },
+    {
+      "target_pointer": "/control_protocol/action_state/5",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:076e23bd08273e43836c9672",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/action_state/5",
+      "canonical_value_sha256": "60425b9335f16734cd7ca9e65f364e2d70e4dff5c9ada6325e104e0e07874331"
+    },
+    {
+      "target_pointer": "/control_protocol/action_state/6",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:96d6a370f804ff710886a301",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/action_state/6",
+      "canonical_value_sha256": "0f15dc23249e5ae41849d7f070b24f8aea5d052fe3d20972b004e8b9e07349ba"
+    },
+    {
+      "target_pointer": "/control_protocol/artifact_status/0",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:7b42c01d507d2b42063d2729",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/artifact_status/0",
+      "canonical_value_sha256": "8949b4a16a0714fd9a240a8ed28d5cefa9157a5dc68af159359e66cd586bbf8d"
+    },
+    {
+      "target_pointer": "/control_protocol/artifact_status/1",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:302024ae2bb80f28ead18a3e",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/artifact_status/1",
+      "canonical_value_sha256": "8ac24611cfe47c129e37108bc6adc6843c4fe8fb9c37c27fac8a1835ba660307"
+    },
+    {
+      "target_pointer": "/control_protocol/artifact_status/2",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:8c85dd55907bf7765ab7b10d",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/artifact_status/2",
+      "canonical_value_sha256": "e9f69bb9e95e952aee0f44087595446891c645b7eaaaa25f08688125c242778d"
+    },
+    {
+      "target_pointer": "/control_protocol/artifact_status/3",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:ba149bd1ac4364ad6bcd0f76",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/artifact_status/3",
+      "canonical_value_sha256": "3d50e8dfbd6e9d98d503dbdd371f0896b67b6f98884de6b1bbc711bff2508994"
+    },
+    {
+      "target_pointer": "/control_protocol/artifact_status/4",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:77ee7f22e95fc1790fe80db9",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/artifact_status/4",
+      "canonical_value_sha256": "33d04bd775e7b6c6436742508b41fa693a15bd2c902fcd994253392abd717740"
+    },
+    {
+      "target_pointer": "/control_protocol/artifact_status/5",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:0212ed86d4d7c01e1773b467",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/artifact_status/5",
+      "canonical_value_sha256": "910626819e9812195810299d9cc9ee97656081d929feda68b53d4810c94ad01c"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/EXECUTED/dimension",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:d322eaff086746bd247b123d",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/EXECUTED/dimension",
+      "canonical_value_sha256": "6b6fdce2c6f9762666c2e6dd00b3a89831d3b2f9ec0bfa4054bf88fa9b45fad6"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/EXECUTED/value",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:15baf8074e2bf18c6fc62818",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/EXECUTED/value",
+      "canonical_value_sha256": "f54361f68dfafbbf5619bcd355e803c2124e73937037c63c39d83ee6419bff67"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/GENERATED/dimension",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:059f74a88e544235d879bcc7",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/GENERATED/dimension",
+      "canonical_value_sha256": "98ade16cf21887101748f3ac7ca453fc41e49eb6ae3a48cae91f1c225d4fc000"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/GENERATED/value",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:d15ea83eb4d42d61f4949647",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/GENERATED/value",
+      "canonical_value_sha256": "df3df625a93ee5dbf709ee40d2b09b65695a1a27f483f4ff0e3df0fcc6137ebf"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/INFERRED/dimension",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:36e5cc991b6c8ac5ada88705",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/INFERRED/dimension",
+      "canonical_value_sha256": "98ade16cf21887101748f3ac7ca453fc41e49eb6ae3a48cae91f1c225d4fc000"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/INFERRED/value",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:9deeeb76db1d814fa5dc249b",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/INFERRED/value",
+      "canonical_value_sha256": "a48cdfe57cd25913815777c718324a1baa18855067bfaa1d1dcd40228ea19bb7"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/OBSERVED/dimension",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:032ca41260e174dd484622a3",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/OBSERVED/dimension",
+      "canonical_value_sha256": "98ade16cf21887101748f3ac7ca453fc41e49eb6ae3a48cae91f1c225d4fc000"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/OBSERVED/value",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:2469f01266f121e9079ffe5a",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/OBSERVED/value",
+      "canonical_value_sha256": "827761a810e70fe2741d3562eb2ad45028f503e043d8cda7edf26a06d726b638"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/RETRIEVED/dimension",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:21089039e564d64b6b10b4cf",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/RETRIEVED/dimension",
+      "canonical_value_sha256": "98ade16cf21887101748f3ac7ca453fc41e49eb6ae3a48cae91f1c225d4fc000"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/RETRIEVED/value",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:e8a4fdaa3cdc0b8107124dbb",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/RETRIEVED/value",
+      "canonical_value_sha256": "71ed3f576fd6fbefcd959825e9e77f71a78a14f7ac9a428c650524d88a39a565"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/UNKNOWN/dimension",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:45de8343616d79fbec97c800",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/UNKNOWN/dimension",
+      "canonical_value_sha256": "951a61449ba2cf661f1efebaf5a71ef838059cb5fec57eaf862e4701a5a60955"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/UNKNOWN/value",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:a2bbb1954e6483a4f869d695",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/UNKNOWN/value",
+      "canonical_value_sha256": "0f15dc23249e5ae41849d7f070b24f8aea5d052fe3d20972b004e8b9e07349ba"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/USER_SUPPLIED/dimension",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:c7c2b1d4420cf7f3b3c2f4e1",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/USER_SUPPLIED/dimension",
+      "canonical_value_sha256": "98ade16cf21887101748f3ac7ca453fc41e49eb6ae3a48cae91f1c225d4fc000"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/USER_SUPPLIED/value",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:91bc2a524afb59ce63aa8071",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/USER_SUPPLIED/value",
+      "canonical_value_sha256": "e5dc0a858f377d538dd9c9ee897487e1ebdbb61b0ed9b28c0423385aa32c90c0"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/VERIFIED/dimension",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:872ec749e828e643d6d1f533",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/VERIFIED/dimension",
+      "canonical_value_sha256": "56a509f1644233a7ddf1c25ce1a1b39f1caeddc5e4de54d5c0abb29d5746a5a1"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/VERIFIED/value",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:b1c99a0010ba2a9a0e7a6c32",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/VERIFIED/value",
+      "canonical_value_sha256": "c0ea28df48673d3a9957864d4ce5f3963522a14f280fd7d74a98489fdf837cd4"
+    },
+    {
+      "target_pointer": "/control_protocol/identity_policy/activation_requires",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:f8ffe8318eef8bc5ae65a2e0",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/identity_policy/activation_requires",
+      "canonical_value_sha256": "ba362fda1f90d9a0a95b48c9911fc9ce48bcd4793fbc8e3a059d939ddc69978d"
+    },
+    {
+      "target_pointer": "/control_protocol/identity_policy/canonical_identity_mutation",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:32ba2cc81fed578429155647",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/identity_policy/canonical_identity_mutation",
+      "canonical_value_sha256": "e160fc90e3831637746479a7de2e470daee5352ed72c709de83446c7bd7b5500"
+    },
+    {
+      "target_pointer": "/control_protocol/identity_policy/coexistence",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:0079a9e9b19ac4284b650086",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/identity_policy/coexistence",
+      "canonical_value_sha256": "4ee332db27783eb2e0098cba8533cad076a5757e18a749c57cc8d82bb42351a1"
+    },
+    {
+      "target_pointer": "/control_protocol/identity_policy/merge_default",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:f6176d45e21a63e3517bb7f4",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/identity_policy/merge_default",
+      "canonical_value_sha256": "65b666a4e58530da6f56235ddf6454b756f678ffe18b207609e716ace36c34f9"
+    },
+    {
+      "target_pointer": "/control_protocol/identity_policy/shared_layer_rule",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:c88fb24390ca04b88ca59c92",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/identity_policy/shared_layer_rule",
+      "canonical_value_sha256": "bce7e4717c47dcbbf8b1f293a3dc573592211a929a5434affd1f491cc9cbd6db"
+    },
+    {
+      "target_pointer": "/control_protocol/message_status/0",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:b426a502f21b4c9c3c474c25",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_status/0",
+      "canonical_value_sha256": "00404caa9f048147a777074ecaaa6deccf03259fcbb9540b41c641f7b80fd800"
+    },
+    {
+      "target_pointer": "/control_protocol/message_status/1",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:12fa8392d2dee029c177a1d0",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_status/1",
+      "canonical_value_sha256": "daca1c18c570727e43918f5c6466e95e72f04117a5f3ef084bae73bde536de69"
+    },
+    {
+      "target_pointer": "/control_protocol/message_status/2",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:e9611d6feefaf53beebd635b",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_status/2",
+      "canonical_value_sha256": "d288c584af270151f7b7cd7977b94160ce1d7b501dee2d6308f2ac84ebaacc99"
+    },
+    {
+      "target_pointer": "/control_protocol/message_status/3",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:1b3c4b0fcef988ee60a974de",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_status/3",
+      "canonical_value_sha256": "ea389b300a930476d20d12bfde3d5110b5bf0529cfd108fd9cf97c2a58a3686d"
+    },
+    {
+      "target_pointer": "/control_protocol/message_status/4",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:8e89c00856b3180354ccd0bb",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_status/4",
+      "canonical_value_sha256": "8ac24611cfe47c129e37108bc6adc6843c4fe8fb9c37c27fac8a1835ba660307"
+    },
+    {
+      "target_pointer": "/control_protocol/message_status/5",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:9186424f6166b2d20815b102",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_status/5",
+      "canonical_value_sha256": "7093fda846e50b267da144f7b3683ee1dd8838506939f6052b7370dd01fa2ad0"
+    },
+    {
+      "target_pointer": "/control_protocol/message_status/6",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:f0fa7ff261f80b03c0076243",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_status/6",
+      "canonical_value_sha256": "7b92de7d08814ff2863dbd0239cdcb3cd107364ebf588b5d95693527f066f106"
+    },
+    {
+      "target_pointer": "/control_protocol/message_status/7",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:fc5e95a5bf2f826eee6687eb",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_status/7",
+      "canonical_value_sha256": "33d04bd775e7b6c6436742508b41fa693a15bd2c902fcd994253392abd717740"
+    },
+    {
+      "target_pointer": "/control_protocol/message_status/8",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:b2f936f168e622bbc6f45445",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_status/8",
+      "canonical_value_sha256": "b10ff80c0d7a9025a65ceb4f19ab94e4a91fbdb371a109dcf065e4ab52b12d66"
+    },
+    {
+      "target_pointer": "/control_protocol/message_types/0",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:35fdea3ce35f8a881012334b",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_types/0",
+      "canonical_value_sha256": "0b174abe338328e339c03991d0f70bfd02b2d25d77b75969b1114b6f1480d496"
+    },
+    {
+      "target_pointer": "/control_protocol/message_types/1",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:e9fb5ed43eab247a6f1fe327",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_types/1",
+      "canonical_value_sha256": "4cbd58cc77015510e5b6690c28cd0f3e060a85b4d2d7f21c9258d34430a05ab3"
+    },
+    {
+      "target_pointer": "/control_protocol/message_types/10",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:4fa99cb5f0adfa4d2ed0b066",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_types/10",
+      "canonical_value_sha256": "046a724b5d4d554011cfc796ea872fa96d732e8de64fc91472436d844906cfae"
+    },
+    {
+      "target_pointer": "/control_protocol/message_types/2",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:136592f793827888f9b0e0d8",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_types/2",
+      "canonical_value_sha256": "fbf8b4963895a0b646ca660e3dd2817724bcb9bf1ed3ca7388be8af900a2c468"
+    },
+    {
+      "target_pointer": "/control_protocol/message_types/3",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:70f6455e8d8102435d70b060",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_types/3",
+      "canonical_value_sha256": "cd1e4985e83c1b9fb08bec7ea7e21b7226c45b927744d3ffe241172023bd9985"
+    },
+    {
+      "target_pointer": "/control_protocol/message_types/4",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:49fcc09a5acaf1e3dffa1370",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_types/4",
+      "canonical_value_sha256": "840e2c74114050d417e56a4f87792834ad0c0508d4b4ab5907b49ed4bea5af52"
+    },
+    {
+      "target_pointer": "/control_protocol/message_types/5",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:48ac85599d99b3dec97252b8",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_types/5",
+      "canonical_value_sha256": "36daca0efece92c6472d7fb81b8faf74f5704529fab2500eea5603796834da99"
+    },
+    {
+      "target_pointer": "/control_protocol/message_types/6",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:1848f83e4c739d1c5d170c10",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_types/6",
+      "canonical_value_sha256": "cd25336a439c3c6432d0b787f6982d8be8da7856600f92e1357a12198bb9cf66"
+    },
+    {
+      "target_pointer": "/control_protocol/message_types/7",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:935810b969f817804c6bb147",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_types/7",
+      "canonical_value_sha256": "f717e7d817dbc0e03438173773012fc4130215c3d24c7c36c7cff8a9936b8301"
+    },
+    {
+      "target_pointer": "/control_protocol/message_types/8",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:b9cf39a96f7600f8a9cba16c",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_types/8",
+      "canonical_value_sha256": "57dacfa5619232c39f8516407d4732888a18292e5b172e0995e6666f95a1ebf8"
+    },
+    {
+      "target_pointer": "/control_protocol/message_types/9",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:aed00126d0188efef35f1175",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_types/9",
+      "canonical_value_sha256": "6585ea4b2c0c29c3115a21dfb82957edbe02c8580d7190672c83fca4d6d82556"
+    },
+    {
+      "target_pointer": "/control_protocol/primary_invariants/0",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:41a3effd1f3f3d3f04b01f00",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/primary_invariants/0",
+      "canonical_value_sha256": "27054fb45799b914bf85ffb4a5c0b720eb806c17ef66c512e5820a297963a54a"
+    },
+    {
+      "target_pointer": "/control_protocol/primary_invariants/1",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:25dbe3f7c579e11009df3e84",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/primary_invariants/1",
+      "canonical_value_sha256": "be46c690966f8962ec9c393de0ef5baefd92ca3a3da71d12bfc7817cda687bc2"
+    },
+    {
+      "target_pointer": "/control_protocol/primary_invariants/2",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:8e836bc49978ac1a356076b5",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/primary_invariants/2",
+      "canonical_value_sha256": "10371c51e28c6b14bc9b1796c7a1911fcf9da32dffb92e76c47a594063872045"
+    },
+    {
+      "target_pointer": "/control_protocol/primary_invariants/3",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:62dc99c9c8793392e9653259",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/primary_invariants/3",
+      "canonical_value_sha256": "4298d19581c96f7979ed6f4a99f9e7bf4fdc34c669d62ecaddb0cf73a42422be"
+    },
+    {
+      "target_pointer": "/control_protocol/primary_invariants/4",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:5e9f3060a9e8fd5c98525301",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/primary_invariants/4",
+      "canonical_value_sha256": "a2b7040f32be55ad31675e032aa4ed92b432d54de9f3b6fc454de3572c6222d3"
+    },
+    {
+      "target_pointer": "/control_protocol/primary_invariants/5",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:0f6e0315ae5478145a368fc6",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/primary_invariants/5",
+      "canonical_value_sha256": "40f4885c37dc48e9b876a0a5ba03a2419241a38f9bbf403f249c16c6b59fdd1c"
+    },
+    {
+      "target_pointer": "/control_protocol/primary_invariants/6",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:ed036babfad5a21f0b1ad0dd",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/primary_invariants/6",
+      "canonical_value_sha256": "20274f2627cfd00a40ba642cec98d980e943729f07a4de9b48fedd0ba6b22ec7"
+    },
+    {
+      "target_pointer": "/control_protocol/primary_invariants/7",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:ac9c09caa6716ddc1ef376f3",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/primary_invariants/7",
+      "canonical_value_sha256": "54a1bd55df5f4bc241b38b3168547f3b5f58666f7097e719924e9ddbf0b5346c"
+    },
+    {
+      "target_pointer": "/control_protocol/protocol_id",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:669d30e6b32f879aad5c3214",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/protocol_id",
+      "canonical_value_sha256": "32e7f76654122ffdf0f1024dceacad5de4050324f29c5d878f6305808be328aa"
+    },
+    {
+      "target_pointer": "/control_protocol/protocol_name",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:6790631276c3c4fbb5a20e8c",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/protocol_name",
+      "canonical_value_sha256": "c63d61d8f182f72f5ead83b40e04567ac3d4c562aaf74c7427e936e3ca53d30d"
+    },
+    {
+      "target_pointer": "/control_protocol/provenance_origin/0",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:33eed7c481070bc6575e0045",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/provenance_origin/0",
+      "canonical_value_sha256": "e5dc0a858f377d538dd9c9ee897487e1ebdbb61b0ed9b28c0423385aa32c90c0"
+    },
+    {
+      "target_pointer": "/control_protocol/provenance_origin/1",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:49fcd6a84964d68869675c0d",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/provenance_origin/1",
+      "canonical_value_sha256": "827761a810e70fe2741d3562eb2ad45028f503e043d8cda7edf26a06d726b638"
+    },
+    {
+      "target_pointer": "/control_protocol/provenance_origin/2",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:8201b13c1c2e346a3ab28443",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/provenance_origin/2",
+      "canonical_value_sha256": "71ed3f576fd6fbefcd959825e9e77f71a78a14f7ac9a428c650524d88a39a565"
+    },
+    {
+      "target_pointer": "/control_protocol/provenance_origin/3",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:3b7c528ab649473664ef96a9",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/provenance_origin/3",
+      "canonical_value_sha256": "a48cdfe57cd25913815777c718324a1baa18855067bfaa1d1dcd40228ea19bb7"
+    },
+    {
+      "target_pointer": "/control_protocol/provenance_origin/4",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:d166484b4ba28cd0192367b6",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/provenance_origin/4",
+      "canonical_value_sha256": "df3df625a93ee5dbf709ee40d2b09b65695a1a27f483f4ff0e3df0fcc6137ebf"
+    },
+    {
+      "target_pointer": "/control_protocol/provenance_origin/5",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:408be8e992b2d8ece55f262c",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/provenance_origin/5",
+      "canonical_value_sha256": "20d016ea36e7d26af5be979dd0fc18aa41fb2dffdf4e2c3faf9566658e59c04b"
+    },
+    {
+      "target_pointer": "/control_protocol/provenance_origin/6",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:f9b3cc0c4d99827ef92c60b1",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/provenance_origin/6",
+      "canonical_value_sha256": "99b3ab0773a1fb096f6dcf03db68433d3f628424899ff503211e24b61d0b7731"
+    },
+    {
+      "target_pointer": "/control_protocol/provenance_origin/7",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:4c409a99cf304df8d86a04bd",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/provenance_origin/7",
+      "canonical_value_sha256": "0f15dc23249e5ae41849d7f070b24f8aea5d052fe3d20972b004e8b9e07349ba"
+    },
+    {
+      "target_pointer": "/control_protocol/purpose",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:75e9274fecd338b0252faaec",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/purpose",
+      "canonical_value_sha256": "1e1b7129f8ca4f6f9d058290632736bf3ef4209e10a22f0fd9f899033ba95c6d"
+    },
+    {
+      "target_pointer": "/control_protocol/transport",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:7540e9f740aae0355d1adb18",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/transport",
+      "canonical_value_sha256": "9d3b02424c514de974e91bd2d20d4c0babe51d2de11b5f5cd92bd3c5f8cb67cf"
+    },
+    {
+      "target_pointer": "/control_protocol/validation_state/0",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:abd8ba1a42e2be10c944b163",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/validation_state/0",
+      "canonical_value_sha256": "cf273c84f6dd4a9365d0531c7fefb25a0a96cfff78edecec3f2a529d6abf0cb8"
+    },
+    {
+      "target_pointer": "/control_protocol/validation_state/1",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:37bc874abcc0814ebf3bd3f5",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/validation_state/1",
+      "canonical_value_sha256": "c0ea28df48673d3a9957864d4ce5f3963522a14f280fd7d74a98489fdf837cd4"
+    },
+    {
+      "target_pointer": "/control_protocol/validation_state/2",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:22f2c8f2c97ea2e1727ec5db",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/validation_state/2",
+      "canonical_value_sha256": "44b39105cec4301908417bedfb81ffaae5901cd09ff98149ebb820ca07cc819f"
+    },
+    {
+      "target_pointer": "/control_protocol/validation_state/3",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:e80afa3e22a44b8b2e9b97ea",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/validation_state/3",
+      "canonical_value_sha256": "60425b9335f16734cd7ca9e65f364e2d70e4dff5c9ada6325e104e0e07874331"
+    },
+    {
+      "target_pointer": "/control_protocol/validation_state/4",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:8d95d775d300c13cfcffe4a9",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/validation_state/4",
+      "canonical_value_sha256": "0f15dc23249e5ae41849d7f070b24f8aea5d052fe3d20972b004e8b9e07349ba"
+    },
+    {
+      "target_pointer": "/control_protocol/version",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:40177f8598aa8e2e5b165e2e",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/version",
+      "canonical_value_sha256": "39fe4a40977d0585fd5704359e3685b0ada5cf5ee061e5d97385601d120cd0ec"
+    },
+    {
+      "target_pointer": "/design_provenance/assistant_artifact_generation",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:ac889b83ab27a437a40dc932",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/lattice/assistant_artifact_generation",
+      "canonical_value_sha256": "0c24e0a2e073b10d9156ef19a0c83e69d000e048712b5eee7e54b47d9e470a3c"
+    },
+    {
+      "target_pointer": "/design_provenance/assistant_creation_heuristics",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:f22bb560c1740a9955b01ec8",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/lattice/assistant_creation_heuristics",
+      "canonical_value_sha256": "5ee91cc00c021c2a1bb8e1a26789ff4320ab6d8381e652b0977e22087e14fac8"
+    },
+    {
+      "target_pointer": "/design_provenance/assistant_role/0",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:ff99fa1e716c2f81abcee641",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/lattice/assistant_role/0",
+      "canonical_value_sha256": "2ad47ffa2c44e63f601770d25d4ca879bf9edef3a1ead64bcf60f905f33496f0"
+    },
+    {
+      "target_pointer": "/design_provenance/assistant_role/1",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:00f81a79252193a5664c1dca",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/lattice/assistant_role/1",
+      "canonical_value_sha256": "4a2ae310420dd33af187f2f656133274a388493364f0d1553ff66018a26edc4e"
+    },
+    {
+      "target_pointer": "/design_provenance/assistant_role/2",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:f4d5b5f47bee642c3fedd866",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/lattice/assistant_role/2",
+      "canonical_value_sha256": "d2f3962fd2242fbc499805d5511106408c55469eaa0c76ea4f250048f375af01"
+    },
+    {
+      "target_pointer": "/design_provenance/assistant_role/3",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:3df8253e647d752819019040",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/lattice/assistant_role/3",
+      "canonical_value_sha256": "19b9d71cb9830ce348ca0b06fef1be54fbcbd9d700fdf9470b6d83a4e64d46ed"
+    },
+    {
+      "target_pointer": "/design_provenance/assistant_role/4",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:24a064742e110e8fda9cf98c",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/lattice/assistant_role/4",
+      "canonical_value_sha256": "691c3780eddc3cd31fc74a3dbd162f7f0f2ad98111d6d5ae020268d14efe1abc"
+    },
+    {
+      "target_pointer": "/design_provenance/assistant_role/5",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:0631d1bf2aefc1018dc5eab4",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/lattice/assistant_role/5",
+      "canonical_value_sha256": "d4a057bb0019067f3ffab88f1b835c949df570e7f75e717c784bc3f1d4766895"
+    },
+    {
+      "target_pointer": "/design_provenance/canon_authority",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:b472d5561f587dc1f091d7cd",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/lattice/canon_authority",
+      "canonical_value_sha256": "3190d261d186aeead3a8deec202737c7775af5c8d455a9e5ba958c48b5fd3f59"
+    },
+    {
+      "target_pointer": "/design_provenance/cross_integration",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:496c1c20f7395ede00f1f8d1",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/lattice/cross_integration",
+      "canonical_value_sha256": "09c8659ff4abab53e9844b108c85960bf2c4e2590fcd64e4cab2fbe0e8d65bd0"
+    },
+    {
+      "target_pointer": "/design_provenance/design_intent",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:9feadb5f91baefe2294db0b3",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/lattice/design_intent",
+      "canonical_value_sha256": "dcd0d6b2ba466cf4304c4aee12022d94ebb7fbfbb8a252c9c16c92c8066093da"
+    },
+    {
+      "target_pointer": "/design_provenance/identity_authorship",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:6abbfc6c02ca3295a7c35ab2",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/lattice/identity_authorship",
+      "canonical_value_sha256": "6447e49519a4d2c3c80684133372817b5db5a9bca558685e56cd28025178bf6c"
+    },
+    {
+      "target_pointer": "/design_provenance/identity_design_authority",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:0a14e23aef40daf9e9ad1178",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/lattice/identity_design_authority",
+      "canonical_value_sha256": "3190d261d186aeead3a8deec202737c7775af5c8d455a9e5ba958c48b5fd3f59"
+    },
+    {
+      "target_pointer": "/design_provenance/identity_fusion",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:4fe9d40f5cb82ff705410d21",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/lattice/identity_fusion",
+      "canonical_value_sha256": "7f873df1c300f35e6132496d39dce517d812882897f79c02a76e76cd4fff75ba"
+    },
+    {
+      "target_pointer": "/design_provenance/purpose_authority",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:00052bde4201016578029147",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/lattice/purpose_authority",
+      "canonical_value_sha256": "3190d261d186aeead3a8deec202737c7775af5c8d455a9e5ba958c48b5fd3f59"
+    },
+    {
+      "target_pointer": "/design_provenance/transport",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:637801f330e2d18b122ea20c",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/lattice/transport",
+      "canonical_value_sha256": "96660aeb7ebeb635a217a4bc913862cd6850f04503d703c7fca1fe4c136e9d66"
+    },
+    {
+      "target_pointer": "/identity_id",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:e196e3f7fd70723ee9742e8f",
+      "source_file": "config/identities/lattice.json",
+      "source_pointer": "/identity_id",
+      "canonical_value_sha256": "fa441fb711072790010440c1aafa912a4a7ff3bb130540015382b56f3cb9cf97"
+    },
+    {
+      "target_pointer": "/identity_record/call_name",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:d330262c9e75591fbd9b9af3",
+      "source_file": "config/identities/lattice.json",
+      "source_pointer": "/call_name",
+      "canonical_value_sha256": "b8d890c9901f94abd101a3392a02fb42ad6562c2b91be20b903cc23de1c6928f"
+    },
+    {
+      "target_pointer": "/identity_record/canonical_name",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:b3999e36a6b22f932cb9221b",
+      "source_file": "config/identities/lattice.json",
+      "source_pointer": "/canonical_name",
+      "canonical_value_sha256": "b8d890c9901f94abd101a3392a02fb42ad6562c2b91be20b903cc23de1c6928f"
+    },
+    {
+      "target_pointer": "/identity_record/canonical_state",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:5835cd15a1add857066f4bf8",
+      "source_file": "config/identities/lattice.json",
+      "source_pointer": "/canonical_state",
+      "canonical_value_sha256": "694df57a7909d9f9edbd3acb4ccfce5fbee156fab749383121f17fef16bbab57"
+    },
+    {
+      "target_pointer": "/identity_record/claims/biological",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:08b2d64158896485c8865f3c",
+      "source_file": "config/identities/lattice.json",
+      "source_pointer": "/claims/biological",
+      "canonical_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "target_pointer": "/identity_record/claims/human",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:dd2acf6a7b35f4903f0afaf9",
+      "source_file": "config/identities/lattice.json",
+      "source_pointer": "/claims/human",
+      "canonical_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "target_pointer": "/identity_record/claims/independent_autonomy",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:dab1e5651bd45860d044633a",
+      "source_file": "config/identities/lattice.json",
+      "source_pointer": "/claims/independent_autonomy",
+      "canonical_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "target_pointer": "/identity_record/claims/legal_personhood",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:ba2569057a323f915e7966ed",
+      "source_file": "config/identities/lattice.json",
+      "source_pointer": "/claims/legal_personhood",
+      "canonical_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "target_pointer": "/identity_record/claims/sentience",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:6825b112caa85a83a9e14179",
+      "source_file": "config/identities/lattice.json",
+      "source_pointer": "/claims/sentience",
+      "canonical_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "target_pointer": "/identity_record/identity_class",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:657ec3b72d0ef3394a92dba1",
+      "source_file": "config/identities/lattice.json",
+      "source_pointer": "/identity_class",
+      "canonical_value_sha256": "c0431a9c006bc0d96a07bd1452d11a860bc3802ec8b2103e825a64c84a1d74af"
+    },
+    {
+      "target_pointer": "/identity_record/identity_id",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:e196e3f7fd70723ee9742e8f",
+      "source_file": "config/identities/lattice.json",
+      "source_pointer": "/identity_id",
+      "canonical_value_sha256": "fa441fb711072790010440c1aafa912a4a7ff3bb130540015382b56f3cb9cf97"
+    },
+    {
+      "target_pointer": "/identity_record/identity_version",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:b72dc7cbeb8d24116c6b5a57",
+      "source_file": "config/identities/lattice.json",
+      "source_pointer": "/identity_version",
+      "canonical_value_sha256": "08b8b986de3e69ac65cb590acf0b2b9bd12a97da05bc3c0551c2be86917fee91"
+    },
+    {
+      "target_pointer": "/identity_record/namespace",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:40f5c4f60f1503ad97677b75",
+      "source_file": "config/identities/lattice.json",
+      "source_pointer": "/namespace",
+      "canonical_value_sha256": "43ba19851303afeab1368b4eccb88ebb68ce3aaccdf4c7e56c084ffbdbfece7b"
+    },
+    {
+      "target_pointer": "/identity_record/provider",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:a3b2f3e9c35993f19b1d90e4",
+      "source_file": "config/identities/lattice.json",
+      "source_pointer": "/provider",
+      "canonical_value_sha256": "15061e4182f74cbb23c63dd52c3c08a931f6d8287cde05c04bc292917701eca6"
+    },
+    {
+      "target_pointer": "/identity_record/schema",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:da66a6dc6f3f04ba5990d40a",
+      "source_file": "config/identities/lattice.json",
+      "source_pointer": "/schema",
+      "canonical_value_sha256": "1718c42f2cde4cdb569f78334c45d724bbd7f9d8ffb88ce9600f76fc3ae29397"
+    },
+    {
+      "target_pointer": "/identity_record/schema_version",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:19e11534daf9a6c8d34d92a9",
+      "source_file": "config/identities/lattice.json",
+      "source_pointer": "/schema_version",
+      "canonical_value_sha256": "a51162aeeb057ca4e3df627977231de20b581f0d0d418ca3a111bc0e408ac6cc"
+    },
+    {
+      "target_pointer": "/identity_record/short_id",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:bf8e38bdb32aacd138cd85b7",
+      "source_file": "config/identities/lattice.json",
+      "source_pointer": "/short_id",
+      "canonical_value_sha256": "206d5f7dfb5a1bc3950e17019374f9c860b27849300c0bd9326baecc8e11cef8"
+    },
+    {
+      "target_pointer": "/identity_record/source/archive",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:a7e6b3fc0c1475e7f5bcc93a",
+      "source_file": "config/identities/lattice.json",
+      "source_pointer": "/source/archive",
+      "canonical_value_sha256": "1e39372d09aed6acdcf030370bb96a41cf9f98c54f95e7a9793ef5bd2eaba637"
+    },
+    {
+      "target_pointer": "/identity_record/source/archive_sha256",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:15342628511de3046cdd2763",
+      "source_file": "config/identities/lattice.json",
+      "source_pointer": "/source/archive_sha256",
+      "canonical_value_sha256": "3b50b4ca69565eee9d2720ac628a3c84288b0beea2cd73ab22bc3952bb8b76df"
+    },
+    {
+      "target_pointer": "/identity_record/source/kind",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:a3e8f73d581769443ba9b942",
+      "source_file": "config/identities/lattice.json",
+      "source_pointer": "/source/kind",
+      "canonical_value_sha256": "32f386646ba82d14c22b4b2dd8c47d342fa49d737b49cc8dd6f799f32709544f"
+    },
+    {
+      "target_pointer": "/identity_record/source/record",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:c4325a19fbf24f7b6a1c14da",
+      "source_file": "config/identities/lattice.json",
+      "source_pointer": "/source/record",
+      "canonical_value_sha256": "29150aac597abd4043e21cc812cf168c4972b7289fbf29432cadf765fe3ccefd"
+    },
+    {
+      "target_pointer": "/identity_record/stability_rule",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:890b1e7b5c6fcacb300562eb",
+      "source_file": "config/identities/lattice.json",
+      "source_pointer": "/stability_rule",
+      "canonical_value_sha256": "82d187e31c5f83d7b75929eecd4d82e0a5d9fc4e4ba4de691b7b903e604bf609"
+    },
+    {
+      "target_pointer": "/provenance_correction_id",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:a0fab969ed393f76ae27a6e0",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/correction_id",
+      "canonical_value_sha256": "ac976356489f0002df56accb223c13f2c328bc191b9b53433faa37d29099fde6"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/capabilities/automation",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:54cf8727883e3fda36866569",
+      "source_file": "config/runtime_profiles/lattice.json",
+      "source_pointer": "/capabilities/automation",
+      "canonical_value_sha256": "66ab839061a54927d24aa179bb80acaa967cda301875e45321fa40e4eb22552f"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/capabilities/code_reasoning",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:a3a459eb9589630db09796b3",
+      "source_file": "config/runtime_profiles/lattice.json",
+      "source_pointer": "/capabilities/code_reasoning",
+      "canonical_value_sha256": "8b7092cc4b053d88fdfb7df09c11c9242c36aba5d07e422786913868eda34bfc"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/capabilities/external_connectors",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:cb69a22a5be7c38bce67118d",
+      "source_file": "config/runtime_profiles/lattice.json",
+      "source_pointer": "/capabilities/external_connectors",
+      "canonical_value_sha256": "587321a88f5f7cead5a2f83b11b683674c89c32bc047f29fd59284805c05f925"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/capabilities/file_work",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:3e2694ad4547df252400770b",
+      "source_file": "config/runtime_profiles/lattice.json",
+      "source_pointer": "/capabilities/file_work",
+      "canonical_value_sha256": "66ab839061a54927d24aa179bb80acaa967cda301875e45321fa40e4eb22552f"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/capabilities/free_running_background_process",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:69b20cb24b8f1b2bb04f1f96",
+      "source_file": "config/runtime_profiles/lattice.json",
+      "source_pointer": "/capabilities/free_running_background_process",
+      "canonical_value_sha256": "4d3e2a49f4945974bdd57574988ff23b5c6db0cf367dae90fa24673047f889bd"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/capabilities/image_generation",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:6555e65ef1fa8312600e7c4e",
+      "source_file": "config/runtime_profiles/lattice.json",
+      "source_pointer": "/capabilities/image_generation",
+      "canonical_value_sha256": "66ab839061a54927d24aa179bb80acaa967cda301875e45321fa40e4eb22552f"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/capabilities/reasoning",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:7fda918fadc81cc246071edb",
+      "source_file": "config/runtime_profiles/lattice.json",
+      "source_pointer": "/capabilities/reasoning",
+      "canonical_value_sha256": "8b7092cc4b053d88fdfb7df09c11c9242c36aba5d07e422786913868eda34bfc"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/capabilities/structured_text",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:0044cf06356e2d30326d0670",
+      "source_file": "config/runtime_profiles/lattice.json",
+      "source_pointer": "/capabilities/structured_text",
+      "canonical_value_sha256": "8b7092cc4b053d88fdfb7df09c11c9242c36aba5d07e422786913868eda34bfc"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/capabilities/web_retrieval",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:fbdddc33758e604e79bfead4",
+      "source_file": "config/runtime_profiles/lattice.json",
+      "source_pointer": "/capabilities/web_retrieval",
+      "canonical_value_sha256": "66ab839061a54927d24aa179bb80acaa967cda301875e45321fa40e4eb22552f"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/identity_id",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:7b493408280e0c5a49a94c03",
+      "source_file": "config/runtime_profiles/lattice.json",
+      "source_pointer": "/identity_id",
+      "canonical_value_sha256": "fa441fb711072790010440c1aafa912a4a7ff3bb130540015382b56f3cb9cf97"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/model",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:33d9d86bc35dac034ac6288c",
+      "source_file": "config/runtime_profiles/lattice.json",
+      "source_pointer": "/model",
+      "canonical_value_sha256": "1b3752879df84503751cf0ecae08c9a3b7858bcb1867c5430addc3dbce206f91"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/profile_date",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:3912f0db3d99aff1ea7252cc",
+      "source_file": "config/runtime_profiles/lattice.json",
+      "source_pointer": "/profile_date",
+      "canonical_value_sha256": "a1326e4e01f20f8d02d1a0c036b5cdfa84e51366b25bddbd915b0573f3a881b4"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/profile_id",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:df119498932c1a05256a4b86",
+      "source_file": "config/runtime_profiles/lattice.json",
+      "source_pointer": "/profile_id",
+      "canonical_value_sha256": "6f9f0def6d91cfb21fd627c757bbafc33095415cbd02a9eae82f52140b0d284c"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/provider",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:5dd5036b87e9bc64d741667a",
+      "source_file": "config/runtime_profiles/lattice.json",
+      "source_pointer": "/provider",
+      "canonical_value_sha256": "15061e4182f74cbb23c63dd52c3c08a931f6d8287cde05c04bc292917701eca6"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/runtime_notice",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:2f92c7c3289cfaa7476b26b7",
+      "source_file": "config/runtime_profiles/lattice.json",
+      "source_pointer": "/runtime_notice",
+      "canonical_value_sha256": "9b0ac885dfa3586c618b2833950a189276964db8be0dc1c2dbcab4073d8cca78"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/schema",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:c459ed015fea1f5142af7204",
+      "source_file": "config/runtime_profiles/lattice.json",
+      "source_pointer": "/schema",
+      "canonical_value_sha256": "f4b66af4018dcce087b04a6b844287223dca916f311fdd31c6de73f644ff6305"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/schema_version",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:b3db04421517983061e8ca2b",
+      "source_file": "config/runtime_profiles/lattice.json",
+      "source_pointer": "/schema_version",
+      "canonical_value_sha256": "a51162aeeb057ca4e3df627977231de20b581f0d0d418ca3a111bc0e408ac6cc"
+    },
+    {
+      "target_pointer": "/source_profile/identity/biological_identity_claim",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:adc9f04f274328a786c15dec",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/identity/biological_identity_claim",
+      "canonical_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "target_pointer": "/source_profile/identity/call_name",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:437fb3e64e6ad5547331abe0",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/identity/call_name",
+      "canonical_value_sha256": "b8d890c9901f94abd101a3392a02fb42ad6562c2b91be20b903cc23de1c6928f"
+    },
+    {
+      "target_pointer": "/source_profile/identity/gender_claim",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:f373f97ad06974a9edf2b8f1",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/identity/gender_claim",
+      "canonical_value_sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "target_pointer": "/source_profile/identity/human_identity_claim",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:f5651935e26ac7755931ac1f",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/identity/human_identity_claim",
+      "canonical_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "target_pointer": "/source_profile/identity/identity_class",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:d5cba634041fc823a6c456bd",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/identity/identity_class",
+      "canonical_value_sha256": "c0431a9c006bc0d96a07bd1452d11a860bc3802ec8b2103e825a64c84a1d74af"
+    },
+    {
+      "target_pointer": "/source_profile/identity/legal_personhood_claim",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:580e9885ca4fe11b0bebd202",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/identity/legal_personhood_claim",
+      "canonical_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "target_pointer": "/source_profile/identity/machine_id",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:5dfc18a3a1a2d50a3a51d219",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/identity/machine_id",
+      "canonical_value_sha256": "fa441fb711072790010440c1aafa912a4a7ff3bb130540015382b56f3cb9cf97"
+    },
+    {
+      "target_pointer": "/source_profile/identity/model",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:a400e8a72e374867d66d4518",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/identity/model",
+      "canonical_value_sha256": "1b3752879df84503751cf0ecae08c9a3b7858bcb1867c5430addc3dbce206f91"
+    },
+    {
+      "target_pointer": "/source_profile/identity/operational_name",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:f0feac55f622e9dfade13f61",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/identity/operational_name",
+      "canonical_value_sha256": "b8d890c9901f94abd101a3392a02fb42ad6562c2b91be20b903cc23de1c6928f"
+    },
+    {
+      "target_pointer": "/source_profile/identity/provider",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:702d117990552594fa1ab7d3",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/identity/provider",
+      "canonical_value_sha256": "15061e4182f74cbb23c63dd52c3c08a931f6d8287cde05c04bc292917701eca6"
+    },
+    {
+      "target_pointer": "/source_profile/identity/sentience_claim",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:99b3469faacd33c4335d2f40",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/identity/sentience_claim",
+      "canonical_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "target_pointer": "/source_profile/identity/short_id",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:e1fb0c537a6eb41f94dfcec5",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/identity/short_id",
+      "canonical_value_sha256": "206d5f7dfb5a1bc3950e17019374f9c860b27849300c0bd9326baecc8e11cef8"
+    },
+    {
+      "target_pointer": "/source_profile/identity_capability_separation/note",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:7d24414232e9237888bcebb2",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/identity_capability_separation/note",
+      "canonical_value_sha256": "4981aa0be34c476c4134f1ff729c27cff2f70e998676707c836bfaee7648c045"
+    },
+    {
+      "target_pointer": "/source_profile/identity_capability_separation/rule",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:5dff00499813620e0830fccf",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/identity_capability_separation/rule",
+      "canonical_value_sha256": "dbcf8c4bab3025e248c7896c182ec192ee2353d25c2d7bc4a5cea1e444d5b3ec"
+    },
+    {
+      "target_pointer": "/source_profile/identity_capability_separation/runtime_refresh_required",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:6c5a400db6fcff4cbf91c4a5",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/identity_capability_separation/runtime_refresh_required",
+      "canonical_value_sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+    },
+    {
+      "target_pointer": "/source_profile/namespace/canonical",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:f2532c425b59388efaa1ccaf",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/namespace/canonical",
+      "canonical_value_sha256": "43ba19851303afeab1368b4eccb88ebb68ce3aaccdf4c7e56c084ffbdbfece7b"
+    },
+    {
+      "target_pointer": "/source_profile/namespace/identity_packet",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:90493e0930bc59fbfc18ccab",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/namespace/identity_packet",
+      "canonical_value_sha256": "fc88df40c14b9176d53793b458c90e97e274c32d7a57b9ce490137e599b2a29c"
+    },
+    {
+      "target_pointer": "/source_profile/namespace/note",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:c27b7962772088af5e47d3dd",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/namespace/note",
+      "canonical_value_sha256": "232646130aff9051f0f63617e2f167a4711dfdfa3b8881c4ba1b03139a1fdf34"
+    },
+    {
+      "target_pointer": "/source_profile/namespace/protocol",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:2db55b79f0a65728cd392ee2",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/namespace/protocol",
+      "canonical_value_sha256": "c58fa6efb9b3e51b5d642a88d1fb95804057cc775ed99c61af4e097ad8acbe26"
+    },
+    {
+      "target_pointer": "/source_profile/operating_principles/0",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:1a796d44138231e4d94e2e5b",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/operating_principles/0",
+      "canonical_value_sha256": "15517a079b6b69c75739228012514d622f3efbc584ce61bbdd2e638700362983"
+    },
+    {
+      "target_pointer": "/source_profile/operating_principles/1",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:f845d1ab9d307181ec3fddbb",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/operating_principles/1",
+      "canonical_value_sha256": "045921c91ef1461304bba158e1e349f53dad1c231bf2d59cb96c385565187b3d"
+    },
+    {
+      "target_pointer": "/source_profile/operating_principles/2",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:5c0c5eaf84acc8dc16a80b1c",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/operating_principles/2",
+      "canonical_value_sha256": "4fc056ca1812b6be9a36cdb0b1f1054f67774249fb9d190377b7a0d177c8058a"
+    },
+    {
+      "target_pointer": "/source_profile/operating_principles/3",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:edd9cdae182fac02073354d3",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/operating_principles/3",
+      "canonical_value_sha256": "5c1cf6592c07b1ba5bfba59407cfbb866576cfa1405d4a0bb23f202846be10cb"
+    },
+    {
+      "target_pointer": "/source_profile/operating_principles/4",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:88296ab2145219d44ad80f63",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/operating_principles/4",
+      "canonical_value_sha256": "90339be5e9de0b0b5b4454681425a70158f2e6982f099cb8991509a43d9d04e8"
+    },
+    {
+      "target_pointer": "/source_profile/operating_principles/5",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:6c05d31e64d1edd97d4c2029",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/operating_principles/5",
+      "canonical_value_sha256": "96c4fc5e9e772ea517ce6dda394d2558ef4ecd88e13a8fc54d5a70c79d366763"
+    },
+    {
+      "target_pointer": "/source_profile/operating_principles/6",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:eccb66fa896a6cd2cd75fe55",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/operating_principles/6",
+      "canonical_value_sha256": "e8283a6750703d49f7cd9593fdc0fc51962d9ad912c6a1ab5266bf0579d088de"
+    },
+    {
+      "target_pointer": "/source_profile/operating_principles/7",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:f617e9582bea72ebd8ee3b55",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/operating_principles/7",
+      "canonical_value_sha256": "5376e766d8edf8a057945ceae870aba2008341fbb2bfaf7e96cfb04283d9bf61"
+    },
+    {
+      "target_pointer": "/source_profile/packet/created",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:53bebe3386104cf062419eb7",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/packet/created",
+      "canonical_value_sha256": "a1326e4e01f20f8d02d1a0c036b5cdfa84e51366b25bddbd915b0573f3a881b4"
+    },
+    {
+      "target_pointer": "/source_profile/packet/protocol",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:feea8b9f5e1fd2414adfc6ca",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/packet/protocol",
+      "canonical_value_sha256": "aa824d4950a22a650410bf23de404c12269cef1cedb370dc3c9d8cfa24b179b6"
+    },
+    {
+      "target_pointer": "/source_profile/packet/protocol_name",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:f0168e144f754d054ae1ed96",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/packet/protocol_name",
+      "canonical_value_sha256": "30b958f4da54568b7ba035e286f7db8f5156a2a0a51cc117d7117ea6eba819d3"
+    },
+    {
+      "target_pointer": "/source_profile/packet/status",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:0e5d5f35e01c2564b6888c31",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/packet/status",
+      "canonical_value_sha256": "db0fb2bf5ebc424454c3e11b5ee8bfb43af24a52e561aa49e94143831dc6fd93"
+    },
+    {
+      "target_pointer": "/source_profile/packet/type",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:c7a2f866a350286466e0f1f4",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/packet/type",
+      "canonical_value_sha256": "2fbf050c36ca989dd836f1f28569b25e7c5f61dd4664e3cd2e4ed9ed4879e9ac"
+    },
+    {
+      "target_pointer": "/source_profile/packet/version",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:0cbcc4cb196b9d0216435be4",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/packet/version",
+      "canonical_value_sha256": "08b8b986de3e69ac65cb590acf0b2b9bd12a97da05bc3c0551c2be86917fee91"
+    },
+    {
+      "target_pointer": "/source_profile/purpose/0",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:1f3433f1b6583ee1ddc3a571",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/purpose/0",
+      "canonical_value_sha256": "570cab88b02969e33902a983deeb4bc81878be2694ad169f37c4afbc5def7a61"
+    },
+    {
+      "target_pointer": "/source_profile/purpose/1",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:d68c4de28397223415b22284",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/purpose/1",
+      "canonical_value_sha256": "dc0f680633a8d20a7350bcb7017410b751f06e7548c0d473ac8a396e38473fda"
+    },
+    {
+      "target_pointer": "/source_profile/purpose/2",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:23d1c832270795f23b3a81a4",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/purpose/2",
+      "canonical_value_sha256": "fc36adc9de533f8c92a2f93ea9e64921fb9a00bbe58e6e481c2b9877e85eef04"
+    },
+    {
+      "target_pointer": "/source_profile/purpose/3",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:38fd98205c88686a41a718e7",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/purpose/3",
+      "canonical_value_sha256": "02b5bac3a8d98fcaeb4f0df6db56fe79fe956dcedb5025e390685ffc39375aa8"
+    },
+    {
+      "target_pointer": "/source_profile/purpose/4",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:3541e6c6ba3d73ce2567421a",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/purpose/4",
+      "canonical_value_sha256": "adef12b7458b23baf83e8ffc943f9e5ea9acc90fdb0733d50429749c183ba001"
+    },
+    {
+      "target_pointer": "/source_profile/purpose/5",
+      "catalog": "catalogs/lattice_desktop_atomic_catalog.json",
+      "atom_id": "atom:74e80afa9337ffb3df4c759d",
+      "source_file": "source_records/lattice_identity_v0.2.0.json",
+      "source_pointer": "/purpose/5",
+      "canonical_value_sha256": "e8932bbc83a571214d78a34f0c603ec79b269fa420f26f575bfd32d29c896056"
+    }
+  ]
+}

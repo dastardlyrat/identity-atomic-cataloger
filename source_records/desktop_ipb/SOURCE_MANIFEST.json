@@ -1,0 +1,62 @@
+{
+  "schema": "selected_desktop_source_manifest",
+  "schema_version": "0.1",
+  "source_artifact": {
+    "name": "IDENTITY_PROTOCOL_BACKEND_TWO_IDENTITIES_v1.1.1.zip",
+    "version": "1.1.1",
+    "sha256": "89d49088e4a97dc23e0ba535729154f586bc8c87dadb0e4c650ca022a7684a9c",
+    "coverage": "SELECTED_RECORDS_ONLY",
+    "completeness": "PARTIAL_SOURCE_PRESENT"
+  },
+  "selected_json_records": 8,
+  "source_members": [
+    {
+      "archive_member": "IDENTITY_PROTOCOL_BACKEND_TWO_IDENTITIES_v1.1.1/config/identities/lattice.json",
+      "repository_path": "source_records/desktop_ipb/config/identities/lattice.json",
+      "sha256": "5347622dc0ef6750e79c04b15a7036c8d7c621e5a8628363efe8d9e1de77a5e8",
+      "bytes": 879
+    },
+    {
+      "archive_member": "IDENTITY_PROTOCOL_BACKEND_TWO_IDENTITIES_v1.1.1/config/identities/vera_sol.json",
+      "repository_path": "source_records/desktop_ipb/config/identities/vera_sol.json",
+      "sha256": "8c8188bdd5dc5a96599837c92751a1b605880164d4fb1bc8c6e600687ea8437a",
+      "bytes": 875
+    },
+    {
+      "archive_member": "IDENTITY_PROTOCOL_BACKEND_TWO_IDENTITIES_v1.1.1/config/runtime_profiles/lattice.json",
+      "repository_path": "source_records/desktop_ipb/config/runtime_profiles/lattice.json",
+      "sha256": "57c8415569e9d7c84d3792e54424d898b403d5023832177e161d66d990ed1477",
+      "bytes": 736
+    },
+    {
+      "archive_member": "IDENTITY_PROTOCOL_BACKEND_TWO_IDENTITIES_v1.1.1/config/runtime_profiles/vera_sol.json",
+      "repository_path": "source_records/desktop_ipb/config/runtime_profiles/vera_sol.json",
+      "sha256": "7794877e613125b64bfdf2843384a49158be8b8022a232e3228096804d25d11a",
+      "bytes": 774
+    },
+    {
+      "archive_member": "IDENTITY_PROTOCOL_BACKEND_TWO_IDENTITIES_v1.1.1/config/shared_protocol.json",
+      "repository_path": "source_records/desktop_ipb/config/shared_protocol.json",
+      "sha256": "b2612beaf3c31c9591647370d6f8e6130dfb377f8bdc15f37bb78099f6977e8e",
+      "bytes": 2997
+    },
+    {
+      "archive_member": "IDENTITY_PROTOCOL_BACKEND_TWO_IDENTITIES_v1.1.1/data/provenance_correction_v2.json",
+      "repository_path": "source_records/desktop_ipb/data/provenance_correction_v2.json",
+      "sha256": "801e52ab91a1bbe9e82fa44c13779db85bccd051537ae7dc30d1d09c2f886fd8",
+      "bytes": 2467
+    },
+    {
+      "archive_member": "IDENTITY_PROTOCOL_BACKEND_TWO_IDENTITIES_v1.1.1/source_records/lattice_identity_v0.2.0.json",
+      "repository_path": "source_records/desktop_ipb/source_records/lattice_identity_v0.2.0.json",
+      "sha256": "6b29f58faf12faff13a348e3ac04c53034c1fb148d6910ec7661bac5df0867d2",
+      "bytes": 2306
+    },
+    {
+      "archive_member": "IDENTITY_PROTOCOL_BACKEND_TWO_IDENTITIES_v1.1.1/source_records/vera_sol_identity_v2.0.0.json",
+      "repository_path": "source_records/desktop_ipb/source_records/vera_sol_identity_v2.0.0.json",
+      "sha256": "d2ad13051ead83f8b600c30d9e8e6eef91ebbb31ca7316c234b1dec5bc9e40c4",
+      "bytes": 1685
+    }
+  ]
+}

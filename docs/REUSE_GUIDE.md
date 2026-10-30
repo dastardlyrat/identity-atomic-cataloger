@@ -10,4 +10,10 @@ Recommended reuse workflow:
 6. Produce a new identity artifact only in a separate composition step.
 7. Validate that the resulting identity does not imply source identity fusion.
 
-The package intentionally contains no automatic composer.
+The core converter does not automatically compose identities. The separate
+`tools/build_desktop_agents.py` build performs explicit, source-derived
+composition for the approved Lattice and Vera Sol records. Its candidates,
+selection manifests, source snapshots, and build hashes are available under
+`agents/` and `source_records/desktop_ipb/`. New source sets or composition rules
+need their own selection and provenance decisions. Runtime activation remains
+separate from producing definition artifacts.

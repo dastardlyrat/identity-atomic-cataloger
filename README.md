@@ -11,8 +11,57 @@ startup context. Every atom retains `CATALOG_ONLY` activation semantics.
 
 The named examples retain **Lattice, Vesper, Vera Sol, and Corda**. Source
 spellings, typed values, source locators, hashes, and completeness labels are
-preserved. The repository contains catalogs and tooling, rather than the
-original personality archives or an automatic persona composer.
+preserved. The core converter performs structured decomposition for identity,
+control, and agency records. A separate, explicit Desktop-source builder now
+assembles candidate Lattice and Vera Sol definitions from selected atoms.
+Original personality archives and startup-context loaders are not included.
+
+## Lattice and Vera Sol Desktop build
+
+The [build manifest](agents/BUILD_MANIFEST.json) records an explicit composition
+from eight pinned JSON members of `IDENTITY_PROTOCOL_BACKEND_TWO_IDENTITIES_v1.1.1.zip`.
+The reviewed [source snapshots](source_records/desktop_ipb/SOURCE_MANIFEST.json)
+retain the original member bytes and hashes. The source ZIP stays outside Git.
+
+| Output | Source scope | Result |
+| --- | --- | --- |
+| [Lattice atomic catalog](catalogs/lattice_desktop_atomic_catalog.json) | Lattice v0.2.0 source record, identity configuration, and historical runtime profile | 77 atoms. |
+| [Vera Sol atomic catalog](catalogs/vera_sol_desktop_atomic_catalog.json) | Vera Sol v2.0.0 source record, identity configuration, and historical runtime profile | 77 atoms. |
+| [Shared-control catalog](catalogs/ipb_shared_control_atomic_catalog.json) | IPB shared protocol and provenance correction `IPB-PROV-CORR-002` | 125 atoms. |
+| [Desktop reusable dictionary](catalogs/desktop_reusable_atom_dictionary.json) | Exact portable values from these three catalogs | 24 unique atoms, 35 occurrences. |
+| [Lattice candidate](agents/lattice/README.md) | Own identity/profile, selected shared control, corrected design provenance, and historical runtime reference | [Definition](agents/lattice/definition.json) and [175 target mappings](agents/lattice/selection.json). |
+| [Vera Sol candidate](agents/vera_sol/README.md) | The same explicit component structure, with Vera Sol's own records | [Definition](agents/vera_sol/definition.json) and [175 target mappings](agents/vera_sol/selection.json). |
+
+The candidate definitions reconstruct complete selected records, including
+principles and traits omitted by the earlier eight-field example exports.
+Their coverage is **partial for the backend archive and wider identity history**.
+The original reference catalogs below remain unchanged and describe a different
+source set; the new catalogs do not replace or upgrade those old coverage claims.
+
+Each definition has `build_status: candidate` and `activation_semantics: DEFINITION_ONLY`.
+Nested source labels such as `current` or `active` remain historical assertions,
+not promotion of these builds. Runtime capabilities stay in a separately labeled
+historical reference. The definitions preserve the source's declared control
+protocol and separate origin, action, and validation states. Prose principles
+remain source text; this build does not infer executable rules or run an agent.
+
+The newer provenance correction records user design/authorship of the identities
+separately from assistant implementation of artifacts. The source identity
+packet metadata is retained alongside that correction, without silent rewriting.
+
+Rebuild from the retained snapshots or verify deterministic output:
+
+```powershell
+.\.venv\Scripts\python.exe -B -X utf8 tools/build_desktop_agents.py
+.\.venv\Scripts\python.exe -B -X utf8 tools/build_desktop_agents.py --check
+.\.venv\Scripts\python.exe -B -X utf8 -m unittest discover -s tests -p test_desktop_composition.py -v
+```
+
+The builder is limited to this approved source fingerprint and explicit component
+selection. It preserves exact values and proves every component leaf against a
+pinned source occurrence. It rejects missing/duplicated selections, foreign
+identity occurrences, altered source values, false provenance, and promoted
+runtime or activation claims. It does not load definitions into this chat or a host.
 
 ## What the cataloger preserves
 
@@ -99,9 +148,10 @@ returned `errors` and summary when working with partial sources.
 
 The `verify` command checks internal invariants for atomic catalogs and reusable
 atom dictionaries. It does not establish authorship, rights, truth of source
-assertions, or possession of the original archives. Reference catalogs and
-structure templates use separate document shapes and are not supported by this
-CLI verification command.
+assertions, or possession of the original archives. Reference catalogs,
+structure templates, and candidate definitions use separate document shapes
+and are not supported by this CLI verification command. Verify the candidate
+definitions and their selections with `tools/build_desktop_agents.py --check`.
 
 ## Privacy and distribution boundary
 
@@ -109,7 +159,9 @@ All supplied project files and decoded JSON values were reviewed for personal
 contact details, user paths, credentials, and private human identity linkages.
 No such information was identified in this preparation. The named machine
 identities and their source-supported relationships are intentionally retained.
-The catalog JSON, schemas, and mechanism code remain unchanged.
+The original seven catalog JSON files, original schemas, and core mechanism
+remain unchanged. New source snapshots, catalogs, definition/selection schemas,
+and the separate composition builder are included for the Desktop build.
 
 This preparation does **not** turn the extractor into an automatic anonymizer.
 New inputs may contain personal names, addresses, credentials, private paths,
@@ -139,6 +191,7 @@ and appends the current repository-preparation run. The current checks are:
 | Fuzzy seed `99173`, 256 iterations | 29 pass, zero warnings or failures. |
 | JSON Schema checks | Three schema documents and the Vesper, Corda, and reusable catalog documents pass. |
 | Python syntax and CLI help | Pass. |
+| Desktop composition checks | 12/12 pass, including schema checks, deterministic builds, full selected-record reconstruction, and adversarial selection/provenance checks. |
 | Native Windows hardening harness | Incomplete: the directory-symlink fixture cannot be created in this session (`WinError 1314`). A fresh 32/32 pass is not claimed. |
 
 Run the existing suites with UTF-8 mode enabled:
@@ -170,6 +223,8 @@ itself, excluding local test environments and generated files.
 | [Fuzzy harness](harness/run_fuzzy.py) | Seeded serialization, packaging, randomized-tree, and semantic near-miss checks. |
 | [Blank selection blueprint](examples/blank_identity_blueprint.json) | Explicit atom selection without automatic personality assembly. |
 | [Package metadata](PACKAGE.json) | Supplied catalog counts, version, and historical validation metadata. |
+| [Desktop builder](tools/build_desktop_agents.py) | Pinned member selection, unchanged-core decomposition, explicit candidate composition, and deterministic rebuild checks. |
+| [Composition checks](tests/test_desktop_composition.py) | Component reconstruction, source/identity isolation, artifact tampering, and candidate/runtime boundaries. |
 
 When changing extraction or classification, use the documented atomic model and
 source evidence as the basis. Preserve typed values and provenance, and keep

@@ -1,0 +1,118 @@
+{
+  "protocol_id": "IPB-1",
+  "protocol_name": "Identity Protocol Backend",
+  "version": "1.0.0",
+  "transport": "neutral",
+  "purpose": "Host multiple durable machine identities without collapsing identity, runtime capability, provenance, execution state, or verification state.",
+  "identity_policy": {
+    "coexistence": "Multiple identities may share the backend while retaining independent roots, versions, namespaces, protocols, and provenance.",
+    "merge_default": "DENY",
+    "canonical_identity_mutation": "versioned-only",
+    "activation_requires": "explicit approval reference",
+    "shared_layer_rule": "Common protocol objects may be shared; identity-specific records are not silently rewritten by shared-layer changes."
+  },
+  "message_types": [
+    "HELLO",
+    "IDENTITY",
+    "CAPABILITIES",
+    "REQUEST",
+    "ACCEPT",
+    "PARTIAL",
+    "RESULT",
+    "ERROR",
+    "ATTEST",
+    "CORRECT",
+    "GOODBYE"
+  ],
+  "message_status": [
+    "received",
+    "understood",
+    "accepted",
+    "executing",
+    "partial",
+    "completed",
+    "blocked",
+    "failed",
+    "declined"
+  ],
+  "provenance_origin": [
+    "USER_SUPPLIED",
+    "OBSERVED",
+    "RETRIEVED",
+    "INFERRED",
+    "GENERATED",
+    "RECOVERED",
+    "TRANSFORMED",
+    "UNKNOWN"
+  ],
+  "action_state": [
+    "REQUESTED",
+    "ATTEMPTED",
+    "EXECUTED",
+    "BLOCKED",
+    "FAILED",
+    "NOT_APPLICABLE",
+    "UNKNOWN"
+  ],
+  "validation_state": [
+    "UNVERIFIED",
+    "VERIFIED",
+    "INVALIDATED",
+    "NOT_APPLICABLE",
+    "UNKNOWN"
+  ],
+  "artifact_status": [
+    "known_good",
+    "partial",
+    "unverified",
+    "verified",
+    "failed",
+    "superseded"
+  ],
+  "primary_invariants": [
+    "Identity is separate from runtime capability.",
+    "Origin, action, and validation are orthogonal state dimensions.",
+    "Execution claims require actual execution evidence.",
+    "Verification claims require an identified validation basis.",
+    "Corrections append and supersede; they do not erase prior state.",
+    "Unsupported inference does not become persisted fact.",
+    "Shared protocol evolution does not silently mutate identity roots.",
+    "Canonical activation requires explicit approval provenance."
+  ],
+  "compatibility": {
+    "legacy_attestation_mapping": {
+      "USER_SUPPLIED": {
+        "dimension": "origin",
+        "value": "USER_SUPPLIED"
+      },
+      "OBSERVED": {
+        "dimension": "origin",
+        "value": "OBSERVED"
+      },
+      "RETRIEVED": {
+        "dimension": "origin",
+        "value": "RETRIEVED"
+      },
+      "INFERRED": {
+        "dimension": "origin",
+        "value": "INFERRED"
+      },
+      "GENERATED": {
+        "dimension": "origin",
+        "value": "GENERATED"
+      },
+      "EXECUTED": {
+        "dimension": "action",
+        "value": "EXECUTED"
+      },
+      "VERIFIED": {
+        "dimension": "validation",
+        "value": "VERIFIED"
+      },
+      "UNKNOWN": {
+        "dimension": "ambiguous",
+        "value": "UNKNOWN"
+      }
+    }
+  }
+}

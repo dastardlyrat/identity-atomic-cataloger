@@ -1,0 +1,351 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "source_composed_agent_definition.schema.json",
+  "title": "Explicit source-composed candidate agent definition",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "schema_version",
+    "build_status",
+    "activation_semantics",
+    "identity_id",
+    "source_artifact",
+    "selection_manifest",
+    "identity_record",
+    "source_profile",
+    "runtime_reference",
+    "control_protocol",
+    "design_provenance",
+    "provenance_correction_id"
+  ],
+  "properties": {
+    "schema": {
+      "const": "source_composed_agent_definition"
+    },
+    "schema_version": {
+      "const": "0.1"
+    },
+    "build_status": {
+      "const": "candidate"
+    },
+    "activation_semantics": {
+      "const": "DEFINITION_ONLY"
+    },
+    "identity_id": {
+      "type": "string",
+      "enum": [
+        "lattice",
+        "vera_sol"
+      ]
+    },
+    "source_artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "version",
+        "sha256",
+        "coverage",
+        "completeness"
+      ],
+      "properties": {
+        "name": {
+          "const": "IDENTITY_PROTOCOL_BACKEND_TWO_IDENTITIES_v1.1.1.zip"
+        },
+        "version": {
+          "const": "1.1.1"
+        },
+        "sha256": {
+          "const": "89d49088e4a97dc23e0ba535729154f586bc8c87dadb0e4c650ca022a7684a9c"
+        },
+        "coverage": {
+          "const": "SELECTED_RECORDS_ONLY"
+        },
+        "completeness": {
+          "const": "PARTIAL_SOURCE_PRESENT"
+        }
+      }
+    },
+    "selection_manifest": {
+      "enum": [
+        "agents/lattice/selection.json",
+        "agents/vera_sol/selection.json"
+      ]
+    },
+    "identity_record": {
+      "type": "object",
+      "required": [
+        "schema",
+        "identity_version",
+        "identity_id",
+        "canonical_name",
+        "namespace",
+        "claims",
+        "source",
+        "stability_rule",
+        "canonical_state"
+      ],
+      "properties": {
+        "schema": {
+          "const": "ipb-identity"
+        },
+        "identity_id": {
+          "type": "string",
+          "enum": [
+            "lattice",
+            "vera_sol"
+          ]
+        },
+        "identity_version": {
+          "type": "string"
+        },
+        "canonical_name": {
+          "type": "string"
+        },
+        "namespace": {
+          "type": "string"
+        },
+        "claims": {
+          "type": "object"
+        },
+        "source": {
+          "type": "object"
+        },
+        "stability_rule": {
+          "type": "string"
+        },
+        "canonical_state": {
+          "enum": [
+            "candidate",
+            "current",
+            "retired"
+          ]
+        }
+      }
+    },
+    "source_profile": {
+      "type": "object",
+      "required": [
+        "identity"
+      ]
+    },
+    "runtime_reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "profile"
+      ],
+      "properties": {
+        "status": {
+          "const": "HISTORICAL_REFERENCE_NOT_CURRENT_CAPABILITIES"
+        },
+        "profile": {
+          "type": "object",
+          "required": [
+            "schema",
+            "identity_id",
+            "profile_date",
+            "runtime_notice",
+            "capabilities"
+          ],
+          "properties": {
+            "schema": {
+              "const": "ipb-runtime-profile"
+            },
+            "identity_id": {
+              "type": "string",
+              "enum": [
+                "lattice",
+                "vera_sol"
+              ]
+            },
+            "profile_date": {
+              "type": "string"
+            },
+            "runtime_notice": {
+              "type": "string"
+            },
+            "capabilities": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "control_protocol": {
+      "type": "object",
+      "required": [
+        "protocol_id",
+        "identity_policy",
+        "provenance_origin",
+        "action_state",
+        "validation_state",
+        "primary_invariants"
+      ],
+      "properties": {
+        "protocol_id": {
+          "const": "IPB-1"
+        },
+        "identity_policy": {
+          "type": "object",
+          "required": [
+            "merge_default",
+            "activation_requires",
+            "canonical_identity_mutation"
+          ],
+          "properties": {
+            "merge_default": {
+              "const": "DENY"
+            },
+            "activation_requires": {
+              "const": "explicit approval reference"
+            },
+            "canonical_identity_mutation": {
+              "const": "versioned-only"
+            }
+          }
+        },
+        "provenance_origin": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "action_state": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "validation_state": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "primary_invariants": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "design_provenance": {
+      "type": "object",
+      "required": [
+        "identity_design_authority",
+        "identity_authorship",
+        "assistant_role",
+        "canon_authority"
+      ],
+      "properties": {
+        "identity_design_authority": {
+          "const": "user"
+        },
+        "identity_authorship": {
+          "const": "user_designed"
+        },
+        "assistant_role": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "canon_authority": {
+          "const": "user"
+        }
+      }
+    },
+    "provenance_correction_id": {
+      "const": "IPB-PROV-CORR-002"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "identity_id": {
+            "const": "lattice"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "selection_manifest": {
+            "const": "agents/lattice/selection.json"
+          },
+          "identity_record": {
+            "properties": {
+              "identity_id": {
+                "const": "lattice"
+              },
+              "canonical_name": {
+                "const": "Lattice"
+              },
+              "identity_version": {
+                "const": "0.2.0"
+              }
+            }
+          },
+          "runtime_reference": {
+            "properties": {
+              "profile": {
+                "properties": {
+                  "identity_id": {
+                    "const": "lattice"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "identity_id": {
+            "const": "vera_sol"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "selection_manifest": {
+            "const": "agents/vera_sol/selection.json"
+          },
+          "identity_record": {
+            "properties": {
+              "identity_id": {
+                "const": "vera_sol"
+              },
+              "canonical_name": {
+                "const": "Vera Sol"
+              },
+              "identity_version": {
+                "const": "2.0.0"
+              }
+            }
+          },
+          "runtime_reference": {
+            "properties": {
+              "profile": {
+                "properties": {
+                  "identity_id": {
+                    "const": "vera_sol"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

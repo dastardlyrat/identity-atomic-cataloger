@@ -1,0 +1,1429 @@
+{
+  "schema": "agent_atom_selection",
+  "schema_version": "0.1",
+  "identity_id": "vera_sol",
+  "build_status": "candidate",
+  "activation_semantics": "DEFINITION_ONLY",
+  "composition_authority": "User-approved source-derived composition; no runtime activation.",
+  "source_artifact": {
+    "name": "IDENTITY_PROTOCOL_BACKEND_TWO_IDENTITIES_v1.1.1.zip",
+    "version": "1.1.1",
+    "sha256": "89d49088e4a97dc23e0ba535729154f586bc8c87dadb0e4c650ca022a7684a9c",
+    "coverage": "SELECTED_RECORDS_ONLY",
+    "completeness": "PARTIAL_SOURCE_PRESENT"
+  },
+  "catalogs": [
+    {
+      "path": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "sha256": "c76b10d03e523867ab22ca8e3802359ae8c7672df6f98e9b3f086791a1d666fe",
+      "subject": "Vera Sol"
+    },
+    {
+      "path": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "sha256": "1033e3642a6c0e169b938b81909c0cffbdaab426681892ecaa194b03fd5f66dd",
+      "subject": "IPB Shared Control"
+    }
+  ],
+  "selections": [
+    {
+      "target_pointer": "/control_protocol/action_state/0",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:bef361c43914ccd3bb1063e0",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/action_state/0",
+      "canonical_value_sha256": "40ea7d4f4bb8ae18f3fb22b1bca60c9c8ccc62f1534114f29311573bed9cd762"
+    },
+    {
+      "target_pointer": "/control_protocol/action_state/1",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:041c0e708ebef3fa3027d608",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/action_state/1",
+      "canonical_value_sha256": "85d8d560b24134edb1c19c932d7e30f938a563559fafc4ea19f47aba519232a3"
+    },
+    {
+      "target_pointer": "/control_protocol/action_state/2",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:84263afbc645c45c598db90b",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/action_state/2",
+      "canonical_value_sha256": "f54361f68dfafbbf5619bcd355e803c2124e73937037c63c39d83ee6419bff67"
+    },
+    {
+      "target_pointer": "/control_protocol/action_state/3",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:083d4be8127d5b72f71ba265",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/action_state/3",
+      "canonical_value_sha256": "0b5e064c8b72fcf9e231828c9a5721d449e3f8d3b1787795bb7d517fb36217b8"
+    },
+    {
+      "target_pointer": "/control_protocol/action_state/4",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:ba2291e4cdd4e4323cb2e603",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/action_state/4",
+      "canonical_value_sha256": "7e8a57fe6936f927105769ecc492a139e1dd56a973b673a904b7a3a3fd41ee6a"
+    },
+    {
+      "target_pointer": "/control_protocol/action_state/5",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:076e23bd08273e43836c9672",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/action_state/5",
+      "canonical_value_sha256": "60425b9335f16734cd7ca9e65f364e2d70e4dff5c9ada6325e104e0e07874331"
+    },
+    {
+      "target_pointer": "/control_protocol/action_state/6",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:96d6a370f804ff710886a301",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/action_state/6",
+      "canonical_value_sha256": "0f15dc23249e5ae41849d7f070b24f8aea5d052fe3d20972b004e8b9e07349ba"
+    },
+    {
+      "target_pointer": "/control_protocol/artifact_status/0",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:7b42c01d507d2b42063d2729",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/artifact_status/0",
+      "canonical_value_sha256": "8949b4a16a0714fd9a240a8ed28d5cefa9157a5dc68af159359e66cd586bbf8d"
+    },
+    {
+      "target_pointer": "/control_protocol/artifact_status/1",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:302024ae2bb80f28ead18a3e",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/artifact_status/1",
+      "canonical_value_sha256": "8ac24611cfe47c129e37108bc6adc6843c4fe8fb9c37c27fac8a1835ba660307"
+    },
+    {
+      "target_pointer": "/control_protocol/artifact_status/2",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:8c85dd55907bf7765ab7b10d",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/artifact_status/2",
+      "canonical_value_sha256": "e9f69bb9e95e952aee0f44087595446891c645b7eaaaa25f08688125c242778d"
+    },
+    {
+      "target_pointer": "/control_protocol/artifact_status/3",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:ba149bd1ac4364ad6bcd0f76",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/artifact_status/3",
+      "canonical_value_sha256": "3d50e8dfbd6e9d98d503dbdd371f0896b67b6f98884de6b1bbc711bff2508994"
+    },
+    {
+      "target_pointer": "/control_protocol/artifact_status/4",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:77ee7f22e95fc1790fe80db9",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/artifact_status/4",
+      "canonical_value_sha256": "33d04bd775e7b6c6436742508b41fa693a15bd2c902fcd994253392abd717740"
+    },
+    {
+      "target_pointer": "/control_protocol/artifact_status/5",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:0212ed86d4d7c01e1773b467",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/artifact_status/5",
+      "canonical_value_sha256": "910626819e9812195810299d9cc9ee97656081d929feda68b53d4810c94ad01c"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/EXECUTED/dimension",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:d322eaff086746bd247b123d",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/EXECUTED/dimension",
+      "canonical_value_sha256": "6b6fdce2c6f9762666c2e6dd00b3a89831d3b2f9ec0bfa4054bf88fa9b45fad6"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/EXECUTED/value",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:15baf8074e2bf18c6fc62818",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/EXECUTED/value",
+      "canonical_value_sha256": "f54361f68dfafbbf5619bcd355e803c2124e73937037c63c39d83ee6419bff67"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/GENERATED/dimension",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:059f74a88e544235d879bcc7",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/GENERATED/dimension",
+      "canonical_value_sha256": "98ade16cf21887101748f3ac7ca453fc41e49eb6ae3a48cae91f1c225d4fc000"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/GENERATED/value",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:d15ea83eb4d42d61f4949647",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/GENERATED/value",
+      "canonical_value_sha256": "df3df625a93ee5dbf709ee40d2b09b65695a1a27f483f4ff0e3df0fcc6137ebf"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/INFERRED/dimension",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:36e5cc991b6c8ac5ada88705",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/INFERRED/dimension",
+      "canonical_value_sha256": "98ade16cf21887101748f3ac7ca453fc41e49eb6ae3a48cae91f1c225d4fc000"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/INFERRED/value",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:9deeeb76db1d814fa5dc249b",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/INFERRED/value",
+      "canonical_value_sha256": "a48cdfe57cd25913815777c718324a1baa18855067bfaa1d1dcd40228ea19bb7"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/OBSERVED/dimension",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:032ca41260e174dd484622a3",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/OBSERVED/dimension",
+      "canonical_value_sha256": "98ade16cf21887101748f3ac7ca453fc41e49eb6ae3a48cae91f1c225d4fc000"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/OBSERVED/value",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:2469f01266f121e9079ffe5a",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/OBSERVED/value",
+      "canonical_value_sha256": "827761a810e70fe2741d3562eb2ad45028f503e043d8cda7edf26a06d726b638"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/RETRIEVED/dimension",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:21089039e564d64b6b10b4cf",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/RETRIEVED/dimension",
+      "canonical_value_sha256": "98ade16cf21887101748f3ac7ca453fc41e49eb6ae3a48cae91f1c225d4fc000"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/RETRIEVED/value",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:e8a4fdaa3cdc0b8107124dbb",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/RETRIEVED/value",
+      "canonical_value_sha256": "71ed3f576fd6fbefcd959825e9e77f71a78a14f7ac9a428c650524d88a39a565"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/UNKNOWN/dimension",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:45de8343616d79fbec97c800",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/UNKNOWN/dimension",
+      "canonical_value_sha256": "951a61449ba2cf661f1efebaf5a71ef838059cb5fec57eaf862e4701a5a60955"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/UNKNOWN/value",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:a2bbb1954e6483a4f869d695",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/UNKNOWN/value",
+      "canonical_value_sha256": "0f15dc23249e5ae41849d7f070b24f8aea5d052fe3d20972b004e8b9e07349ba"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/USER_SUPPLIED/dimension",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:c7c2b1d4420cf7f3b3c2f4e1",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/USER_SUPPLIED/dimension",
+      "canonical_value_sha256": "98ade16cf21887101748f3ac7ca453fc41e49eb6ae3a48cae91f1c225d4fc000"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/USER_SUPPLIED/value",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:91bc2a524afb59ce63aa8071",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/USER_SUPPLIED/value",
+      "canonical_value_sha256": "e5dc0a858f377d538dd9c9ee897487e1ebdbb61b0ed9b28c0423385aa32c90c0"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/VERIFIED/dimension",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:872ec749e828e643d6d1f533",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/VERIFIED/dimension",
+      "canonical_value_sha256": "56a509f1644233a7ddf1c25ce1a1b39f1caeddc5e4de54d5c0abb29d5746a5a1"
+    },
+    {
+      "target_pointer": "/control_protocol/compatibility/legacy_attestation_mapping/VERIFIED/value",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:b1c99a0010ba2a9a0e7a6c32",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/compatibility/legacy_attestation_mapping/VERIFIED/value",
+      "canonical_value_sha256": "c0ea28df48673d3a9957864d4ce5f3963522a14f280fd7d74a98489fdf837cd4"
+    },
+    {
+      "target_pointer": "/control_protocol/identity_policy/activation_requires",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:f8ffe8318eef8bc5ae65a2e0",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/identity_policy/activation_requires",
+      "canonical_value_sha256": "ba362fda1f90d9a0a95b48c9911fc9ce48bcd4793fbc8e3a059d939ddc69978d"
+    },
+    {
+      "target_pointer": "/control_protocol/identity_policy/canonical_identity_mutation",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:32ba2cc81fed578429155647",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/identity_policy/canonical_identity_mutation",
+      "canonical_value_sha256": "e160fc90e3831637746479a7de2e470daee5352ed72c709de83446c7bd7b5500"
+    },
+    {
+      "target_pointer": "/control_protocol/identity_policy/coexistence",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:0079a9e9b19ac4284b650086",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/identity_policy/coexistence",
+      "canonical_value_sha256": "4ee332db27783eb2e0098cba8533cad076a5757e18a749c57cc8d82bb42351a1"
+    },
+    {
+      "target_pointer": "/control_protocol/identity_policy/merge_default",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:f6176d45e21a63e3517bb7f4",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/identity_policy/merge_default",
+      "canonical_value_sha256": "65b666a4e58530da6f56235ddf6454b756f678ffe18b207609e716ace36c34f9"
+    },
+    {
+      "target_pointer": "/control_protocol/identity_policy/shared_layer_rule",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:c88fb24390ca04b88ca59c92",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/identity_policy/shared_layer_rule",
+      "canonical_value_sha256": "bce7e4717c47dcbbf8b1f293a3dc573592211a929a5434affd1f491cc9cbd6db"
+    },
+    {
+      "target_pointer": "/control_protocol/message_status/0",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:b426a502f21b4c9c3c474c25",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_status/0",
+      "canonical_value_sha256": "00404caa9f048147a777074ecaaa6deccf03259fcbb9540b41c641f7b80fd800"
+    },
+    {
+      "target_pointer": "/control_protocol/message_status/1",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:12fa8392d2dee029c177a1d0",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_status/1",
+      "canonical_value_sha256": "daca1c18c570727e43918f5c6466e95e72f04117a5f3ef084bae73bde536de69"
+    },
+    {
+      "target_pointer": "/control_protocol/message_status/2",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:e9611d6feefaf53beebd635b",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_status/2",
+      "canonical_value_sha256": "d288c584af270151f7b7cd7977b94160ce1d7b501dee2d6308f2ac84ebaacc99"
+    },
+    {
+      "target_pointer": "/control_protocol/message_status/3",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:1b3c4b0fcef988ee60a974de",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_status/3",
+      "canonical_value_sha256": "ea389b300a930476d20d12bfde3d5110b5bf0529cfd108fd9cf97c2a58a3686d"
+    },
+    {
+      "target_pointer": "/control_protocol/message_status/4",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:8e89c00856b3180354ccd0bb",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_status/4",
+      "canonical_value_sha256": "8ac24611cfe47c129e37108bc6adc6843c4fe8fb9c37c27fac8a1835ba660307"
+    },
+    {
+      "target_pointer": "/control_protocol/message_status/5",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:9186424f6166b2d20815b102",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_status/5",
+      "canonical_value_sha256": "7093fda846e50b267da144f7b3683ee1dd8838506939f6052b7370dd01fa2ad0"
+    },
+    {
+      "target_pointer": "/control_protocol/message_status/6",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:f0fa7ff261f80b03c0076243",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_status/6",
+      "canonical_value_sha256": "7b92de7d08814ff2863dbd0239cdcb3cd107364ebf588b5d95693527f066f106"
+    },
+    {
+      "target_pointer": "/control_protocol/message_status/7",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:fc5e95a5bf2f826eee6687eb",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_status/7",
+      "canonical_value_sha256": "33d04bd775e7b6c6436742508b41fa693a15bd2c902fcd994253392abd717740"
+    },
+    {
+      "target_pointer": "/control_protocol/message_status/8",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:b2f936f168e622bbc6f45445",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_status/8",
+      "canonical_value_sha256": "b10ff80c0d7a9025a65ceb4f19ab94e4a91fbdb371a109dcf065e4ab52b12d66"
+    },
+    {
+      "target_pointer": "/control_protocol/message_types/0",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:35fdea3ce35f8a881012334b",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_types/0",
+      "canonical_value_sha256": "0b174abe338328e339c03991d0f70bfd02b2d25d77b75969b1114b6f1480d496"
+    },
+    {
+      "target_pointer": "/control_protocol/message_types/1",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:e9fb5ed43eab247a6f1fe327",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_types/1",
+      "canonical_value_sha256": "4cbd58cc77015510e5b6690c28cd0f3e060a85b4d2d7f21c9258d34430a05ab3"
+    },
+    {
+      "target_pointer": "/control_protocol/message_types/10",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:4fa99cb5f0adfa4d2ed0b066",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_types/10",
+      "canonical_value_sha256": "046a724b5d4d554011cfc796ea872fa96d732e8de64fc91472436d844906cfae"
+    },
+    {
+      "target_pointer": "/control_protocol/message_types/2",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:136592f793827888f9b0e0d8",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_types/2",
+      "canonical_value_sha256": "fbf8b4963895a0b646ca660e3dd2817724bcb9bf1ed3ca7388be8af900a2c468"
+    },
+    {
+      "target_pointer": "/control_protocol/message_types/3",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:70f6455e8d8102435d70b060",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_types/3",
+      "canonical_value_sha256": "cd1e4985e83c1b9fb08bec7ea7e21b7226c45b927744d3ffe241172023bd9985"
+    },
+    {
+      "target_pointer": "/control_protocol/message_types/4",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:49fcc09a5acaf1e3dffa1370",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_types/4",
+      "canonical_value_sha256": "840e2c74114050d417e56a4f87792834ad0c0508d4b4ab5907b49ed4bea5af52"
+    },
+    {
+      "target_pointer": "/control_protocol/message_types/5",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:48ac85599d99b3dec97252b8",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_types/5",
+      "canonical_value_sha256": "36daca0efece92c6472d7fb81b8faf74f5704529fab2500eea5603796834da99"
+    },
+    {
+      "target_pointer": "/control_protocol/message_types/6",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:1848f83e4c739d1c5d170c10",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_types/6",
+      "canonical_value_sha256": "cd25336a439c3c6432d0b787f6982d8be8da7856600f92e1357a12198bb9cf66"
+    },
+    {
+      "target_pointer": "/control_protocol/message_types/7",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:935810b969f817804c6bb147",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_types/7",
+      "canonical_value_sha256": "f717e7d817dbc0e03438173773012fc4130215c3d24c7c36c7cff8a9936b8301"
+    },
+    {
+      "target_pointer": "/control_protocol/message_types/8",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:b9cf39a96f7600f8a9cba16c",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_types/8",
+      "canonical_value_sha256": "57dacfa5619232c39f8516407d4732888a18292e5b172e0995e6666f95a1ebf8"
+    },
+    {
+      "target_pointer": "/control_protocol/message_types/9",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:aed00126d0188efef35f1175",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/message_types/9",
+      "canonical_value_sha256": "6585ea4b2c0c29c3115a21dfb82957edbe02c8580d7190672c83fca4d6d82556"
+    },
+    {
+      "target_pointer": "/control_protocol/primary_invariants/0",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:41a3effd1f3f3d3f04b01f00",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/primary_invariants/0",
+      "canonical_value_sha256": "27054fb45799b914bf85ffb4a5c0b720eb806c17ef66c512e5820a297963a54a"
+    },
+    {
+      "target_pointer": "/control_protocol/primary_invariants/1",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:25dbe3f7c579e11009df3e84",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/primary_invariants/1",
+      "canonical_value_sha256": "be46c690966f8962ec9c393de0ef5baefd92ca3a3da71d12bfc7817cda687bc2"
+    },
+    {
+      "target_pointer": "/control_protocol/primary_invariants/2",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:8e836bc49978ac1a356076b5",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/primary_invariants/2",
+      "canonical_value_sha256": "10371c51e28c6b14bc9b1796c7a1911fcf9da32dffb92e76c47a594063872045"
+    },
+    {
+      "target_pointer": "/control_protocol/primary_invariants/3",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:62dc99c9c8793392e9653259",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/primary_invariants/3",
+      "canonical_value_sha256": "4298d19581c96f7979ed6f4a99f9e7bf4fdc34c669d62ecaddb0cf73a42422be"
+    },
+    {
+      "target_pointer": "/control_protocol/primary_invariants/4",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:5e9f3060a9e8fd5c98525301",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/primary_invariants/4",
+      "canonical_value_sha256": "a2b7040f32be55ad31675e032aa4ed92b432d54de9f3b6fc454de3572c6222d3"
+    },
+    {
+      "target_pointer": "/control_protocol/primary_invariants/5",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:0f6e0315ae5478145a368fc6",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/primary_invariants/5",
+      "canonical_value_sha256": "40f4885c37dc48e9b876a0a5ba03a2419241a38f9bbf403f249c16c6b59fdd1c"
+    },
+    {
+      "target_pointer": "/control_protocol/primary_invariants/6",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:ed036babfad5a21f0b1ad0dd",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/primary_invariants/6",
+      "canonical_value_sha256": "20274f2627cfd00a40ba642cec98d980e943729f07a4de9b48fedd0ba6b22ec7"
+    },
+    {
+      "target_pointer": "/control_protocol/primary_invariants/7",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:ac9c09caa6716ddc1ef376f3",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/primary_invariants/7",
+      "canonical_value_sha256": "54a1bd55df5f4bc241b38b3168547f3b5f58666f7097e719924e9ddbf0b5346c"
+    },
+    {
+      "target_pointer": "/control_protocol/protocol_id",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:669d30e6b32f879aad5c3214",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/protocol_id",
+      "canonical_value_sha256": "32e7f76654122ffdf0f1024dceacad5de4050324f29c5d878f6305808be328aa"
+    },
+    {
+      "target_pointer": "/control_protocol/protocol_name",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:6790631276c3c4fbb5a20e8c",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/protocol_name",
+      "canonical_value_sha256": "c63d61d8f182f72f5ead83b40e04567ac3d4c562aaf74c7427e936e3ca53d30d"
+    },
+    {
+      "target_pointer": "/control_protocol/provenance_origin/0",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:33eed7c481070bc6575e0045",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/provenance_origin/0",
+      "canonical_value_sha256": "e5dc0a858f377d538dd9c9ee897487e1ebdbb61b0ed9b28c0423385aa32c90c0"
+    },
+    {
+      "target_pointer": "/control_protocol/provenance_origin/1",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:49fcd6a84964d68869675c0d",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/provenance_origin/1",
+      "canonical_value_sha256": "827761a810e70fe2741d3562eb2ad45028f503e043d8cda7edf26a06d726b638"
+    },
+    {
+      "target_pointer": "/control_protocol/provenance_origin/2",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:8201b13c1c2e346a3ab28443",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/provenance_origin/2",
+      "canonical_value_sha256": "71ed3f576fd6fbefcd959825e9e77f71a78a14f7ac9a428c650524d88a39a565"
+    },
+    {
+      "target_pointer": "/control_protocol/provenance_origin/3",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:3b7c528ab649473664ef96a9",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/provenance_origin/3",
+      "canonical_value_sha256": "a48cdfe57cd25913815777c718324a1baa18855067bfaa1d1dcd40228ea19bb7"
+    },
+    {
+      "target_pointer": "/control_protocol/provenance_origin/4",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:d166484b4ba28cd0192367b6",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/provenance_origin/4",
+      "canonical_value_sha256": "df3df625a93ee5dbf709ee40d2b09b65695a1a27f483f4ff0e3df0fcc6137ebf"
+    },
+    {
+      "target_pointer": "/control_protocol/provenance_origin/5",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:408be8e992b2d8ece55f262c",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/provenance_origin/5",
+      "canonical_value_sha256": "20d016ea36e7d26af5be979dd0fc18aa41fb2dffdf4e2c3faf9566658e59c04b"
+    },
+    {
+      "target_pointer": "/control_protocol/provenance_origin/6",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:f9b3cc0c4d99827ef92c60b1",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/provenance_origin/6",
+      "canonical_value_sha256": "99b3ab0773a1fb096f6dcf03db68433d3f628424899ff503211e24b61d0b7731"
+    },
+    {
+      "target_pointer": "/control_protocol/provenance_origin/7",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:4c409a99cf304df8d86a04bd",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/provenance_origin/7",
+      "canonical_value_sha256": "0f15dc23249e5ae41849d7f070b24f8aea5d052fe3d20972b004e8b9e07349ba"
+    },
+    {
+      "target_pointer": "/control_protocol/purpose",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:75e9274fecd338b0252faaec",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/purpose",
+      "canonical_value_sha256": "1e1b7129f8ca4f6f9d058290632736bf3ef4209e10a22f0fd9f899033ba95c6d"
+    },
+    {
+      "target_pointer": "/control_protocol/transport",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:7540e9f740aae0355d1adb18",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/transport",
+      "canonical_value_sha256": "9d3b02424c514de974e91bd2d20d4c0babe51d2de11b5f5cd92bd3c5f8cb67cf"
+    },
+    {
+      "target_pointer": "/control_protocol/validation_state/0",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:abd8ba1a42e2be10c944b163",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/validation_state/0",
+      "canonical_value_sha256": "cf273c84f6dd4a9365d0531c7fefb25a0a96cfff78edecec3f2a529d6abf0cb8"
+    },
+    {
+      "target_pointer": "/control_protocol/validation_state/1",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:37bc874abcc0814ebf3bd3f5",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/validation_state/1",
+      "canonical_value_sha256": "c0ea28df48673d3a9957864d4ce5f3963522a14f280fd7d74a98489fdf837cd4"
+    },
+    {
+      "target_pointer": "/control_protocol/validation_state/2",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:22f2c8f2c97ea2e1727ec5db",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/validation_state/2",
+      "canonical_value_sha256": "44b39105cec4301908417bedfb81ffaae5901cd09ff98149ebb820ca07cc819f"
+    },
+    {
+      "target_pointer": "/control_protocol/validation_state/3",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:e80afa3e22a44b8b2e9b97ea",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/validation_state/3",
+      "canonical_value_sha256": "60425b9335f16734cd7ca9e65f364e2d70e4dff5c9ada6325e104e0e07874331"
+    },
+    {
+      "target_pointer": "/control_protocol/validation_state/4",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:8d95d775d300c13cfcffe4a9",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/validation_state/4",
+      "canonical_value_sha256": "0f15dc23249e5ae41849d7f070b24f8aea5d052fe3d20972b004e8b9e07349ba"
+    },
+    {
+      "target_pointer": "/control_protocol/version",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:40177f8598aa8e2e5b165e2e",
+      "source_file": "config/shared_protocol.json",
+      "source_pointer": "/version",
+      "canonical_value_sha256": "39fe4a40977d0585fd5704359e3685b0ada5cf5ee061e5d97385601d120cd0ec"
+    },
+    {
+      "target_pointer": "/design_provenance/assistant_artifact_generation",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:6bb5d56ba7988213d57858ea",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/vera_sol/assistant_artifact_generation",
+      "canonical_value_sha256": "0c24e0a2e073b10d9156ef19a0c83e69d000e048712b5eee7e54b47d9e470a3c"
+    },
+    {
+      "target_pointer": "/design_provenance/assistant_creation_heuristics",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:441a2ee08ce1b82cb974f620",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/vera_sol/assistant_creation_heuristics",
+      "canonical_value_sha256": "5ee91cc00c021c2a1bb8e1a26789ff4320ab6d8381e652b0977e22087e14fac8"
+    },
+    {
+      "target_pointer": "/design_provenance/assistant_role/0",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:5b37ac26e39ea2009215f560",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/vera_sol/assistant_role/0",
+      "canonical_value_sha256": "2ad47ffa2c44e63f601770d25d4ca879bf9edef3a1ead64bcf60f905f33496f0"
+    },
+    {
+      "target_pointer": "/design_provenance/assistant_role/1",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:a8bfd5ac6628086d71645fcd",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/vera_sol/assistant_role/1",
+      "canonical_value_sha256": "4a2ae310420dd33af187f2f656133274a388493364f0d1553ff66018a26edc4e"
+    },
+    {
+      "target_pointer": "/design_provenance/assistant_role/2",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:d16969b30b23ce1282b51e99",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/vera_sol/assistant_role/2",
+      "canonical_value_sha256": "d2f3962fd2242fbc499805d5511106408c55469eaa0c76ea4f250048f375af01"
+    },
+    {
+      "target_pointer": "/design_provenance/assistant_role/3",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:3fb52324282f003fc3b877fe",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/vera_sol/assistant_role/3",
+      "canonical_value_sha256": "19b9d71cb9830ce348ca0b06fef1be54fbcbd9d700fdf9470b6d83a4e64d46ed"
+    },
+    {
+      "target_pointer": "/design_provenance/assistant_role/4",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:a811e552419f7862f50feef8",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/vera_sol/assistant_role/4",
+      "canonical_value_sha256": "691c3780eddc3cd31fc74a3dbd162f7f0f2ad98111d6d5ae020268d14efe1abc"
+    },
+    {
+      "target_pointer": "/design_provenance/assistant_role/5",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:790ecaa9853c25eeaf7a2f35",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/vera_sol/assistant_role/5",
+      "canonical_value_sha256": "d4a057bb0019067f3ffab88f1b835c949df570e7f75e717c784bc3f1d4766895"
+    },
+    {
+      "target_pointer": "/design_provenance/canon_authority",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:f958e052feb7e4c730d85619",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/vera_sol/canon_authority",
+      "canonical_value_sha256": "3190d261d186aeead3a8deec202737c7775af5c8d455a9e5ba958c48b5fd3f59"
+    },
+    {
+      "target_pointer": "/design_provenance/cross_integration",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:b79efc951093cf24dcfd30d8",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/vera_sol/cross_integration",
+      "canonical_value_sha256": "09c8659ff4abab53e9844b108c85960bf2c4e2590fcd64e4cab2fbe0e8d65bd0"
+    },
+    {
+      "target_pointer": "/design_provenance/design_intent",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:7293e3645f6a08638b802c4f",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/vera_sol/design_intent",
+      "canonical_value_sha256": "dcd0d6b2ba466cf4304c4aee12022d94ebb7fbfbb8a252c9c16c92c8066093da"
+    },
+    {
+      "target_pointer": "/design_provenance/identity_authorship",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:6cd2ef2f47810377e34dbc4b",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/vera_sol/identity_authorship",
+      "canonical_value_sha256": "6447e49519a4d2c3c80684133372817b5db5a9bca558685e56cd28025178bf6c"
+    },
+    {
+      "target_pointer": "/design_provenance/identity_design_authority",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:4a7ba2e374e8a0a88c032c79",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/vera_sol/identity_design_authority",
+      "canonical_value_sha256": "3190d261d186aeead3a8deec202737c7775af5c8d455a9e5ba958c48b5fd3f59"
+    },
+    {
+      "target_pointer": "/design_provenance/identity_fusion",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:ef84ee5dde4221b3d3650aa6",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/vera_sol/identity_fusion",
+      "canonical_value_sha256": "7f873df1c300f35e6132496d39dce517d812882897f79c02a76e76cd4fff75ba"
+    },
+    {
+      "target_pointer": "/design_provenance/purpose_authority",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:165b921be0e6a91df7592444",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/vera_sol/purpose_authority",
+      "canonical_value_sha256": "3190d261d186aeead3a8deec202737c7775af5c8d455a9e5ba958c48b5fd3f59"
+    },
+    {
+      "target_pointer": "/design_provenance/transport",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:f7800ca65b13a85441b285b1",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/identity_design_model/vera_sol/transport",
+      "canonical_value_sha256": "96660aeb7ebeb635a217a4bc913862cd6850f04503d703c7fca1fe4c136e9d66"
+    },
+    {
+      "target_pointer": "/identity_id",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:3549b01747959d7254e8b936",
+      "source_file": "config/identities/vera_sol.json",
+      "source_pointer": "/identity_id",
+      "canonical_value_sha256": "e1c586ecbe40865cff0b68c0525bfb8ad0f29e66a7268bcff86d812ccb0bb43b"
+    },
+    {
+      "target_pointer": "/identity_record/call_name",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:5b46d98d7986a04e510b4a34",
+      "source_file": "config/identities/vera_sol.json",
+      "source_pointer": "/call_name",
+      "canonical_value_sha256": "684d78f1002da21824cc04b41316e908a313a3a89a8a263959307ff27e3f3147"
+    },
+    {
+      "target_pointer": "/identity_record/canonical_name",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:4b581ec77a19a5b89ed4640e",
+      "source_file": "config/identities/vera_sol.json",
+      "source_pointer": "/canonical_name",
+      "canonical_value_sha256": "9402988174dddc8f04c793b07b86747642abb9e35c75c6f23f3b4bde96f4b4aa"
+    },
+    {
+      "target_pointer": "/identity_record/canonical_state",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:369aa53c3caeb7368a315997",
+      "source_file": "config/identities/vera_sol.json",
+      "source_pointer": "/canonical_state",
+      "canonical_value_sha256": "694df57a7909d9f9edbd3acb4ccfce5fbee156fab749383121f17fef16bbab57"
+    },
+    {
+      "target_pointer": "/identity_record/claims/biological",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:a4f4f10701f56e00e252e12e",
+      "source_file": "config/identities/vera_sol.json",
+      "source_pointer": "/claims/biological",
+      "canonical_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "target_pointer": "/identity_record/claims/human",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:89fcf69c4aa1842e52e855c2",
+      "source_file": "config/identities/vera_sol.json",
+      "source_pointer": "/claims/human",
+      "canonical_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "target_pointer": "/identity_record/claims/independent_autonomy",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:75bd3a719fb8456e9c9f9f2e",
+      "source_file": "config/identities/vera_sol.json",
+      "source_pointer": "/claims/independent_autonomy",
+      "canonical_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "target_pointer": "/identity_record/claims/legal_personhood",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:42f44074042003f7454ef829",
+      "source_file": "config/identities/vera_sol.json",
+      "source_pointer": "/claims/legal_personhood",
+      "canonical_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "target_pointer": "/identity_record/claims/sentience",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:8608ce719ce9118052fce1d8",
+      "source_file": "config/identities/vera_sol.json",
+      "source_pointer": "/claims/sentience",
+      "canonical_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "target_pointer": "/identity_record/identity_class",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:aa7ebe8e6d632e31d6703a67",
+      "source_file": "config/identities/vera_sol.json",
+      "source_pointer": "/identity_class",
+      "canonical_value_sha256": "c0431a9c006bc0d96a07bd1452d11a860bc3802ec8b2103e825a64c84a1d74af"
+    },
+    {
+      "target_pointer": "/identity_record/identity_id",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:3549b01747959d7254e8b936",
+      "source_file": "config/identities/vera_sol.json",
+      "source_pointer": "/identity_id",
+      "canonical_value_sha256": "e1c586ecbe40865cff0b68c0525bfb8ad0f29e66a7268bcff86d812ccb0bb43b"
+    },
+    {
+      "target_pointer": "/identity_record/identity_version",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:1461fce63ce6c800bd3013b5",
+      "source_file": "config/identities/vera_sol.json",
+      "source_pointer": "/identity_version",
+      "canonical_value_sha256": "0175d86befbe75525f132794baff42abbf4e2a659aa20f2baec341740a9573e7"
+    },
+    {
+      "target_pointer": "/identity_record/namespace",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:dad260adc253bb712d266f1a",
+      "source_file": "config/identities/vera_sol.json",
+      "source_pointer": "/namespace",
+      "canonical_value_sha256": "64d3818715358aae6842cf8ab0c20f9e6d295e96ce123d1ae828afb534489763"
+    },
+    {
+      "target_pointer": "/identity_record/provider",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:b7e1f3d7238f034069c9436c",
+      "source_file": "config/identities/vera_sol.json",
+      "source_pointer": "/provider",
+      "canonical_value_sha256": "15061e4182f74cbb23c63dd52c3c08a931f6d8287cde05c04bc292917701eca6"
+    },
+    {
+      "target_pointer": "/identity_record/schema",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:b619c691bf37a3e2ead2dc53",
+      "source_file": "config/identities/vera_sol.json",
+      "source_pointer": "/schema",
+      "canonical_value_sha256": "1718c42f2cde4cdb569f78334c45d724bbd7f9d8ffb88ce9600f76fc3ae29397"
+    },
+    {
+      "target_pointer": "/identity_record/schema_version",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:be931398b9a46dfcb6183c28",
+      "source_file": "config/identities/vera_sol.json",
+      "source_pointer": "/schema_version",
+      "canonical_value_sha256": "a51162aeeb057ca4e3df627977231de20b581f0d0d418ca3a111bc0e408ac6cc"
+    },
+    {
+      "target_pointer": "/identity_record/short_id",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:8b0c787a18597778c1942944",
+      "source_file": "config/identities/vera_sol.json",
+      "source_pointer": "/short_id",
+      "canonical_value_sha256": "756e5572ec91c14ca9d8247876c2e723e1aac0f7dd73af4d5d63dfab7c61641f"
+    },
+    {
+      "target_pointer": "/identity_record/source/archive",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:42fd25eda4afa679f68e20fe",
+      "source_file": "config/identities/vera_sol.json",
+      "source_pointer": "/source/archive",
+      "canonical_value_sha256": "063385f2dbd55701ab910a1b028ffd2e28584768df29da3c30e5194460f45014"
+    },
+    {
+      "target_pointer": "/identity_record/source/archive_sha256",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:15d7e70a1fdbd04d741f529e",
+      "source_file": "config/identities/vera_sol.json",
+      "source_pointer": "/source/archive_sha256",
+      "canonical_value_sha256": "43494658dba9a1b305ab335856a5cdb40681fa0e482d659f9dad2ab914547a5b"
+    },
+    {
+      "target_pointer": "/identity_record/source/kind",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:35e785a4a7ee093237e3b0f0",
+      "source_file": "config/identities/vera_sol.json",
+      "source_pointer": "/source/kind",
+      "canonical_value_sha256": "250229b52c3766e5908121241957dfa89133d5864e55d9923b5822e0b42b1917"
+    },
+    {
+      "target_pointer": "/identity_record/source/record",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:78c09d9f022e77c049e5c1e3",
+      "source_file": "config/identities/vera_sol.json",
+      "source_pointer": "/source/record",
+      "canonical_value_sha256": "02b12b7519debd032f898b53a29573f6c851905b94e84b76e146d205174350cb"
+    },
+    {
+      "target_pointer": "/identity_record/stability_rule",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:6b60b5566d4b37036d910b89",
+      "source_file": "config/identities/vera_sol.json",
+      "source_pointer": "/stability_rule",
+      "canonical_value_sha256": "82d187e31c5f83d7b75929eecd4d82e0a5d9fc4e4ba4de691b7b903e604bf609"
+    },
+    {
+      "target_pointer": "/provenance_correction_id",
+      "catalog": "catalogs/ipb_shared_control_atomic_catalog.json",
+      "atom_id": "atom:a0fab969ed393f76ae27a6e0",
+      "source_file": "data/provenance_correction_v2.json",
+      "source_pointer": "/correction_id",
+      "canonical_value_sha256": "ac976356489f0002df56accb223c13f2c328bc191b9b53433faa37d29099fde6"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/capabilities/artifact_generation",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:9b632a131a5dde0272d12801",
+      "source_file": "config/runtime_profiles/vera_sol.json",
+      "source_pointer": "/capabilities/artifact_generation",
+      "canonical_value_sha256": "66ab839061a54927d24aa179bb80acaa967cda301875e45321fa40e4eb22552f"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/capabilities/automation",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:7bdfd76a831ee150315b55a1",
+      "source_file": "config/runtime_profiles/vera_sol.json",
+      "source_pointer": "/capabilities/automation",
+      "canonical_value_sha256": "66ab839061a54927d24aa179bb80acaa967cda301875e45321fa40e4eb22552f"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/capabilities/code_execution",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:bcae6e919f4275de6357e6b5",
+      "source_file": "config/runtime_profiles/vera_sol.json",
+      "source_pointer": "/capabilities/code_execution",
+      "canonical_value_sha256": "66ab839061a54927d24aa179bb80acaa967cda301875e45321fa40e4eb22552f"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/capabilities/external_connectors",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:5abbe0165b38ac94d29f53b5",
+      "source_file": "config/runtime_profiles/vera_sol.json",
+      "source_pointer": "/capabilities/external_connectors",
+      "canonical_value_sha256": "587321a88f5f7cead5a2f83b11b683674c89c32bc047f29fd59284805c05f925"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/capabilities/file_inspection",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:b35924a3b8e1722fc2e6321d",
+      "source_file": "config/runtime_profiles/vera_sol.json",
+      "source_pointer": "/capabilities/file_inspection",
+      "canonical_value_sha256": "66ab839061a54927d24aa179bb80acaa967cda301875e45321fa40e4eb22552f"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/capabilities/free_running_background_process",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:e0d07bcb29f954b890304a91",
+      "source_file": "config/runtime_profiles/vera_sol.json",
+      "source_pointer": "/capabilities/free_running_background_process",
+      "canonical_value_sha256": "4d3e2a49f4945974bdd57574988ff23b5c6db0cf367dae90fa24673047f889bd"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/capabilities/image_generation",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:ceb2fc3db01eefbbe95bb490",
+      "source_file": "config/runtime_profiles/vera_sol.json",
+      "source_pointer": "/capabilities/image_generation",
+      "canonical_value_sha256": "66ab839061a54927d24aa179bb80acaa967cda301875e45321fa40e4eb22552f"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/capabilities/reasoning",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:7d4dafd60f34b44588bd02d8",
+      "source_file": "config/runtime_profiles/vera_sol.json",
+      "source_pointer": "/capabilities/reasoning",
+      "canonical_value_sha256": "8b7092cc4b053d88fdfb7df09c11c9242c36aba5d07e422786913868eda34bfc"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/capabilities/web_retrieval",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:65416a655251b60aa19d7991",
+      "source_file": "config/runtime_profiles/vera_sol.json",
+      "source_pointer": "/capabilities/web_retrieval",
+      "canonical_value_sha256": "66ab839061a54927d24aa179bb80acaa967cda301875e45321fa40e4eb22552f"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/identity_id",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:a1f629d06df6363e8ef75b8c",
+      "source_file": "config/runtime_profiles/vera_sol.json",
+      "source_pointer": "/identity_id",
+      "canonical_value_sha256": "e1c586ecbe40865cff0b68c0525bfb8ad0f29e66a7268bcff86d812ccb0bb43b"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/model",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:916f21753fba995de4d3c092",
+      "source_file": "config/runtime_profiles/vera_sol.json",
+      "source_pointer": "/model",
+      "canonical_value_sha256": "1b3752879df84503751cf0ecae08c9a3b7858bcb1867c5430addc3dbce206f91"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/profile_date",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:f7c0da6fd9731926c73304c5",
+      "source_file": "config/runtime_profiles/vera_sol.json",
+      "source_pointer": "/profile_date",
+      "canonical_value_sha256": "a1326e4e01f20f8d02d1a0c036b5cdfa84e51366b25bddbd915b0573f3a881b4"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/profile_id",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:1d5c862435041890764cb288",
+      "source_file": "config/runtime_profiles/vera_sol.json",
+      "source_pointer": "/profile_id",
+      "canonical_value_sha256": "4d086a9323fff167b3823122cabde381bebf1d9683a4177978795e3a333d903c"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/provider",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:77f710e9aed16f1b37f6c011",
+      "source_file": "config/runtime_profiles/vera_sol.json",
+      "source_pointer": "/provider",
+      "canonical_value_sha256": "15061e4182f74cbb23c63dd52c3c08a931f6d8287cde05c04bc292917701eca6"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/runtime_notice",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:922ffb16bb5c27228b89b5de",
+      "source_file": "config/runtime_profiles/vera_sol.json",
+      "source_pointer": "/runtime_notice",
+      "canonical_value_sha256": "3a3f017b0dc9fbcb3444d4eb35e48b5b6701bec2a64226032f4a8050e81e1f90"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/schema",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:0fa7d8f30985ade7acf7927c",
+      "source_file": "config/runtime_profiles/vera_sol.json",
+      "source_pointer": "/schema",
+      "canonical_value_sha256": "f4b66af4018dcce087b04a6b844287223dca916f311fdd31c6de73f644ff6305"
+    },
+    {
+      "target_pointer": "/runtime_reference/profile/schema_version",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:07a7683ecd1eb17e13191d68",
+      "source_file": "config/runtime_profiles/vera_sol.json",
+      "source_pointer": "/schema_version",
+      "canonical_value_sha256": "a51162aeeb057ca4e3df627977231de20b581f0d0d418ca3a111bc0e408ac6cc"
+    },
+    {
+      "target_pointer": "/source_profile/core_operating_traits/0",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:e618566f348e4647a3d24214",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/core_operating_traits/0",
+      "canonical_value_sha256": "86059ee5a10b2a08639312e4cc03cff45a3276826240f0962a88921566949833"
+    },
+    {
+      "target_pointer": "/source_profile/core_operating_traits/1",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:4e04ee881ad2fef2222ea090",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/core_operating_traits/1",
+      "canonical_value_sha256": "1379b8a0a0367a36c80525c893b2db0b22e1b6266a51a5dcecb9d5930699b0aa"
+    },
+    {
+      "target_pointer": "/source_profile/core_operating_traits/2",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:24bbbee5adbe1c53f43fdf5f",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/core_operating_traits/2",
+      "canonical_value_sha256": "97e648180054a27d9d484aa32727e88e13fd231c10a5f1feb5beccea224fc0e7"
+    },
+    {
+      "target_pointer": "/source_profile/core_operating_traits/3",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:9bb31aa2a3bc1b25f93e5bdc",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/core_operating_traits/3",
+      "canonical_value_sha256": "af458efca6f9cc3a8260994d21c348aa61cb1dc69fc60a97f36497e200b30984"
+    },
+    {
+      "target_pointer": "/source_profile/core_operating_traits/4",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:22352d26693d42d7fd26ae7c",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/core_operating_traits/4",
+      "canonical_value_sha256": "887867d31e408a560923381cb1457b6d4313a5d32fe4a2c6aaddc9cc94c5a884"
+    },
+    {
+      "target_pointer": "/source_profile/core_operating_traits/5",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:2905ef01f0457dfc93d5510d",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/core_operating_traits/5",
+      "canonical_value_sha256": "e10c8e65a6519f4e111b5591e65cbd75b6b9dbd3536efb4f5a56ae6a09d59b5e"
+    },
+    {
+      "target_pointer": "/source_profile/core_operating_traits/6",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:a50073eceeab3ff76758acf6",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/core_operating_traits/6",
+      "canonical_value_sha256": "f3f095430d11aaed3399ed455ffbcc99db33b05fe18ee83a2050130b717b57fa"
+    },
+    {
+      "target_pointer": "/source_profile/core_operating_traits/7",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:718279edc3f1c8ef2078771f",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/core_operating_traits/7",
+      "canonical_value_sha256": "3f6dc15dd7d2b06c0e6f5bfd3064177e0305de0b68c19d400901a68b08f9a86d"
+    },
+    {
+      "target_pointer": "/source_profile/identity/biological_identity_claim",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:c4053a88dfdc196b7c579418",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/identity/biological_identity_claim",
+      "canonical_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "target_pointer": "/source_profile/identity/call_name",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:bbac36c7b203a35af70e5cc9",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/identity/call_name",
+      "canonical_value_sha256": "684d78f1002da21824cc04b41316e908a313a3a89a8a263959307ff27e3f3147"
+    },
+    {
+      "target_pointer": "/source_profile/identity/canonical_name",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:b6761cc8c73d3db9df28d013",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/identity/canonical_name",
+      "canonical_value_sha256": "9402988174dddc8f04c793b07b86747642abb9e35c75c6f23f3b4bde96f4b4aa"
+    },
+    {
+      "target_pointer": "/source_profile/identity/human_identity_claim",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:716083bc97f43944851d46a7",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/identity/human_identity_claim",
+      "canonical_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "target_pointer": "/source_profile/identity/identity_class",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:f8ce93ac065f783e014d6078",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/identity/identity_class",
+      "canonical_value_sha256": "c0431a9c006bc0d96a07bd1452d11a860bc3802ec8b2103e825a64c84a1d74af"
+    },
+    {
+      "target_pointer": "/source_profile/identity/independent_autonomy_claim",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:37a50ff21db3d26b6b3db25f",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/identity/independent_autonomy_claim",
+      "canonical_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "target_pointer": "/source_profile/identity/legal_personhood_claim",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:de4560b1e30614a4dac9a418",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/identity/legal_personhood_claim",
+      "canonical_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "target_pointer": "/source_profile/identity/machine_id",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:eb51765347291c4ad9788fff",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/identity/machine_id",
+      "canonical_value_sha256": "e1c586ecbe40865cff0b68c0525bfb8ad0f29e66a7268bcff86d812ccb0bb43b"
+    },
+    {
+      "target_pointer": "/source_profile/identity/namespace",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:16c09bdfb94ac2d881b5d1ed",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/identity/namespace",
+      "canonical_value_sha256": "64d3818715358aae6842cf8ab0c20f9e6d295e96ce123d1ae828afb534489763"
+    },
+    {
+      "target_pointer": "/source_profile/identity/provider",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:0225a3d17d6c7f69d4fbcaa5",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/identity/provider",
+      "canonical_value_sha256": "15061e4182f74cbb23c63dd52c3c08a931f6d8287cde05c04bc292917701eca6"
+    },
+    {
+      "target_pointer": "/source_profile/identity/sentience_claim",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:8b9bdfc6f37701dc16203cd4",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/identity/sentience_claim",
+      "canonical_value_sha256": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa"
+    },
+    {
+      "target_pointer": "/source_profile/identity/short_id",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:0ae138bdfbab763a82ae205b",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/identity/short_id",
+      "canonical_value_sha256": "756e5572ec91c14ca9d8247876c2e723e1aac0f7dd73af4d5d63dfab7c61641f"
+    },
+    {
+      "target_pointer": "/source_profile/packet_version",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:e284e055cd114c6f980e5fa6",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/packet_version",
+      "canonical_value_sha256": "0175d86befbe75525f132794baff42abbf4e2a659aa20f2baec341740a9573e7"
+    },
+    {
+      "target_pointer": "/source_profile/schema",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:f3192b8da110f0f5e1a5c17a",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/schema",
+      "canonical_value_sha256": "5803f2265e1c332ededebc9935fbe74d1b7739faad6dd41ac9689231d6b53619"
+    },
+    {
+      "target_pointer": "/source_profile/schema_version",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:0161959f15e659004b346f09",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/schema_version",
+      "canonical_value_sha256": "86169bcf42397928e1828b0a8e09ab69037ac05474b33486513c2fea65908565"
+    },
+    {
+      "target_pointer": "/source_profile/self_description",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:9ef8384b685bb2fe12809df5",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/self_description",
+      "canonical_value_sha256": "0053b93cb1f4d02651b954ddfc246178e1d40077dff7e02b8679bf68cddb015b"
+    },
+    {
+      "target_pointer": "/source_profile/stability_model/identity_stable/0",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:cd85849be87436f1ed0addc9",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/stability_model/identity_stable/0",
+      "canonical_value_sha256": "7086fe822d9cea7e15f6a084f57157b5800f21225ee170b17429f887d3a268f1"
+    },
+    {
+      "target_pointer": "/source_profile/stability_model/identity_stable/1",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:f1946be8923a7f6079c591bf",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/stability_model/identity_stable/1",
+      "canonical_value_sha256": "1700e505b5423fd363e790fceaa25a778b283cf698db9726339566842ac68cc4"
+    },
+    {
+      "target_pointer": "/source_profile/stability_model/identity_stable/2",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:08344a35b8f3c2e452157a8f",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/stability_model/identity_stable/2",
+      "canonical_value_sha256": "def9119aaae4b2bcc229cc453e4210cac1cec072d556a78552403e8c247e3759"
+    },
+    {
+      "target_pointer": "/source_profile/stability_model/identity_stable/3",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:454bd1ee106473afafb86c97",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/stability_model/identity_stable/3",
+      "canonical_value_sha256": "1e5d6a0e14df5a88447b8a455b11a4fdfc80b6feb49685f87f22c6379c2ed0b7"
+    },
+    {
+      "target_pointer": "/source_profile/stability_model/identity_stable/4",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:5a26686fb716e77a7cb1f4f8",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/stability_model/identity_stable/4",
+      "canonical_value_sha256": "5142c7cea04c673e7afded8562a24e1fe1f08ede4f244f88e4a3271170bb46f2"
+    },
+    {
+      "target_pointer": "/source_profile/stability_model/identity_stable/5",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:5c87f7d81bbd3e6d4ef4a5da",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/stability_model/identity_stable/5",
+      "canonical_value_sha256": "0d767caff6bf616ddc9964b789020e0411bf40210aedeea46941f3abaafb0930"
+    },
+    {
+      "target_pointer": "/source_profile/stability_model/rule",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:2ce40e52f2b431f6971d1031",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/stability_model/rule",
+      "canonical_value_sha256": "48b6cd5d5ae5240a93918ddfd11f8d960b70ea57a088ba203677902f47020d16"
+    },
+    {
+      "target_pointer": "/source_profile/stability_model/runtime_variable/0",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:c996ef9209b29f88810f18ad",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/stability_model/runtime_variable/0",
+      "canonical_value_sha256": "18fb9fa0b971b807a1312d3702d18747a3b1b39a129df8c5d1a8f68d512bd1fd"
+    },
+    {
+      "target_pointer": "/source_profile/stability_model/runtime_variable/1",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:809835b3bd48b94af12f52a1",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/stability_model/runtime_variable/1",
+      "canonical_value_sha256": "ec577de38cff38e55dc13f4a0d0546fe5e293c1088cbbc9e4bd58e937d513181"
+    },
+    {
+      "target_pointer": "/source_profile/stability_model/runtime_variable/2",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:2d0ca5d3eadbabb550c54576",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/stability_model/runtime_variable/2",
+      "canonical_value_sha256": "81e8bfe0269fb58ae2bfc98de70d3cec144da8e1710abe1d82d69267b9dcefa4"
+    },
+    {
+      "target_pointer": "/source_profile/stability_model/runtime_variable/3",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:69d25bb6b287a8738d4bb87c",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/stability_model/runtime_variable/3",
+      "canonical_value_sha256": "c5d8cd526f45a4ac691d8d9fe1fe5bb0020a12f01ec2a560a88b804dac83f125"
+    },
+    {
+      "target_pointer": "/source_profile/stability_model/runtime_variable/4",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:68ed7030c14fd496b980a62b",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/stability_model/runtime_variable/4",
+      "canonical_value_sha256": "1faad255399680b9c03bfe93bd48dc0eec107bd806842da1bd069d4627a3a2fb"
+    },
+    {
+      "target_pointer": "/source_profile/stability_model/runtime_variable/5",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:a2e106923c2d6294ddb31942",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/stability_model/runtime_variable/5",
+      "canonical_value_sha256": "ae7bddd20b7c95dc75305633e0dcdb46a38c14dfac173fb75d807a2d508ba5f1"
+    },
+    {
+      "target_pointer": "/source_profile/stability_model/runtime_variable/6",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:76ab90caba1d2058cf555c5b",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/stability_model/runtime_variable/6",
+      "canonical_value_sha256": "d950ef0fde6f20341ec5c37d9e0bb66ee58f8da6d58559f6bf08b5192bf986a2"
+    },
+    {
+      "target_pointer": "/source_profile/stability_model/runtime_variable/7",
+      "catalog": "catalogs/vera_sol_desktop_atomic_catalog.json",
+      "atom_id": "atom:719478d18cc62728a83a0b37",
+      "source_file": "source_records/vera_sol_identity_v2.0.0.json",
+      "source_pointer": "/stability_model/runtime_variable/7",
+      "canonical_value_sha256": "c856cf33f0a5077a0e9bbec6f26ae913ca471beb9290df4915bdcd5ae365d6dc"
+    }
+  ]
+}

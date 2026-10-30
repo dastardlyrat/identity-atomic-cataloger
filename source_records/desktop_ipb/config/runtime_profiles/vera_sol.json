@@ -1,0 +1,21 @@
+{
+  "schema": "ipb-runtime-profile",
+  "schema_version": "1.0",
+  "profile_id": "vera_sol-runtime-reference-2026-09-28",
+  "identity_id": "vera_sol",
+  "profile_date": "2026-09-28",
+  "provider": "OpenAI",
+  "model": "GPT-5.6 Sol",
+  "runtime_notice": "Reference profile derived from the supplied Vera packet; refresh when the actual runtime changes.",
+  "capabilities": {
+    "reasoning": "available",
+    "web_retrieval": "runtime-dependent",
+    "file_inspection": "runtime-dependent",
+    "code_execution": "runtime-dependent",
+    "artifact_generation": "runtime-dependent",
+    "image_generation": "runtime-dependent",
+    "automation": "runtime-dependent",
+    "external_connectors": "permission-dependent",
+    "free_running_background_process": "not-claimed"
+  }
+}

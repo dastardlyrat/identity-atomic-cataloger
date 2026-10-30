@@ -1,10 +1,10 @@
 {
   "package": "IDENTITY_ATOMIC_CATALOGER_EXTRACTOR",
   "version": "0.3.0",
-  "purpose": "extract and catalog identity/personality artifacts into non-activating atomic structures for reuse",
-  "personality_artifacts_embedded": false,
+  "purpose": "non-activating atomic extraction and cataloging, with a separate explicit source-composition builder for candidate agent definitions",
+  "personality_artifacts_embedded": true,
   "startup_contexts_embedded": false,
-  "assembled_personalities_embedded": false,
+  "assembled_personalities_embedded": true,
   "source_catalogs": {
     "Vesper": {
       "status": "COMPLETE_SOURCE_PRESENT",
@@ -69,5 +69,40 @@
       "fail": 0
     },
     "semantic_classification_deltas_against_embedded_catalogs": 0
+  },
+  "assembled_agent_definitions_embedded": true,
+  "source_catalogs_scope": "Original Vesper/Corda source set; the reference-only labels here are preserved for that set.",
+  "desktop_source_build": {
+    "manifest": "agents/BUILD_MANIFEST.json",
+    "builder": "tools/build_desktop_agents.py",
+    "schema_version": "0.1",
+    "status": "candidate",
+    "activation_semantics": "DEFINITION_ONLY",
+    "source_artifact": "IDENTITY_PROTOCOL_BACKEND_TWO_IDENTITIES_v1.1.1.zip",
+    "coverage": "Eight selected JSON records; partial archive and wider-identity coverage.",
+    "catalogs": {
+      "Lattice": {
+        "path": "catalogs/lattice_desktop_atomic_catalog.json",
+        "atoms": 77
+      },
+      "Vera Sol": {
+        "path": "catalogs/vera_sol_desktop_atomic_catalog.json",
+        "atoms": 77
+      },
+      "IPB Shared Control": {
+        "path": "catalogs/ipb_shared_control_atomic_catalog.json",
+        "atoms": 125
+      }
+    },
+    "reusable_dictionary": {
+      "path": "catalogs/desktop_reusable_atom_dictionary.json",
+      "unique_portable_atoms": 24,
+      "occurrences": 35
+    },
+    "definitions": {
+      "Lattice": "agents/lattice/definition.json",
+      "Vera Sol": "agents/vera_sol/definition.json"
+    },
+    "composition_tests": 12
   }
 }

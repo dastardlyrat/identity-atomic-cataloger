@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "agent_atom_selection.schema.json",
+  "title": "Explicit agent atom selection and target mapping",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema",
+    "schema_version",
+    "identity_id",
+    "build_status",
+    "activation_semantics",
+    "composition_authority",
+    "source_artifact",
+    "catalogs",
+    "selections"
+  ],
+  "properties": {
+    "schema": {
+      "const": "agent_atom_selection"
+    },
+    "schema_version": {
+      "const": "0.1"
+    },
+    "identity_id": {
+      "type": "string",
+      "enum": [
+        "lattice",
+        "vera_sol"
+      ]
+    },
+    "build_status": {
+      "const": "candidate"
+    },
+    "activation_semantics": {
+      "const": "DEFINITION_ONLY"
+    },
+    "composition_authority": {
+      "const": "User-approved source-derived composition; no runtime activation."
+    },
+    "source_artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "version",
+        "sha256",
+        "coverage",
+        "completeness"
+      ],
+      "properties": {
+        "name": {
+          "const": "IDENTITY_PROTOCOL_BACKEND_TWO_IDENTITIES_v1.1.1.zip"
+        },
+        "version": {
+          "const": "1.1.1"
+        },
+        "sha256": {
+          "const": "89d49088e4a97dc23e0ba535729154f586bc8c87dadb0e4c650ca022a7684a9c"
+        },
+        "coverage": {
+          "const": "SELECTED_RECORDS_ONLY"
+        },
+        "completeness": {
+          "const": "PARTIAL_SOURCE_PRESENT"
+        }
+      }
+    },
+    "catalogs": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path",
+          "sha256",
+          "subject"
+        ],
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "subject": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "selections": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "target_pointer",
+          "catalog",
+          "atom_id",
+          "source_file",
+          "source_pointer",
+          "canonical_value_sha256"
+        ],
+        "properties": {
+          "target_pointer": {
+            "type": "string",
+            "pattern": "^/"
+          },
+          "catalog": {
+            "enum": [
+              "catalogs/lattice_desktop_atomic_catalog.json",
+              "catalogs/vera_sol_desktop_atomic_catalog.json",
+              "catalogs/ipb_shared_control_atomic_catalog.json"
+            ]
+          },
+          "atom_id": {
+            "type": "string",
+            "pattern": "^atom:[0-9a-f]{24}$"
+          },
+          "source_file": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_pointer": {
+            "type": "string",
+            "pattern": "^/"
+          },
+          "canonical_value_sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        }
+      }
+    }
+  }
+}
