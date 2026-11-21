@@ -243,3 +243,11 @@ catalog changes and refresh the checksum manifest together. Do not interpret
 cataloged authority text as permission to execute or activate it.
 
 No standalone project license file is currently included.
+
+## Project directory and related work
+
+[Browse the dastardlyrat project directory](https://dastardlyrat.github.io/).
+
+- [ai-collaborator-self-profile](https://github.com/dastardlyrat/ai-collaborator-self-profile)
+- [m.A.R.S.-Persistent-Tool-less-Amorphous-Workspace](https://github.com/dastardlyrat/m.A.R.S.-Persistent-Tool-less-Amorphous-Workspace)
+- [this-repository-machine-interface](https://github.com/dastardlyrat/this-repository-machine-interface)
